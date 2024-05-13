@@ -20,14 +20,59 @@
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
 </head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1ebe4;
+    margin: 0;
+    padding: 0;
+  }
 
+  #header {
+    background-color: #eae7ce;
+    color: #5b5454;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 32px;
+  }
+  p {
+    margin: 0;
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+  }
+  /* Style for each schema block */
+  #schema-block {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-inside: 10px;
+  }
+
+  a {
+    padding: 10px;
+    line-height: 1.5;
+  }
+  br {
+    padding: 10px;
+    line-height: 1.5;
+  }
+</style>
 <body>
-<h2>Data Schemas</h2>
-<a href=http://id.sgcb.mcu.es/> List of Subject Headings for Public Libraries</a>
-<br>SPARQL Endpoint: <a href=http://id.sgcb.mcu.es/sparql> http://id.sgcb.mcu.es/sparql </a> </br>
-Essential class count: 2
-<br> <a href =img/Diagrams/SUM_idsgcbmcu.svg> Schema diagram </br> </a>
-<br></br>
+<h2 id = 'header'>Data Schemas</h2>
+<div id='schema-block'>
+  <a href=http://id.sgcb.mcu.es/> List of Subject Headings for Public Libraries</a>
+  <br> <a> SPARQL Endpoint: </a> <a href=http://id.sgcb.mcu.es/sparql> http://id.sgcb.mcu.es/sparql </a> </br>
+  <a> Essential class count: 2 </a>
+  <br> <a href =img/Diagrams/SUM_idsgcbmcu.svg> Schema diagram </br> </a>
+  <br></br> </div>
+
 <a> Imagesnippets</a>
 <br>SPARQL Endpoint: <a href=http://www.imagesnippets.com/sparql/images> http://www.imagesnippets.com/sparql/images </a> </br>
 Essential class count: 2

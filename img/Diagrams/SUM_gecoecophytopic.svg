@@ -3,7 +3,7 @@
 "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
- width="4274" height="1079" viewBox="0 0 4274 1079">
+ width="3584" height="1919" viewBox="0 0 3584 1919">
  onmousemove="movetip(evt)" onmouseup="endmove()">
 <rect x="0" y="0" width="100%" height="100%" style="fill:White;"/>
 <script type="application/ecmascript"> <![CDATA[
@@ -38,1409 +38,1393 @@ tip.setAttributeNS(null,"visibility","hidden");
 <stop offset="0%" style="stop-color:#FFFF00;stop-opacity:1"/>
 <stop offset="100%" style="stop-color:#FFFFF0;stop-opacity:1"/>
 </linearGradient></defs>
-<g id="2002678679"><polygon points="745,556 925,556 925,604 745,604 "
+<g id="2002785430"><polygon points="1974,949 2270,949 2270,1476 1974,1476 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="791" y="565">gecotc:Outil_D_Aide (72)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2057" y="964">geco:TypeConcept (30)</tspan>
+</text>
+<line x1="1978" y1="967" x2="2268" y2="967"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1978" y="979">gecotco:ajoutableContributeur (60) [1] D</tspan>
+<tspan x="1978" y="994">gecotco:conceptPrincipal (60) [1] D</tspan>
+<tspan x="1978" y="1009">gecotco:contenuParDefaut (60) [1] D</tspan>
+<tspan x="1978" y="1024">gecotco:modifiableContributeur (60) [1] D</tspan>
+<tspan x="1978" y="1039">rdf:type (60) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<tspan x="1978" y="1054">skos:definition (60) [1] D</tspan>
+<tspan x="1978" y="1069">skos:prefLabel (60) [*] </tspan>
+<tspan x="1978" y="1084">&lt;- rdf:type (8816)  &lt;-  gecoo:</tspan>
+<tspan x="1978" y="1099">criteresEnvironnementaux,geco:BaseProperty..(22)</tspan>
+<tspan x="1978" y="1114">&lt;&gt; gecor:aideAAppliquer  </tspan>
+<tspan x="1978" y="1129">&lt;&gt; gecor:concerne  </tspan>
+<tspan x="1978" y="1144">&lt;&gt; gecor:contribueA  </tspan>
+<tspan x="1978" y="1159">&lt;&gt; gecor:defavorise  </tspan>
+<tspan x="1978" y="1174">&lt;&gt; gecor:estAppliqueA  </tspan>
+<tspan x="1978" y="1189">&lt;&gt; gecor:estComplementaire  </tspan>
+<tspan x="1978" y="1204">&lt;&gt; gecor:estDefavorisePar  </tspan>
+<tspan x="1978" y="1219">&lt;&gt; gecor:estEvoqueDans  </tspan>
+<tspan x="1978" y="1234">&lt;&gt; gecor:estFavorisePar  </tspan>
+<tspan x="1978" y="1249">&lt;&gt; gecor:estIncompatible  </tspan>
+<tspan x="1978" y="1264">&lt;&gt; gecor:estMobiliseDans  </tspan>
+<tspan x="1978" y="1279">&lt;&gt; gecor:evoque  </tspan>
+<tspan x="1978" y="1294">&lt;&gt; gecor:favorise  </tspan>
+<tspan x="1978" y="1309">&lt;&gt; gecor:impacte  </tspan>
+<tspan x="1978" y="1324">&lt;&gt; gecor:informeSur  </tspan>
+<tspan x="1978" y="1339">&lt;&gt; gecor:limiteLImpact  DR</tspan>
+<tspan x="1978" y="1354">&lt;&gt; gecor:regule  </tspan>
+<tspan x="1978" y="1369">&lt;&gt; gecor:sAppliqueA  </tspan>
+<tspan x="1978" y="1384">&lt;&gt; gecor:sAttaque  </tspan>
+<tspan x="1978" y="1399">&lt;&gt; gecor:utilise  DR</tspan>
+<tspan x="1978" y="1414">&lt;&gt; gecor:utiliseDans  </tspan>
 </text>
 </g>
-<g id="2002678690"><polygon points="3110,484 3290,484 3290,577 3110,577 "
+<g id="2002785441"><polygon points="601,615 897,615 897,709 601,709 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="3144" y="493">gecotc:Regle_De_Decision (304)</tspan>
-</text>
-<line x1="3113" y1="495" x2="3289" y2="495"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3113" y="502">gecordd:attentes (978) [*] D</tspan>
-<tspan x="3113" y="511">gecordd:compatibilitesAgricultureBio (277) [1] D</tspan>
-<tspan x="3113" y="520">gecordd:creneauProduction (1012) [*] D</tspan>
-<tspan x="3113" y="529">gecordd:enonce (1108) [*] D</tspan>
-<tspan x="3113" y="538">gecordd:explicationRegleFiabilite (765) [*] D</tspan>
-<tspan x="3113" y="547">gecordd:fiabilite (822) [*] D</tspan>
-<tspan x="3113" y="556">gecordd:modesProduction (876) [*] D</tspan>
-<tspan x="3113" y="565">gecordd:sourceMiseEnOeuvre (821) [*] D</tspan>
-<tspan x="3113" y="574">gecordd:vignette (943) [*] D</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="678" y="630">gecotc:Outil_D_Aide (72)</tspan>
 </text>
 </g>
-<g id="2002678701"><polygon points="3293,745 3473,745 3473,784 3293,784 "
+<g id="2002785452"><polygon points="2585,1310 2881,1310 2881,1478 2585,1478 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="3335" y="754">gecoo:leviersMobilises (872)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2640" y="1325">gecotc:Regle_De_Decision (304)</tspan>
 </text>
-<line x1="3296" y1="755" x2="3472" y2="755"
+<line x1="2589" y1="1328" x2="2879" y2="1328"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3296" y="762">gecolm:name (1.7e4) [1] D</tspan>
-<tspan x="3296" y="771">gecolm:position (1.7e4) [1] </tspan>
-<tspan x="3296" y="780">rdf:type (1.7e4) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2589" y="1340">gecordd:attentes (978) [*] D</tspan>
+<tspan x="2589" y="1355">gecordd:compatibilitesAgricultureBio (277) [1] D</tspan>
+<tspan x="2589" y="1370">gecordd:creneauProduction (1012) [*] D</tspan>
+<tspan x="2589" y="1385">gecordd:enonce (1108) [*] D</tspan>
+<tspan x="2589" y="1400">gecordd:explicationRegleFiabilite (765) [*] D</tspan>
+<tspan x="2589" y="1415">gecordd:fiabilite (822) [*] D</tspan>
+<tspan x="2589" y="1430">gecordd:modesProduction (876) [*] D</tspan>
+<tspan x="2589" y="1445">gecordd:sourceMiseEnOeuvre (821) [*] D</tspan>
+<tspan x="2589" y="1460">gecordd:vignette (943) [*] D</tspan>
+<tspan x="2589" y="1475">&lt;&gt; gecordd:rddLiees  DR</tspan>
 </text>
 </g>
-<g id="2002678712"><polygon points="1562,895 1742,895 1742,979 1562,979 "
+<g id="2002785463"><polygon points="2596,1533 2893,1533 2893,1598 2596,1598 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="1585" y="904">gecoo:criteresEnvironnementaux (402)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2664" y="1548">gecoo:leviersMobilises (872)</tspan>
 </text>
-<line x1="1564" y1="906" x2="1741" y2="906"
+<line x1="2600" y1="1551" x2="2891" y2="1551"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1564" y="913">gecocen:effetEnergieFossilesEtGES (640) [1] D</tspan>
-<tspan x="1564" y="922">gecocen:effetQualiteAir (728) [1] D</tspan>
-<tspan x="1564" y="931">gecocen:effetQualiteEau (720) [1] D</tspan>
-<tspan x="1564" y="940">gecocen:precisionsEnergieFossilesEtGES (768) [1] </tspan>
-<tspan x="1564" y="949">D</tspan>
-<tspan x="1564" y="958">gecocen:precisionsQualiteAir (804) [1] D</tspan>
-<tspan x="1564" y="967">gecocen:precisionsQualiteEau (772) [1] D</tspan>
-<tspan x="1564" y="976">rdf:type (804) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2600" y="1563">gecolm:name (1.7e4) [1] D</tspan>
+<tspan x="2600" y="1578">gecolm:position (1.7e4) [1] </tspan>
+<tspan x="2600" y="1593">rdf:type (1.7e4) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678723"><polygon points="190,799 370,799 370,892 190,892 "
+<g id="2002785474"><polygon points="164,461 492,461 492,600 164,600 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="231" y="808">gecoo:criteresSociaux (392)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="220" y="476">gecoo:criteresEnvironnementaux (402)</tspan>
 </text>
-<line x1="192" y1="809" x2="368" y2="809"
+<line x1="168" y1="479" x2="490" y2="479"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="192" y="816">gecocs:periodePointe (264) [1] D</tspan>
-<tspan x="192" y="825">gecocs:precisionsPeriodePointe (784) [1] D</tspan>
-<tspan x="192" y="834">gecocs:precisionsSanteAgriculteur (784) [1] D</tspan>
-<tspan x="192" y="843">gecocs:precisionsTempsMecanisation (784) [1] D</tspan>
-<tspan x="192" y="852">gecocs:precisionsTempsObservation (64) [1] D</tspan>
-<tspan x="192" y="861">gecocs:santeAgriculteur (300) [1] D</tspan>
-<tspan x="192" y="870">gecocs:tempsMecanisation (728) [1] D</tspan>
-<tspan x="192" y="879">gecocs:tempsObservation (360) [1] D</tspan>
-<tspan x="192" y="888">rdf:type (784) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="168" y="491">gecocen:effetEnergieFossilesEtGES (640) [1] D</tspan>
+<tspan x="168" y="506">gecocen:effetQualiteAir (728) [1] D</tspan>
+<tspan x="168" y="521">gecocen:effetQualiteEau (720) [1] D</tspan>
+<tspan x="168" y="536">gecocen:precisionsEnergieFossilesEtGES (768) [1] D</tspan>
+<tspan x="168" y="551">gecocen:precisionsQualiteAir (804) [1] D</tspan>
+<tspan x="168" y="566">gecocen:precisionsQualiteEau (772) [1] D</tspan>
+<tspan x="168" y="581">rdf:type (804) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678734"><polygon points="1572,983 1752,983 1752,1031 1572,1031 "
+<g id="2002785485"><polygon points="437,287 733,287 733,447 437,447 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="1635" y="992">sioc:Post (124)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="506" y="301">gecoo:criteresSociaux (392)</tspan>
 </text>
-<line x1="1574" y1="994" x2="1751" y2="994"
+<line x1="441" y1="304" x2="731" y2="304"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1574" y="1001">dct:created (248) [*] </tspan>
-<tspan x="1574" y="1010">dct:modified (256) [*] </tspan>
-<tspan x="1574" y="1019">gecore:htmlContent (248) [1] </tspan>
-<tspan x="1574" y="1028">rdf:type (248) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="441" y="316">gecocs:periodePointe (264) [1] D</tspan>
+<tspan x="441" y="331">gecocs:precisionsPeriodePointe (784) [1] D</tspan>
+<tspan x="441" y="346">gecocs:precisionsSanteAgriculteur (784) [1] D</tspan>
+<tspan x="441" y="361">gecocs:precisionsTempsMecanisation (784) [1] D</tspan>
+<tspan x="441" y="376">gecocs:precisionsTempsObservation (64) [1] D</tspan>
+<tspan x="441" y="391">gecocs:santeAgriculteur (300) [1] D</tspan>
+<tspan x="441" y="406">gecocs:tempsMecanisation (728) [1] D</tspan>
+<tspan x="441" y="421">gecocs:tempsObservation (360) [1] D</tspan>
+<tspan x="441" y="436">rdf:type (784) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678745"><polygon points="2066,953 2246,953 2246,1073 2066,1073 "
+<g id="2002785496"><polygon points="1774,1752 2071,1752 2071,1831 1774,1831 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2125" y="963">foaf:Person (1412)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1879" y="1767">sioc:Post (124)</tspan>
 </text>
-<line x1="2069" y1="964" x2="2245" y2="964"
+<line x1="1778" y1="1770" x2="2069" y2="1770"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2069" y="971">foaf:familyName (2824) [1] D</tspan>
-<tspan x="2069" y="980">foaf:givenName (2824) [1] D</tspan>
-<tspan x="2069" y="989">foaf:mbox (2824) [1] D</tspan>
-<tspan x="2069" y="998">foaf:nick (2824) [1] D</tspan>
-<tspan x="2069" y="1007">gecou:abonnement (5888) [*] D</tspan>
-<tspan x="2069" y="1016">gecou:codePostal (2388) [1] D</tspan>
-<tspan x="2069" y="1025">gecou:commune (2388) [1] D</tspan>
-<tspan x="2069" y="1034">gecou:fonction (2388) [1] D</tspan>
-<tspan x="2069" y="1043">gecou:frequenceNotification (2700) [1] D</tspan>
-<tspan x="2069" y="1052">gecou:lastNotification (464) [*] D</tspan>
-<tspan x="2069" y="1061">gecou:organisme (2388) [1] D</tspan>
-<tspan x="2069" y="1070">rdf:type (2824) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1778" y="1782">dct:created (248) [*] </tspan>
+<tspan x="1778" y="1797">dct:modified (256) [*] </tspan>
+<tspan x="1778" y="1812">gecore:htmlContent (248) [1] </tspan>
+<tspan x="1778" y="1827">rdf:type (248) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678756"><polygon points="2581,529 2761,529 2761,967 2581,967 "
+<g id="2002785507"><polygon points="3045,149 3575,149 3575,632 3045,632 "
+style="fill:White; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3049" y="163">PREFIX virtrdf: &lt;http://www.openlinksw.com/schemas/virtrdf#&gt;</tspan>
+<tspan x="3049" y="178">PREFIX gecor: &lt;http://www.geco.ecophytopic.fr/geco/relation/&gt;</tspan>
+<tspan x="3049" y="193">PREFIX gecore: &lt;http://www.geco.ecophytopic.fr/geco/rel/&gt;</tspan>
+<tspan x="3049" y="208">PREFIX gecotc: &lt;http://www.geco.ecophytopic.fr/geco/TypeConcept/&gt;</tspan>
+<tspan x="3049" y="223">PREFIX gecoca: &lt;http://www.geco.ecophytopic.fr/geco/rel/criteresAgronomiques/&gt;</tspan>
+<tspan x="3049" y="238">PREFIX gecoo: &lt;http://www.geco.ecophytopic.fr/geco/concept/structure/object/&gt;</tspan>
+<tspan x="3049" y="253">PREFIX gecordd: &lt;http://www.geco.ecophytopic.fr/geco/rel/rdd/&gt;</tspan>
+<tspan x="3049" y="268">PREFIX dct: &lt;http://purl.org/dc/terms/&gt;</tspan>
+<tspan x="3049" y="283">PREFIX gecoref: &lt;http://www.geco.ecophytopic.fr/geco/rel/reference/&gt;</tspan>
+<tspan x="3049" y="298">PREFIX gecocs: &lt;http://www.geco.ecophytopic.fr/geco/rel/criteresSociaux/&gt;</tspan>
+<tspan x="3049" y="313">PREFIX gecoce: &lt;http://www.geco.ecophytopic.fr/geco/rel/criteresEconomiques/&gt;</tspan>
+<tspan x="3049" y="328">PREFIX gecou: &lt;http://www.geco.ecophytopic.fr/geco/rel/user/&gt;</tspan>
+<tspan x="3049" y="343">PREFIX gecocen: &lt;http://www.geco.ecophytopic.fr/geco/rel/criteresEnvironnementaux/&gt;</tspan>
+<tspan x="3049" y="358">PREFIX geco: &lt;http://www.geco.ecophytopic.fr/geco/&gt;</tspan>
+<tspan x="3049" y="373">PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;</tspan>
+<tspan x="3049" y="388">PREFIX gecoobj: &lt;http://www.geco.ecophytopic.fr/geco/rel/objectif/&gt;</tspan>
+<tspan x="3049" y="403">PREFIX gecoacc: &lt;http://www.geco.ecophytopic.fr/geco/rel/acc/&gt;</tspan>
+<tspan x="3049" y="418">PREFIX sioc: &lt;http://rdfs.org/sioc/ns#&gt;</tspan>
+<tspan x="3049" y="433">PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;</tspan>
+<tspan x="3049" y="448">PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;</tspan>
+<tspan x="3049" y="463">PREFIX gecoev: &lt;http://www.geco.ecophytopic.fr/geco/rel/evaluation/&gt;</tspan>
+<tspan x="3049" y="478">PREFIX gecocrs: &lt;http://www.geco.ecophytopic.fr/geco/rel/critereSimple/&gt;</tspan>
+<tspan x="3049" y="493">PREFIX gecoorg: &lt;http://www.geco.ecophytopic.fr/geco/rel/organisme/&gt;</tspan>
+<tspan x="3049" y="508">PREFIX gecoaux: &lt;http://www.geco.ecophytopic.fr/geco/rel/auxiliaire/&gt;</tspan>
+<tspan x="3049" y="523">PREFIX gecotco: &lt;http://www.geco.ecophytopic.fr/geco/rel/typeConcept/&gt;</tspan>
+<tspan x="3049" y="538">PREFIX gecoc: &lt;http://www.geco.ecophytopic.fr/geco/rel/concept/&gt;</tspan>
+<tspan x="3049" y="553">PREFIX gecoacl: &lt;http://www.geco.ecophytopic.fr/geco/rel/accidentClimatique/&gt;</tspan>
+<tspan x="3049" y="568">PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;</tspan>
+<tspan x="3049" y="583">PREFIX gecolm: &lt;http://www.geco.ecophytopic.fr/geco/rel/leviersMobilises/&gt;</tspan>
+<tspan x="3049" y="598">PREFIX gecolevier: &lt;http://www.geco.ecophytopic.fr/geco/rel/acc/levier/&gt;</tspan>
+<tspan x="3049" y="613">PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</tspan>
+<tspan x="3049" y="628">PREFIX gecos: &lt;http://www.geco.ecophytopic.fr/geco/rel/structure/&gt;</tspan>
+</text>
+</g>
+<g id="2002785518"><polygon points="1291,1630 1588,1630 1588,1842 1291,1842 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2631" y="538">gecotc:Technique (800)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1388" y="1645">foaf:Person (1412)</tspan>
 </text>
-<line x1="2584" y1="540" x2="2760" y2="540"
+<line x1="1295" y1="1648" x2="1586" y2="1648"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2584" y="547">gecoacc:commentaireEvaluation (981) [*] D</tspan>
-<tspan x="2584" y="556">gecoacc:conditionsEfficacite (1020) [*] D</tspan>
-<tspan x="2584" y="565">gecoacc:description (1038) [*] D</tspan>
-<tspan x="2584" y="574">gecoacc:limites (1038) [*] D</tspan>
-<tspan x="2584" y="583">gecoacc:mecanismeAction (1064) [*] D</tspan>
-<tspan x="2584" y="592">gecoc:sousType (962) [1] D</tspan>
-<tspan x="2584" y="601">gecolevier:id (978) [*] D</tspan>
-<tspan x="2584" y="610">gecolevier:titre (962) [1] D</tspan>
-<tspan x="2584" y="619">gecor:aDesEffetNegatifSur (20) [1] D -&gt; IRI</tspan>
-<tspan x="2584" y="628">gecor:aDesEffetNeutreSur (180) [*] D -&gt; IRI</tspan>
-<tspan x="2584" y="637">gecor:aDesEffetPositifSur (256) [*] D -&gt; IRI</tspan>
-<tspan x="2584" y="646">gecor:aUnEffetVariable (2776) [*] D -&gt; IRI</tspan>
-<tspan x="2584" y="655">gecor:augmente (2592) [*] D -&gt; IRI</tspan>
-<tspan x="2584" y="664">gecor:diminue (2024) [*] D -&gt; IRI</tspan>
-<tspan x="2584" y="673">gecor:estApplicablePour (524) [*] D -&gt; IRI</tspan>
-<tspan x="2584" y="682">gecor:nAPasDEffet (2164) [*] D -&gt; IRI</tspan>
-<tspan x="2584" y="691">gecore:climat (748) [1] D</tspan>
-<tspan x="2584" y="700">gecore:culture (772) [1] D</tspan>
-<tspan x="2584" y="709">gecore:descriptionTechnique (988) [1] D</tspan>
-<tspan x="2584" y="718">gecore:echellesSpatiales (1040) [*] D</tspan>
-<tspan x="2584" y="727">gecore:echellesTemporelles (1032) [*] D</tspan>
-<tspan x="2584" y="736">gecore:exempleMiseEnOeuvre (332) [1] D</tspan>
-<tspan x="2584" y="745">gecore:influenceReglementation (232) [1] D</tspan>
-<tspan x="2584" y="754">gecore:precisionsClimat (988) [1] D</tspan>
-<tspan x="2584" y="763">gecore:precisionsCulture (988) [1] D</tspan>
-<tspan x="2584" y="772">gecore:precisionsEchelleSpatiale (988) [1] D</tspan>
-<tspan x="2584" y="781">gecore:precisionsEchelleTemporelle (988) [1] D</tspan>
-<tspan x="2584" y="790">gecore:precisionsInfluenceReglementation (520) [1] </tspan>
-<tspan x="2584" y="799">D</tspan>
-<tspan x="2584" y="808">gecore:precisionsSol (988) [1] D</tspan>
-<tspan x="2584" y="817">gecore:precisionsTechnique (988) [1] D</tspan>
-<tspan x="2584" y="826">gecore:sol (760) [1] D</tspan>
-<tspan x="2584" y="835">gecore:typesClimat (524) [*] D</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1295" y="1660">foaf:familyName (2824) [1] D</tspan>
+<tspan x="1295" y="1675">foaf:givenName (2824) [1] D</tspan>
+<tspan x="1295" y="1690">foaf:mbox (2824) [1] D</tspan>
+<tspan x="1295" y="1705">foaf:nick (2824) [1] D</tspan>
+<tspan x="1295" y="1720">gecou:abonnement (5888) [*] D</tspan>
+<tspan x="1295" y="1735">gecou:codePostal (2388) [1] D</tspan>
+<tspan x="1295" y="1750">gecou:commune (2388) [1] D</tspan>
+<tspan x="1295" y="1765">gecou:fonction (2388) [1] D</tspan>
+<tspan x="1295" y="1780">gecou:frequenceNotification (2700) [1] D</tspan>
+<tspan x="1295" y="1795">gecou:lastNotification (464) [*] D</tspan>
+<tspan x="1295" y="1810">gecou:organisme (2388) [1] D</tspan>
+<tspan x="1295" y="1825">rdf:type (2824) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678767"><polygon points="3586,461 3766,461 3766,517 3586,517 "
+<g id="2002785529"><polygon points="1337,497 1651,497 1651,1074 1337,1074 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="3629" y="470">gecotc:Bioagresseur (1370)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1428" y="512">gecotc:Technique (800)</tspan>
+</text>
+<line x1="1341" y1="515" x2="1649" y2="515"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1341" y="527">gecoacc:commentaireEvaluation (981) [*] D</tspan>
+<tspan x="1341" y="542">gecoacc:conditionsEfficacite (1020) [*] D</tspan>
+<tspan x="1341" y="557">gecoacc:description (1038) [*] D</tspan>
+<tspan x="1341" y="572">gecoacc:limites (1038) [*] D</tspan>
+<tspan x="1341" y="587">gecoacc:mecanismeAction (1064) [*] D</tspan>
+<tspan x="1341" y="602">gecoc:sousType (962) [1] D</tspan>
+<tspan x="1341" y="617">gecolevier:id (978) [*] D</tspan>
+<tspan x="1341" y="632">gecolevier:titre (962) [1] D</tspan>
+<tspan x="1341" y="647">gecor:aDesEffetNegatifSur (20) [1] D -&gt; IRI</tspan>
+<tspan x="1341" y="662">gecor:aDesEffetNeutreSur (180) [*] D -&gt; IRI</tspan>
+<tspan x="1341" y="677">gecor:aDesEffetPositifSur (256) [*] D -&gt; IRI</tspan>
+<tspan x="1341" y="692">gecor:aUnEffetVariable (2776) [*] D -&gt; IRI</tspan>
+<tspan x="1341" y="707">gecor:augmente (2592) [*] D -&gt; IRI</tspan>
+<tspan x="1341" y="722">gecor:diminue (2024) [*] D -&gt; IRI</tspan>
+<tspan x="1341" y="737">gecor:estApplicablePour (524) [*] D -&gt; IRI</tspan>
+<tspan x="1341" y="752">gecor:nAPasDEffet (2164) [*] D -&gt; IRI</tspan>
+<tspan x="1341" y="767">gecore:climat (748) [1] D</tspan>
+<tspan x="1341" y="782">gecore:culture (772) [1] D</tspan>
+<tspan x="1341" y="797">gecore:descriptionTechnique (988) [1] D</tspan>
+<tspan x="1341" y="812">gecore:echellesSpatiales (1040) [*] D</tspan>
+<tspan x="1341" y="827">gecore:echellesTemporelles (1032) [*] D</tspan>
+<tspan x="1341" y="842">gecore:exempleMiseEnOeuvre (332) [1] D</tspan>
+<tspan x="1341" y="857">gecore:influenceReglementation (232) [1] D</tspan>
+<tspan x="1341" y="872">gecore:precisionsClimat (988) [1] D</tspan>
+<tspan x="1341" y="887">gecore:precisionsCulture (988) [1] D</tspan>
+<tspan x="1341" y="902">gecore:precisionsEchelleSpatiale (988) [1] D</tspan>
+<tspan x="1341" y="917">gecore:precisionsEchelleTemporelle (988) [1] D</tspan>
+<tspan x="1341" y="932">gecore:precisionsInfluenceReglementation (520) [1] D</tspan>
+<tspan x="1341" y="947">gecore:precisionsSol (988) [1] D</tspan>
+<tspan x="1341" y="962">gecore:precisionsTechnique (988) [1] D</tspan>
+<tspan x="1341" y="977">gecore:sol (760) [1] D</tspan>
+<tspan x="1341" y="992">gecore:typesClimat (524) [*] D</tspan>
+<tspan x="1341" y="1007">&lt;&gt; gecoacc:accLiees  DR</tspan>
+<tspan x="1341" y="1022">&lt;&gt; gecor:estComplementaire  </tspan>
+<tspan x="1341" y="1037">&lt;&gt; gecor:estIncompatible  </tspan>
 </text>
 </g>
-<g id="2002678778"><polygon points="3847,745 4027,745 4027,784 3847,784 "
+<g id="2002785540"><polygon points="2506,693 2802,693 2802,769 2506,769 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="3914" y="754">owl:Class (4)</tspan>
-</text>
-<line x1="3849" y1="755" x2="4025" y2="755"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3849" y="762">rdf:type (4) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
-<tspan x="3849" y="771">&lt;-rdf:type (218)  &lt;-  gecoo:criteresEnvironnementaux,</tspan>
-<tspan x="3849" y="780">geco:BaseProperty..(22)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2576" y="708">gecotc:Bioagresseur (1370)</tspan>
 </text>
 </g>
-<g id="2002678789"><polygon points="1822,567 2002,567 2002,594 1822,594 "
+<g id="2002785551"><polygon points="2396,1117 2841,1117 2841,1182 2396,1182 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="1876" y="576">gecotc:Materiel (228)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2583" y="1132">owl:Class (4)</tspan>
+</text>
+<line x1="2400" y1="1135" x2="2840" y2="1135"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2400" y="1147">rdf:type (4) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<tspan x="2400" y="1162">&lt;- rdf:type (218)  &lt;-  gecoo:criteresEnvironnementaux,geco:BaseProperty..(22)</tspan>
 </text>
 </g>
-<g id="2002678800"><polygon points="3839,492 4019,492 4019,540 3839,540 "
+<g id="2002785562"><polygon points="711,1423 906,1423 906,1467 711,1467 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="3888" y="501">gecoo:organisme (3146)</tspan>
-</text>
-<line x1="3842" y1="503" x2="4018" y2="503"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3842" y="510">gecoorg:classeOrganisme (2120) [1] D</tspan>
-<tspan x="3842" y="519">gecoorg:intensite (3156) [1] D</tspan>
-<tspan x="3842" y="528">gecoorg:precisions (6292) [1] D</tspan>
-<tspan x="3842" y="537">rdf:type (6292) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="748" y="1438">gecotc:Materiel (228)</tspan>
 </text>
 </g>
-<g id="2002678811"><polygon points="3429,787 3609,787 3609,814 3429,814 "
+<g id="2002785573"><polygon points="1915,1519 2132,1519 2132,1573 1915,1573 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="3476" y="796">owl:DatatypeProperty (2)</tspan>
-</text>
-<line x1="3431" y1="798" x2="3608" y2="798"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3431" y="805">rdf:type (2) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1924" y="1534">gecotc:Facteur_De_Contexte (308)</tspan>
 </text>
 </g>
-<g id="2002678822"><polygon points="2832,49 3012,49 3012,151 2832,151 "
+<g id="2002785584"><polygon points="1200,320 1497,320 1497,429 1200,429 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2882" y="58">gecoo:reference (5410)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1285" y="335">gecoo:evaluation (976)</tspan>
 </text>
-<line x1="2834" y1="59" x2="3011" y2="59"
+<line x1="1204" y1="338" x2="1495" y2="338"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2834" y="66">gecoref:annee (1.1e4) [1] </tspan>
-<tspan x="2834" y="75">gecoref:auteurs (1.1e4) [1] D</tspan>
-<tspan x="2834" y="84">gecoref:category (6432) [1] D</tspan>
-<tspan x="2834" y="93">gecoref:editeurs (1.1e4) [1] D</tspan>
-<tspan x="2834" y="102">gecoref:lien (9132) [1] D</tspan>
-<tspan x="2834" y="111">gecoref:precisions (1.1e4) [1] D</tspan>
-<tspan x="2834" y="120">gecoref:titre (1.1e4) [1] D</tspan>
-<tspan x="2834" y="129">gecoref:type (4200) [1] D</tspan>
-<tspan x="2834" y="138">gecoref:typeRessource (6432) [1] D</tspan>
-<tspan x="2834" y="147">rdf:type (1.1e4) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1204" y="350">geco:rang (1952) [1] </tspan>
+<tspan x="1204" y="365">gecoev:critere (1952) [1] D</tspan>
+<tspan x="1204" y="380">gecoev:description (1952) [1] D</tspan>
+<tspan x="1204" y="395">gecoev:id (1952) [1] D</tspan>
+<tspan x="1204" y="410">gecoev:valeur (1952) [1] </tspan>
+<tspan x="1204" y="425">rdf:type (1952) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678833"><polygon points="3294,481 3474,481 3474,517 3294,517 "
+<g id="2002785595"><polygon points="1776,626 2073,626 2073,794 1776,794 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="3345" y="490">gecotc:Auxiliaire (346)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1860" y="641">gecoo:reference (5410)</tspan>
+</text>
+<line x1="1780" y1="644" x2="2071" y2="644"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1780" y="656">gecoref:annee (1.1e4) [1] </tspan>
+<tspan x="1780" y="671">gecoref:auteurs (1.1e4) [1] D</tspan>
+<tspan x="1780" y="686">gecoref:category (6432) [1] D</tspan>
+<tspan x="1780" y="701">gecoref:editeurs (1.1e4) [1] D</tspan>
+<tspan x="1780" y="716">gecoref:lien (9132) [1] D</tspan>
+<tspan x="1780" y="731">gecoref:precisions (1.1e4) [1] D</tspan>
+<tspan x="1780" y="746">gecoref:titre (1.1e4) [1] D</tspan>
+<tspan x="1780" y="761">gecoref:type (4200) [1] D</tspan>
+<tspan x="1780" y="776">gecoref:typeRessource (6432) [1] D</tspan>
+<tspan x="1780" y="791">rdf:type (1.1e4) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678844"><polygon points="1923,170 2185,170 2185,325 1923,325 "
+<g id="2002785606"><polygon points="2403,536 2732,536 2732,581 2403,581 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2018" y="179">geco:Concept (4408)</tspan>
-</text>
-<line x1="1925" y1="181" x2="2183" y2="181"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1925" y="188">dct:abstract (2986) [1] D</tspan>
-<tspan x="1925" y="197">dct:accessRights (2997) [*] D</tspan>
-<tspan x="1925" y="206">dct:created (9436) [*] </tspan>
-<tspan x="1925" y="215">dct:hasVersion (1308) [*] D</tspan>
-<tspan x="1925" y="224">dct:modified (1.3e4) [*] </tspan>
-<tspan x="1925" y="233">foaf:depiction (8687) [*] D</tspan>
-<tspan x="1925" y="242">gecoc:bloquer (9486) [1] </tspan>
-<tspan x="1925" y="251">gecoc:completionStatus (9833) [*] D</tspan>
-<tspan x="1925" y="260">gecore:htmlContent (7658) [1] </tspan>
-<tspan x="1925" y="269">rdf:type (1.9e4) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
-<tspan x="1925" y="278">skos:altLabel (3380) [*] D</tspan>
-<tspan x="1925" y="287">skos:exactMatch (6944) [1] D</tspan>
-<tspan x="1925" y="296">skos:prefLabel (9550) [*] </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2504" y="551">gecotc:Auxiliaire (346)</tspan>
 </text>
 </g>
-<g id="2002678855"><polygon points="469,567 649,567 649,594 469,594 "
+<g id="2002785617"><polygon points="1048,1126 1349,1126 1349,1531 1048,1531 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="518" y="576">gecotc:Production (324)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1139" y="1141">geco:Concept (4408)</tspan>
+</text>
+<line x1="1052" y1="1144" x2="1347" y2="1144"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1052" y="1156">dct:abstract (2986) [1] D</tspan>
+<tspan x="1052" y="1171">dct:accessRights (2997) [*] D</tspan>
+<tspan x="1052" y="1186">dct:created (9436) [*] </tspan>
+<tspan x="1052" y="1201">dct:hasVersion (1308) [*] D</tspan>
+<tspan x="1052" y="1216">dct:modified (1.3e4) [*] </tspan>
+<tspan x="1052" y="1231">foaf:depiction (8687) [*] D</tspan>
+<tspan x="1052" y="1246">gecoc:bloquer (9486) [1] </tspan>
+<tspan x="1052" y="1261">gecoc:completionStatus (9833) [*] D</tspan>
+<tspan x="1052" y="1276">gecore:htmlContent (7658) [1] </tspan>
+<tspan x="1052" y="1291">rdf:type (1.9e4) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<tspan x="1052" y="1306">skos:altLabel (3380) [*] D</tspan>
+<tspan x="1052" y="1321">skos:exactMatch (6944) [1] D</tspan>
+<tspan x="1052" y="1336">skos:prefLabel (9550) [*] </tspan>
+<tspan x="1052" y="1351">&lt;&gt; gecor:aPourFils  DR</tspan>
+<tspan x="1052" y="1366">&lt;&gt; gecor:aPourParent  DR</tspan>
+<tspan x="1052" y="1381">&lt;&gt; gecor:defavorise  </tspan>
+<tspan x="1052" y="1396">&lt;&gt; gecor:estAppliqueA  </tspan>
+<tspan x="1052" y="1411">&lt;&gt; gecor:estDefavorisePar  </tspan>
+<tspan x="1052" y="1426">&lt;&gt; gecor:estFavorisePar  </tspan>
+<tspan x="1052" y="1441">&lt;&gt; gecor:estMobiliseDans  </tspan>
+<tspan x="1052" y="1456">&lt;&gt; gecor:estUtiliseDans  DR</tspan>
+<tspan x="1052" y="1471">&lt;&gt; gecor:favorise  </tspan>
+<tspan x="1052" y="1486">&lt;&gt; gecor:impacte  </tspan>
+<tspan x="1052" y="1501">&lt;&gt; gecor:utiliseDans  </tspan>
 </text>
 </g>
-<g id="2002678866"><polygon points="191,607 371,607 371,736 191,736 "
+<g id="2002785628"><polygon points="1817,809 2113,809 2113,894 1817,894 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="221" y="616">gecoo:criteresAgronomiques (394)</tspan>
-</text>
-<line x1="193" y1="617" x2="370" y2="617"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="193" y="624">gecoca:autres (172) [1] D</tspan>
-<tspan x="193" y="633">gecoca:biodiversite (688) [1] D</tspan>
-<tspan x="193" y="642">gecoca:fertilite (716) [1] D</tspan>
-<tspan x="193" y="651">gecoca:precisionsAutres (252) [1] D</tspan>
-<tspan x="193" y="660">gecoca:precisionsBiodiversite (788) [1] D</tspan>
-<tspan x="193" y="669">gecoca:precisionsFertilite (788) [1] D</tspan>
-<tspan x="193" y="678">gecoca:precisionsProductivite (788) [1] D</tspan>
-<tspan x="193" y="687">gecoca:precisionsQualite (788) [1] D</tspan>
-<tspan x="193" y="696">gecoca:precisionsStressHydrique (788) [1] D</tspan>
-<tspan x="193" y="705">gecoca:productivite (752) [1] D</tspan>
-<tspan x="193" y="714">gecoca:qualite (348) [1] D</tspan>
-<tspan x="193" y="723">gecoca:stressHydrique (672) [1] D</tspan>
-<tspan x="193" y="732">rdf:type (788) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1898" y="824">gecotc:Production (324)</tspan>
 </text>
 </g>
-<g id="2002678877"><polygon points="1806,14 1986,14 1986,44 1806,44 "
+<g id="2002785639"><polygon points="2079,661 2375,661 2375,740 2079,740 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="1869" y="23">geco:Base (10)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2159" y="676">gecoo:organisme (3146)</tspan>
 </text>
-<line x1="1808" y1="25" x2="1985" y2="25"
+<line x1="2083" y1="679" x2="2373" y2="679"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1808" y="32">dct:title (20) [1] </tspan>
-<tspan x="1808" y="41">rdf:type (20) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2083" y="691">gecoorg:classeOrganisme (2120) [1] D</tspan>
+<tspan x="2083" y="706">gecoorg:intensite (3156) [1] D</tspan>
+<tspan x="2083" y="721">gecoorg:precisions (6292) [1] D</tspan>
+<tspan x="2083" y="736">rdf:type (6292) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678888"><polygon points="2406,136 2586,136 2586,202 2406,202 "
+<g id="2002785650"><polygon points="1409,223 1705,223 1705,273 1409,273 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2457" y="145">gecoo:evaluation (976)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1514" y="238">geco:Base (10)</tspan>
 </text>
-<line x1="2408" y1="147" x2="2585" y2="147"
+<line x1="1413" y1="241" x2="1703" y2="241"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2408" y="154">geco:rang (1952) [1] </tspan>
-<tspan x="2408" y="163">gecoev:critere (1952) [1] D</tspan>
-<tspan x="2408" y="172">gecoev:description (1952) [1] D</tspan>
-<tspan x="2408" y="181">gecoev:id (1952) [1] D</tspan>
-<tspan x="2408" y="190">gecoev:valeur (1952) [1] </tspan>
-<tspan x="2408" y="199">rdf:type (1952) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1413" y="253">dct:title (20) [1] </tspan>
+<tspan x="1413" y="268">rdf:type (20) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678899"><polygon points="2062,9 2242,9 2242,48 2062,48 "
+<g id="2002785661"><polygon points="1830,215 2126,215 2126,280 1830,280 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2111" y="18">geco:BaseProperty (28)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1911" y="230">geco:BaseProperty (28)</tspan>
 </text>
-<line x1="2064" y1="20" x2="2240" y2="20"
+<line x1="1834" y1="233" x2="2124" y2="233"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2064" y="27">dct:rangeIncludes (256) [*] D</tspan>
-<tspan x="2064" y="36">dct:title (56) [1] </tspan>
-<tspan x="2064" y="45">rdf:type (56) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1834" y="245">dct:rangeIncludes (256) [*] D</tspan>
+<tspan x="1834" y="260">dct:title (56) [1] </tspan>
+<tspan x="1834" y="275">rdf:type (56) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678910"><polygon points="6,738 186,738 186,795 6,795 "
+<g id="2002785672"><polygon points="2383,1232 2651,1232 2651,1281 2383,1281 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="62" y="747">gecoo:objectif (362)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2447" y="1247">owl:DatatypeProperty (2)</tspan>
 </text>
-<line x1="8" y1="749" x2="185" y2="749"
+<line x1="2387" y1="1250" x2="2649" y2="1250"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="8" y="756">gecoobj:efficacite (684) [1] D</tspan>
-<tspan x="8" y="765">gecoobj:indicesConfiance (684) [*] D</tspan>
-<tspan x="8" y="774">gecoobj:modeActionDetaille (724) [1] D</tspan>
-<tspan x="8" y="783">rdf:type (724) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2387" y="1262">rdf:type (2) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<tspan x="2387" y="1277">rdfs:range (2) [1] </tspan>
 </text>
 </g>
-<g id="2002678921"><polygon points="2102,571 2282,571 2282,598 2102,598 "
+<g id="2002785683"><polygon points="517,786 813,786 813,877 517,877 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2110" y="580">gecotc:Accident_Climatique_Et_Physiologique </tspan>
-<tspan x="2185" y="590">(14)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="610" y="801">gecoo:objectif (362)</tspan>
+</text>
+<line x1="521" y1="804" x2="811" y2="804"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="521" y="816">gecoobj:efficacite (684) [1] D</tspan>
+<tspan x="521" y="831">gecoobj:indicesConfiance (684) [*] D</tspan>
+<tspan x="521" y="846">gecoobj:modeActionDetaille (724) [1] D</tspan>
+<tspan x="521" y="861">rdf:type (724) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678932"><polygon points="2927,603 3107,603 3107,644 2927,644 "
+<g id="2002785694"><polygon points="1524,297 1821,297 1821,342 1524,342 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2941" y="612">gecotc:Type_De_Strategie_Vis-a-vis_De_L_</tspan>
-<tspan x="2967" y="622">Utilisation_De_Pesticides (6)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1537" y="312">gecotc:Accident_Climatique_Et_Physiologique </tspan>
+<tspan x="1662" y="328">(14)</tspan>
 </text>
 </g>
-<g id="2002678943"><polygon points="1639,590 1819,590 1819,617 1639,617 "
+<g id="2002785705"><polygon points="669,1311 877,1311 877,1362 669,1362 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="1668" y="600">gecotc:Facteur_De_Contexte (308)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="678" y="1326">gecotc:Type_De_Strategie_Vis-a-</tspan>
+<tspan x="702" y="1342">vis_De_L_Utilisation_De_</tspan>
+<tspan x="734" y="1358">Pesticides (6)</tspan>
 </text>
 </g>
-<g id="2002678954"><polygon points="1562,799 1742,799 1742,892 1562,892 "
+<g id="2002785716"><polygon points="1084,72 1380,72 1380,285 1084,285 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="1594" y="808">gecoo:criteresEconomiques (396)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1135" y="87">gecoo:criteresAgronomiques (394)</tspan>
 </text>
-<line x1="1564" y1="809" x2="1741" y2="809"
+<line x1="1088" y1="90" x2="1378" y2="90"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1564" y="816">gecoce:autre (180) [1] D</tspan>
-<tspan x="1564" y="825">gecoce:chargeMecanisation (724) [1] D</tspan>
-<tspan x="1564" y="834">gecoce:chargeOperationnelle (772) [1] D</tspan>
-<tspan x="1564" y="843">gecoce:marge (704) [1] D</tspan>
-<tspan x="1564" y="852">gecoce:precisionsAutre (240) [1] D</tspan>
-<tspan x="1564" y="861">gecoce:precisionsChargeMecanisation (792) [1] D</tspan>
-<tspan x="1564" y="870">gecoce:precisionsChargeOperationnelle (792) [1] D</tspan>
-<tspan x="1564" y="879">gecoce:precisionsMarge (792) [1] D</tspan>
-<tspan x="1564" y="888">rdf:type (792) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1088" y="102">gecoca:autres (172) [1] D</tspan>
+<tspan x="1088" y="117">gecoca:biodiversite (688) [1] D</tspan>
+<tspan x="1088" y="132">gecoca:fertilite (716) [1] D</tspan>
+<tspan x="1088" y="147">gecoca:precisionsAutres (252) [1] D</tspan>
+<tspan x="1088" y="162">gecoca:precisionsBiodiversite (788) [1] D</tspan>
+<tspan x="1088" y="177">gecoca:precisionsFertilite (788) [1] D</tspan>
+<tspan x="1088" y="192">gecoca:precisionsProductivite (788) [1] D</tspan>
+<tspan x="1088" y="207">gecoca:precisionsQualite (788) [1] D</tspan>
+<tspan x="1088" y="222">gecoca:precisionsStressHydrique (788) [1] D</tspan>
+<tspan x="1088" y="237">gecoca:productivite (752) [1] D</tspan>
+<tspan x="1088" y="252">gecoca:qualite (348) [1] D</tspan>
+<tspan x="1088" y="267">gecoca:stressHydrique (672) [1] D</tspan>
+<tspan x="1088" y="282">rdf:type (788) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678965"><polygon points="2278,917 2458,917 2458,967 2278,967 "
+<g id="2002785727"><polygon points="750,244 1068,244 1068,408 750,408 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2315" y="926">gecoo:accidentClimatique (34)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="814" y="259">gecoo:criteresEconomiques (396)</tspan>
 </text>
-<line x1="2280" y1="928" x2="2456" y2="928"
+<line x1="754" y1="262" x2="1066" y2="262"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2280" y="935">gecoacl:intensite (40) [1] D</tspan>
-<tspan x="2280" y="944">gecoacl:precisions (68) [1] D</tspan>
-<tspan x="2280" y="953">rdf:type (68) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="754" y="274">gecoce:autre (180) [1] D</tspan>
+<tspan x="754" y="289">gecoce:chargeMecanisation (724) [1] D</tspan>
+<tspan x="754" y="304">gecoce:chargeOperationnelle (772) [1] D</tspan>
+<tspan x="754" y="319">gecoce:marge (704) [1] D</tspan>
+<tspan x="754" y="334">gecoce:precisionsAutre (240) [1] D</tspan>
+<tspan x="754" y="349">gecoce:precisionsChargeMecanisation (792) [1] D</tspan>
+<tspan x="754" y="364">gecoce:precisionsChargeOperationnelle (792) [1] D</tspan>
+<tspan x="754" y="379">gecoce:precisionsMarge (792) [1] D</tspan>
+<tspan x="754" y="394">rdf:type (792) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678976"><polygon points="1376,594 1556,594 1556,621 1376,621 "
+<g id="2002785738"><polygon points="1620,411 1917,411 1917,475 1620,475 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="1418" y="603">gecotc:Mode_D_Action (10)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1682" y="426">gecoo:accidentClimatique (34)</tspan>
+</text>
+<line x1="1624" y1="429" x2="1915" y2="429"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1624" y="441">gecoacl:intensite (40) [1] D</tspan>
+<tspan x="1624" y="456">gecoacl:precisions (68) [1] D</tspan>
+<tspan x="1624" y="471">rdf:type (68) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002678987"><polygon points="1009,529 1189,529 1189,556 1009,556 "
+<g id="2002785749"><polygon points="782,909 982,909 982,953 782,953 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="1032" y="538">gecotc:Fonction_Service_Strategie (26)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="802" y="924">gecotc:Mode_D_Action (10)</tspan>
 </text>
 </g>
-<g id="2002678998"><polygon points="1193,542 1373,542 1373,594 1193,594 "
+<g id="2002785760"><polygon points="479,1137 728,1137 728,1214 479,1214 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="1206" y="552">gecotc:Exemple_De_Mise_En_Oeuvre (588)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="492" y="1152">gecotc:Fonction_Service_Strategie (26)</tspan>
 </text>
 </g>
-<g id="2002679009"><polygon points="2704,154 2884,154 2884,202 2704,202 "
+<g id="2002785771"><polygon points="1937,519 2234,519 2234,598 1937,598 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2758" y="163">gecoo:auxiliaire (470)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2025" y="534">gecoo:auxiliaire (470)</tspan>
 </text>
-<line x1="2707" y1="165" x2="2883" y2="165"
+<line x1="1941" y1="536" x2="2232" y2="536"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2707" y="172">gecoaux:classe (40) [1] D</tspan>
-<tspan x="2707" y="181">gecoaux:intensite (772) [1] D</tspan>
-<tspan x="2707" y="190">gecoaux:precisions (940) [1] D</tspan>
-<tspan x="2707" y="199">rdf:type (940) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1941" y="548">gecoaux:classe (40) [1] D</tspan>
+<tspan x="1941" y="563">gecoaux:intensite (772) [1] D</tspan>
+<tspan x="1941" y="578">gecoaux:precisions (940) [1] D</tspan>
+<tspan x="1941" y="593">rdf:type (940) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002679020"><polygon points="462,799 642,799 642,856 462,856 "
+<g id="2002785782"><polygon points="1879,1585 2176,1585 2176,1693 1879,1693 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="505" y="808">gecoo:critereSimple (1055)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1983" y="1600">sioc:Forum (94)</tspan>
 </text>
-<line x1="464" y1="809" x2="641" y2="809"
+<line x1="1883" y1="1603" x2="2174" y2="1603"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="464" y="816">gecocrs:intitule (1055) [1] D</tspan>
-<tspan x="464" y="825">gecocrs:precisions (1055) [1] D</tspan>
-<tspan x="464" y="834">gecocrs:variation (1052) [1] D</tspan>
-<tspan x="464" y="843">gecocrs:variationPositive (1055) [*] </tspan>
-<tspan x="464" y="852">rdf:type (1055) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1883" y="1615">dct:created (188) [*] </tspan>
+<tspan x="1883" y="1630">dct:modified (196) [*] </tspan>
+<tspan x="1883" y="1645">dct:title (188) [1] </tspan>
+<tspan x="1883" y="1660">geco:status (180) [*] </tspan>
+<tspan x="1883" y="1675">gecore:htmlContent (184) [1] </tspan>
+<tspan x="1883" y="1690">rdf:type (188) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002679031"><polygon points="2285,572 2466,572 2466,622 2285,622 "
+<g id="2002785793"><polygon points="623,93 920,93 920,187 623,187 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="2287" y="582">gecotc:Methode_De_Controle_Des_Bioagresseurs </tspan>
-<tspan x="2369" y="592">(12)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="695" y="108">gecoo:critereSimple (1055)</tspan>
+</text>
+<line x1="627" y1="111" x2="918" y2="111"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="627" y="123">gecocrs:intitule (1055) [1] D</tspan>
+<tspan x="627" y="138">gecocrs:precisions (1055) [1] D</tspan>
+<tspan x="627" y="153">gecocrs:variation (1052) [1] D</tspan>
+<tspan x="627" y="168">gecocrs:variationPositive (1055) [*] </tspan>
+<tspan x="627" y="183">rdf:type (1055) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
 </text>
 </g>
-<g id="2002679042"><polygon points="3913,791 4093,791 4093,826 3913,826 "
+<g id="2002785804"><polygon points="782,717 1107,717 1107,762 782,762 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="3964" y="800">owl:ObjectProperty (2)</tspan>
-</text>
-<line x1="3915" y1="802" x2="4091" y2="802"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3915" y="809">rdf:type (2) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="788" y="732">gecotc:Methode_De_Controle_Des_Bioagresseurs (12)</tspan>
 </text>
 </g>
-<g id="2002679053"><polygon points="1834,931 2014,931 2014,997 1834,997 "
+<g id="2002785815"><polygon points="2674,1232 2933,1232 2933,1281 2674,1281 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="1897" y="940">sioc:Forum (94)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2740" y="1247">owl:ObjectProperty (2)</tspan>
 </text>
-<line x1="1837" y1="941" x2="2013" y2="941"
+<line x1="2677" y1="1250" x2="2931" y2="1250"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1837" y="948">dct:created (188) [*] </tspan>
-<tspan x="1837" y="957">dct:modified (196) [*] </tspan>
-<tspan x="1837" y="966">dct:title (188) [1] </tspan>
-<tspan x="1837" y="975">geco:status (180) [*] </tspan>
-<tspan x="1837" y="984">gecore:htmlContent (184) [1] </tspan>
-<tspan x="1837" y="993">rdf:type (188) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2677" y="1262">rdf:type (2) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
+<tspan x="2677" y="1277">&lt;&gt; owl:inverseOf  </tspan>
 </text>
 </g>
-<g id="2002678668"><polygon points="4088,10 4268,10 4268,491 4088,491 "
+<g id="2002785826"><polygon points="1560,1393 1840,1393 1840,1457 1560,1457 "
 style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
-<tspan x="4138" y="19">geco:TypeConcept (30)</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1575" y="1408">gecotc:Exemple_De_Mise_En_Oeuvre (588)</tspan>
 </text>
-<line x1="4090" y1="20" x2="4267" y2="20"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="4090" y="27">gecotco:ajoutableContributeur (60) [1] D</tspan>
-<tspan x="4090" y="36">gecotco:conceptPrincipal (60) [1] D</tspan>
-<tspan x="4090" y="45">gecotco:contenuParDefaut (60) [1] D</tspan>
-<tspan x="4090" y="54">gecotco:modifiableContributeur (60) [1] D</tspan>
-<tspan x="4090" y="63">rdf:type (60) [*]  -&gt;  geco:TypeConcept,owl:Class</tspan>
-<tspan x="4090" y="72">skos:definition (60) [1] D</tspan>
-<tspan x="4090" y="81">skos:prefLabel (60) [*] </tspan>
-<tspan x="4090" y="90">&lt;-rdf:type (8816)  &lt;-  gecoo:</tspan>
-<tspan x="4090" y="99">criteresEnvironnementaux,geco:BaseProperty..(22)</tspan>
-</text>
-</g>
-<g id="2002678280"><path d="M2761,566 L2877,566 2879,565 2881,563 2881,202 "
-style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2879" y1="206" x2="2881" y2="202"
- style="stroke-width:1;stroke:Black;"/>
-<line x1="2882" y1="206" x2="2881" y2="202"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2764" y="556">gecore:auxiliairesDefavorises  DR</tspan>
-<tspan x="2764" y="565">gecos:auxiliairesFavorises  DR</tspan>
-</text>
-</g>
-<g id="2002678285"><path d="M3839,507 L3766,507 "
-style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3770" y1="505" x2="3766" y2="507"
- style="stroke-width:1;stroke:Black;"/>
-<line x1="3770" y1="509" x2="3766" y2="507"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3769" y="515">gecoorg:organisme  </tspan>
-</text>
-</g>
-<g id="2002678290"><path d="M3609,806 L3847,806 3849,805 3850,803 3850,784 "
-style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3848" y1="787" x2="3850" y2="784"
- style="stroke-width:1;stroke:Black;"/>
-<line x1="3852" y1="787" x2="3850" y2="784"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3612" y="796">rdfs:range  </tspan>
-<tspan x="3612" y="805">rdfs:domain  </tspan>
-</text>
 </g>
-<g id="2002678295"><path d="M3110,488 L2992,488 2989,487 2988,484 2988,484 2989,482 2992,481 3170,481 3170,484 "
+<g id="2002785837"><path d="M1651,581 L1937,581 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3169" y1="481" x2="3170" y2="484"
+<line x1="1932" y1="578" x2="1937" y2="581"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="3172" y1="481" x2="3170" y2="484"
+<line x1="1932" y1="584" x2="1937" y2="581"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3036" y="495">gecordd:rddLiees  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1655" y="564">gecos:auxiliairesFavorises  DR</tspan>
+<tspan x="1655" y="579">gecore:auxiliairesDefavorises  DR</tspan>
 </text>
 </g>
-<g id="2002678300"><path d="M371,732 L462,732 464,733 466,736 466,799 "
+<g id="2002785842"><path d="M2375,714 L2506,714 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="464" y1="795" x2="466" y2="799"
+<line x1="2500" y1="711" x2="2506" y2="714"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="467" y1="795" x2="466" y2="799"
+<line x1="2500" y1="717" x2="2506" y2="714"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="374" y="731">gecoca:autresCriteres  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2379" y="712">gecoorg:organisme  </tspan>
 </text>
 </g>
-<g id="2002678305"><path d="M3766,477 L4088,477 "
+<g id="2002785847"><path d="M2514,1232 L2514,1182 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="4084" y1="475" x2="4088" y2="477"
+<line x1="2511" y1="1188" x2="2514" y2="1182"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="4084" y1="479" x2="4088" y2="477"
+<line x1="2517" y1="1188" x2="2514" y2="1182"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3769" y="476">gecor:sAttaque  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2441" y="1228">rdfs:domain  </tspan>
 </text>
 </g>
-<g id="2002678310"><path d="M2761,601 L2881,601 2883,599 2884,597 2884,310 2885,307 2888,306 2968,306 2970,305 2971,302 2971,151 "
+<g id="2002785852"><path d="M1651,963 L1974,963 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2969" y1="154" x2="2971" y2="151"
+<line x1="1968" y1="960" x2="1974" y2="963"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2973" y1="154" x2="2971" y2="151"
+<line x1="1968" y1="966" x2="1974" y2="963"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2764" y="590">gecore:ressources  D</tspan>
-<tspan x="2764" y="599">gecore:reference  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1655" y="947">gecor:estComplementaire  </tspan>
+<tspan x="1655" y="962">gecor:estIncompatible  </tspan>
 </text>
 </g>
-<g id="2002678315"><path d="M186,791 L2581,791 "
+<g id="2002785857"><path d="M1084,117 L920,117 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2578" y1="790" x2="2581" y2="791"
+<line x1="926" y1="114" x2="920" y2="117"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2578" y1="793" x2="2581" y2="791"
+<line x1="926" y1="120" x2="920" y2="117"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="189" y="763">gecoobj:</tspan>
-<tspan x="189" y="772">techniquesComplementaires  DR</tspan>
-<tspan x="189" y="781">gecoobj:techniquesIncompatibles  </tspan>
-<tspan x="189" y="790">DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="936" y="130">gecoca:autresCriteres  DR</tspan>
 </text>
 </g>
-<g id="2002678320"><path d="M1639,604 L1564,604 1561,602 1560,600 1560,594 1559,592 1556,590 1373,590 "
+<g id="2002785862"><path d="M2614,769 L2614,1062 2612,1066 2608,1068 2270,1068 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1376" y1="589" x2="1373" y2="590"
+<line x1="2276" y1="1065" x2="2270" y2="1068"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1376" y1="592" x2="1373" y2="590"
+<line x1="2276" y1="1071" x2="2270" y2="1068"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1565" y="611">gecor:caracterise  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2616" y="784">gecor:sAttaque  </tspan>
 </text>
 </g>
-<g id="2002678325"><path d="M2002,580 L2087,580 2090,579 2091,577 2091,325 "
+<g id="2002785867"><path d="M1651,712 L1776,712 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2089" y1="328" x2="2091" y2="325"
+<line x1="1770" y1="709" x2="1776" y2="712"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2093" y1="328" x2="2091" y2="325"
+<line x1="1770" y1="715" x2="1776" y2="712"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2005" y="579">gecor:estUtilisePour  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1655" y="696">gecore:ressources  D</tspan>
+<tspan x="1655" y="711">gecore:reference  DR</tspan>
 </text>
 </g>
-<g id="2002678330"><path d="M2014,973 L2066,973 "
+<g id="2002785872"><path d="M813,844 L1337,844 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2063" y1="971" x2="2066" y2="973"
+<line x1="1331" y1="841" x2="1337" y2="844"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2063" y1="974" x2="2066" y2="973"
+<line x1="1331" y1="847" x2="1337" y2="844"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2017" y="962">dct:modifier  R</tspan>
-<tspan x="2017" y="971">dct:creator  R</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="817" y="827">gecoobj:techniquesComplementaires  DR</tspan>
+<tspan x="817" y="842">gecoobj:techniquesIncompatibles  DR</tspan>
 </text>
 </g>
-<g id="2002678335"><path d="M649,590 L737,590 740,589 741,586 741,491 742,488 745,487 2102,487 2104,488 2105,491 2105,571 "
+<g id="2002785877"><path d="M1915,1530 L1587,1530 1583,1528 1581,1524 1581,1457 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2104" y1="568" x2="2105" y2="571"
+<line x1="1578" y1="1463" x2="1581" y2="1457"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2107" y1="568" x2="2105" y2="571"
+<line x1="1584" y1="1463" x2="1581" y2="1457"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="652" y="588">gecor:estImpactePar  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1793" y="1543">gecor:caracterise  DR</tspan>
 </text>
 </g>
-<g id="2002678340"><path d="M1923,305 L1280,305 1277,306 1276,308 1276,542 "
+<g id="2002785882"><path d="M906,1460 L1048,1460 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1274" y1="539" x2="1276" y2="542"
+<line x1="1042" y1="1457" x2="1048" y2="1460"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1278" y1="539" x2="1276" y2="542"
+<line x1="1042" y1="1463" x2="1048" y2="1460"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1844" y="312">gecor:estEvoqueDans  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="910" y="1458">gecor:estUtilisePour  DR</tspan>
 </text>
 </g>
-<g id="2002678345"><path d="M2884,181 L3410,181 3413,182 3414,185 3414,481 "
+<g id="2002785887"><path d="M1337,808 L813,808 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3412" y1="477" x2="3414" y2="481"
+<line x1="819" y1="805" x2="813" y2="808"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="3416" y1="477" x2="3414" y2="481"
+<line x1="819" y1="811" x2="813" y2="808"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2887" y="180">gecoaux:organisme  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1223" y="821">gecore:objectifs  DR</tspan>
 </text>
 </g>
-<g id="2002678350"><path d="M4088,206 L2185,206 "
+<g id="2002785892"><path d="M1705,248 L1830,248 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2188" y1="204" x2="2185" y2="206"
+<line x1="1824" y1="245" x2="1830" y2="248"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2188" y1="208" x2="2185" y2="206"
+<line x1="1824" y1="251" x2="1830" y2="248"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="4005" y="213">gecor:estMobiliseDans  </tspan>
-<tspan x="4005" y="222">gecor:evoque  </tspan>
-<tspan x="4005" y="231">gecor:defavorise  </tspan>
-<tspan x="4005" y="240">gecor:estAppliqueA  </tspan>
-<tspan x="4005" y="249">gecor:estDefavorisePar  </tspan>
-<tspan x="4005" y="258">gecor:favorise  </tspan>
-<tspan x="4005" y="267">gecor:estFavorisePar  </tspan>
-<tspan x="4005" y="276">gecor:informeSur  </tspan>
-<tspan x="4005" y="285">gecor:utiliseDans  </tspan>
-<tspan x="4005" y="294">gecor:impacte  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1709" y="246">sioc:container_of  DR</tspan>
 </text>
 </g>
-<g id="2002678355"><path d="M2185,299 L4088,299 "
+<g id="2002785897"><path d="M2881,1360 L2977,1360 2981,1359 2983,1355 2983,883 2981,879 2977,877 2113,877 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="4084" y1="298" x2="4088" y2="299"
+<line x1="2119" y1="874" x2="2113" y2="877"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="4084" y1="301" x2="4088" y2="299"
+<line x1="2119" y1="880" x2="2113" y2="877"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2187" y="217">gecor:estMobiliseDans  </tspan>
-<tspan x="2187" y="226">gecor:estEvoqueDans  </tspan>
-<tspan x="2187" y="235">gecor:defavorise  </tspan>
-<tspan x="2187" y="244">gecor:estAppliqueA  </tspan>
-<tspan x="2187" y="253">gecor:estDefavorisePar  </tspan>
-<tspan x="2187" y="262">gecor:contribueA  </tspan>
-<tspan x="2187" y="271">gecor:favorise  </tspan>
-<tspan x="2187" y="280">gecor:estFavorisePar  </tspan>
-<tspan x="2187" y="289">gecor:utiliseDans  </tspan>
-<tspan x="2187" y="298">gecor:impacte  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2885" y="1359">gecor:concerne  </tspan>
 </text>
 </g>
-<g id="2002678360"><path d="M4088,398 L1344,398 1342,399 1340,401 1340,542 "
+<g id="2002785902"><path d="M2500,581 L2500,1036 2498,1040 2494,1042 2270,1042 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1339" y1="539" x2="1340" y2="542"
+<line x1="2276" y1="1039" x2="2270" y2="1042"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1342" y1="539" x2="1340" y2="542"
+<line x1="2276" y1="1045" x2="2270" y2="1042"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="4009" y="405">gecor:estEvoqueDans  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2502" y="596">gecor:regule  </tspan>
 </text>
 </g>
-<g id="2002678365"><path d="M925,566 L989,566 991,565 992,563 992,292 994,290 996,289 1923,289 "
+<g id="2002785907"><path d="M1974,1185 L1349,1185 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1919" y1="287" x2="1923" y2="289"
+<line x1="1355" y1="1182" x2="1349" y2="1185"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1919" y1="290" x2="1923" y2="289"
+<line x1="1355" y1="1188" x2="1349" y2="1185"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="927" y="565">gecor:informeSur  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1837" y="1198">gecor:evoque  </tspan>
+<tspan x="1837" y="1213">gecor:defavorise  </tspan>
+<tspan x="1837" y="1228">gecor:estAppliqueA  </tspan>
+<tspan x="1837" y="1243">gecor:estDefavorisePar  </tspan>
+<tspan x="1837" y="1258">gecor:estMobiliseDans  </tspan>
+<tspan x="1837" y="1273">gecor:favorise  </tspan>
+<tspan x="1837" y="1288">gecor:estFavorisePar  </tspan>
+<tspan x="1837" y="1303">gecor:informeSur  </tspan>
+<tspan x="1837" y="1318">gecor:utiliseDans  </tspan>
+<tspan x="1837" y="1333">gecor:impacte  </tspan>
 </text>
 </g>
-<g id="2002678370"><path d="M2185,321 L2236,321 2238,322 2239,325 2239,338 2238,340 2236,341 2102,341 2099,343 2098,345 2098,953 "
+<g id="2002785912"><path d="M1337,1025 L889,1025 885,1027 883,1030 883,1423 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2096" y1="950" x2="2098" y2="953"
+<line x1="880" y1="1417" x2="883" y2="1423"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2100" y1="950" x2="2098" y2="953"
+<line x1="886" y1="1417" x2="883" y2="1423"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2187" y="311">dct:modifier  R</tspan>
-<tspan x="2187" y="320">dct:creator  R</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1217" y="1038">gecore:materiels  DR</tspan>
+<tspan x="1217" y="1053">gecor:utilisePour  DR</tspan>
 </text>
 </g>
-<g id="2002678375"><path d="M1923,276 L808,276 806,277 805,280 805,556 "
+<g id="2002785917"><path d="M1974,1399 L1840,1399 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="803" y1="553" x2="805" y2="556"
+<line x1="1846" y1="1396" x2="1840" y2="1399"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="806" y1="553" x2="805" y2="556"
+<line x1="1846" y1="1402" x2="1840" y2="1399"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1828" y="284">gecor:estRenseignePar  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1844" y="1412">gecor:estEvoqueDans  </tspan>
 </text>
 </g>
-<g id="2002678380"><path d="M1189,539 L1441,539 1444,538 1445,535 1445,325 1446,322 1448,321 1923,321 "
+<g id="2002785922"><path d="M601,637 L438,637 434,639 432,643 432,1229 434,1233 438,1235 1048,1235 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1919" y1="319" x2="1923" y2="321"
+<line x1="1042" y1="1232" x2="1048" y2="1235"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1919" y1="323" x2="1923" y2="321"
+<line x1="1042" y1="1238" x2="1048" y2="1235"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1192" y="537">gecor:estAssurePar  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="497" y="650">gecor:informeSur  </tspan>
 </text>
 </g>
-<g id="2002678385"><path d="M3913,794 L3861,794 3859,793 3857,791 3857,791 3859,788 3861,787 4003,787 4003,791 "
+<g id="2002785927"><path d="M1249,1531 L1249,1757 1251,1761 1255,1763 1291,1763 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="4001" y1="787" x2="4003" y2="791"
+<line x1="1285" y1="1760" x2="1291" y2="1763"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="4004" y1="787" x2="4003" y2="791"
+<line x1="1285" y1="1766" x2="1291" y2="1763"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3863" y="802">owl:inverseOf  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1251" y="1546">dct:modifier  R</tspan>
+<tspan x="1251" y="1561">dct:creator  R</tspan>
 </text>
 </g>
-<g id="2002678395"><path d="M2581,920 L2458,920 "
+<g id="2002785932"><path d="M1048,1258 L429,1258 425,1256 423,1252 423,626 425,622 429,620 601,620 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2461" y1="919" x2="2458" y2="920"
+<line x1="595" y1="618" x2="601" y2="620"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2461" y1="922" x2="2458" y2="920"
+<line x1="595" y1="623" x2="601" y2="620"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2460" y="928">gecore:</tspan>
-<tspan x="2460" y="937">accidentsClimatiquesDefavorises  </tspan>
-<tspan x="2460" y="946">DR</tspan>
-<tspan x="2460" y="955">gecore:</tspan>
-<tspan x="2460" y="964">accidentsClimatiquesFavorises  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="891" y="1271">gecor:estRenseignePar  DR</tspan>
 </text>
 </g>
-<g id="2002678400"><path d="M2581,533 L2488,533 2485,532 2484,529 2484,529 2485,527 2488,526 2626,526 2626,529 "
+<g id="2002785937"><path d="M728,1169 L1048,1169 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2624" y1="526" x2="2626" y2="529"
+<line x1="1042" y1="1166" x2="1048" y2="1169"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2628" y1="526" x2="2626" y2="529"
+<line x1="1042" y1="1172" x2="1048" y2="1169"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2489" y="540">gecoacc:accLiees  DR</tspan>
-<tspan x="2489" y="549">gecor:estComplementaire  </tspan>
-<tspan x="2489" y="558">gecor:estIncompatible  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="732" y="1167">gecor:estAssurePar  DR</tspan>
 </text>
 </g>
-<g id="2002678405"><path d="M2761,691 L3926,691 3928,689 3929,687 3929,540 "
+<g id="2002785942"><path d="M362,461 L362,168 364,164 368,162 623,162 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3928" y1="544" x2="3929" y2="540"
+<line x1="618" y1="159" x2="623" y2="162"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="3931" y1="544" x2="3929" y2="540"
+<line x1="618" y1="165" x2="623" y2="162"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2764" y="680">gecore:organismesDefavorises  DR</tspan>
-<tspan x="2764" y="689">gecore:organismesFavorises  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="208" y="458">gecocen:autresCriteres  DR</tspan>
 </text>
 </g>
-<g id="2002678410"><path d="M1562,827 L642,827 "
+<g id="2002785947"><path d="M2726,693 L2726,581 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="646" y1="825" x2="642" y2="827"
+<line x1="2723" y1="587" x2="2726" y2="581"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="646" y1="829" x2="642" y2="827"
+<line x1="2729" y1="587" x2="2726" y2="581"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1472" y="834">gecoce:autresCriteres  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2592" y="689">gecor:estRegulePar  DR</tspan>
 </text>
 </g>
-<g id="2002678415"><path d="M3290,544 L4144,544 4147,542 4148,540 4148,491 "
+<g id="2002785952"><path d="M1651,617 L2121,617 2125,618 2127,622 2127,661 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="4146" y1="494" x2="4148" y2="491"
+<line x1="2124" y1="655" x2="2127" y2="661"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="4150" y1="494" x2="4148" y2="491"
+<line x1="2130" y1="655" x2="2127" y2="661"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3293" y="542">gecor:concerne  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1655" y="600">gecore:organismesDefavorises  DR</tspan>
+<tspan x="1655" y="615">gecore:organismesFavorises  DR</tspan>
 </text>
 </g>
-<g id="2002678420"><path d="M2581,647 L1470,647 1468,646 1466,644 1466,621 "
+<g id="2002785957"><path d="M892,244 L892,187 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1465" y1="625" x2="1466" y2="621"
+<line x1="889" y1="193" x2="892" y2="187"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1468" y1="625" x2="1466" y2="621"
+<line x1="895" y1="193" x2="892" y2="187"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2481" y="655">gecor:aPourModeDAction  DR</tspan>
-<tspan x="2481" y="664">gecore:modesActions  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="746" y="240">gecoce:autresCriteres  DR</tspan>
 </text>
 </g>
-<g id="2002678425"><path d="M4088,464 L3766,464 "
+<g id="2002785962"><path d="M1337,503 L1133,503 1129,501 1127,497 1127,285 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3770" y1="463" x2="3766" y2="464"
+<line x1="1124" y1="290" x2="1127" y2="285"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="3770" y1="466" x2="3766" y2="464"
+<line x1="1130" y1="290" x2="1127" y2="285"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="4041" y="472">gecor:regule  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1148" y="516">gecore:criteresAgronomiques  DR</tspan>
 </text>
 </g>
-<g id="2002678430"><path d="M4088,414 L1777,414 1775,415 1774,418 1774,590 "
+<g id="2002785967"><path d="M1337,924 L982,924 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1772" y1="587" x2="1774" y2="590"
+<line x1="988" y1="921" x2="982" y2="924"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1775" y1="587" x2="1774" y2="590"
+<line x1="988" y1="927" x2="982" y2="924"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="4025" y="422">gecor:sAppliqueA  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1172" y="937">gecore:modesActions  DR</tspan>
+<tspan x="1172" y="952">gecor:aPourModeDAction  DR</tspan>
 </text>
 </g>
-<g id="2002678435"><path d="M2581,563 L2484,563 2482,562 2480,560 2480,202 "
+<g id="2002785972"><path d="M2270,1102 L2705,1102 2709,1100 2711,1096 2711,769 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2479" y1="206" x2="2480" y2="202"
+<line x1="2708" y1="775" x2="2711" y2="769"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2482" y1="206" x2="2480" y2="202"
+<line x1="2714" y1="775" x2="2711" y2="769"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2508" y="571">gecore:evaluations  D</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2274" y="1100">gecor:regule  </tspan>
 </text>
 </g>
-<g id="2002678440"><path d="M2581,669 L1133,669 1130,668 1129,665 1129,556 "
+<g id="2002785977"><path d="M1980,1476 L1980,1519 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1127" y1="559" x2="1129" y2="556"
+<line x1="1977" y1="1513" x2="1980" y2="1519"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1131" y1="559" x2="1129" y2="556"
+<line x1="1983" y1="1513" x2="1980" y2="1519"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2517" y="677">gecor:repondA  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1982" y="1491">gecor:sAppliqueA  </tspan>
 </text>
 </g>
-<g id="2002678445"><path d="M2581,685 L838,685 836,684 835,682 835,604 "
+<g id="2002785982"><path d="M1385,497 L1385,429 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="833" y1="608" x2="835" y2="604"
+<line x1="1382" y1="435" x2="1385" y2="429"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="836" y1="608" x2="835" y2="604"
+<line x1="1388" y1="435" x2="1385" y2="429"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2506" y="693">gecor:sAppuieSur  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1266" y="493">gecore:evaluations  D</tspan>
 </text>
 </g>
-<g id="2002678450"><path d="M2581,836 L1742,836 "
+<g id="2002785987"><path d="M1337,903 L707,903 703,905 701,909 701,1137 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1745" y1="835" x2="1742" y2="836"
+<line x1="699" y1="1131" x2="701" y2="1137"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1745" y1="838" x2="1742" y2="836"
+<line x1="704" y1="1131" x2="701" y2="1137"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2469" y="844">gecore:criteresEconomiques  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1230" y="916">gecor:repondA  DR</tspan>
 </text>
 </g>
-<g id="2002678460"><path d="M3110,500 L2988,500 2986,499 2984,497 2984,151 "
+<g id="2002785992"><path d="M1337,620 L897,620 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2983" y1="154" x2="2984" y2="151"
+<line x1="903" y1="618" x2="897" y2="620"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2986" y1="154" x2="2984" y2="151"
+<line x1="903" y1="623" x2="897" y2="620"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2990" y="508">gecordd:referencesDocumentaires  </tspan>
-<tspan x="2990" y="517">DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1212" y="633">gecor:sAppuieSur  DR</tspan>
 </text>
 </g>
-<g id="2002678465"><path d="M1373,587 L1684,587 1684,590 "
+<g id="2002785997"><path d="M1337,524 L1048,524 1044,522 1042,518 1042,408 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1682" y1="587" x2="1684" y2="590"
+<line x1="1039" y1="414" x2="1042" y2="408"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1685" y1="587" x2="1684" y2="590"
+<line x1="1045" y1="414" x2="1042" y2="408"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1376" y="585">gecor:sAppliqueA  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1152" y="537">gecore:criteresEconomiques  DR</tspan>
 </text>
 </g>
-<g id="2002678470"><path d="M4088,385 L1148,385 1145,386 1144,389 1144,529 "
+<g id="2002786002"><path d="M2585,1325 L2383,1325 2379,1323 2377,1319 2377,782 2375,779 2371,777 2073,777 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1142" y1="525" x2="1144" y2="529"
+<line x1="2079" y1="774" x2="2073" y2="777"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1146" y1="525" x2="1144" y2="529"
+<line x1="2079" y1="780" x2="2073" y2="777"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="4027" y="393">gecor:contribueA  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2385" y="1338">gecordd:referencesDocumentaires  </tspan>
+<tspan x="2385" y="1353">DR</tspan>
 </text>
 </g>
-<g id="2002678475"><path d="M649,577 L734,577 736,576 737,574 737,481 739,478 741,477 3586,477 "
+<g id="2002786007"><path d="M1608,1457 L1608,1519 1610,1523 1614,1524 1915,1524 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3583" y1="475" x2="3586" y2="477"
+<line x1="1909" y1="1522" x2="1915" y2="1524"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="3583" y1="479" x2="3586" y2="477"
+<line x1="1909" y1="1527" x2="1915" y2="1524"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="652" y="576">gecor:estAttaquePar  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1610" y="1472">gecor:sAppliqueA  </tspan>
 </text>
 </g>
-<g id="2002678480"><path d="M370,827 L462,827 "
+<g id="2002786012"><path d="M1974,1097 L728,1097 724,1099 722,1103 722,1137 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="458" y1="825" x2="462" y2="827"
+<line x1="719" y1="1131" x2="722" y2="1137"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="458" y1="829" x2="462" y2="827"
+<line x1="725" y1="1131" x2="722" y2="1137"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="372" y="825">gecocs:autresCriteres  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1873" y="1110">gecor:contribueA  </tspan>
 </text>
 </g>
-<g id="2002678485"><path d="M2581,576 L2466,576 "
+<g id="2002786017"><path d="M2113,836 L2602,836 2606,834 2608,830 2608,769 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2470" y1="574" x2="2466" y2="576"
+<line x1="2605" y1="775" x2="2608" y2="769"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2470" y1="578" x2="2466" y2="576"
+<line x1="2611" y1="775" x2="2608" y2="769"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2469" y="584">gecor:aPourMethodeDeControle  </tspan>
-<tspan x="2469" y="593">DR</tspan>
-<tspan x="2469" y="602">gecore:</tspan>
-<tspan x="2469" y="611">methodeControleBioagresseurs  </tspan>
-<tspan x="2469" y="620">DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2117" y="834">gecor:estAttaquePar  DR</tspan>
 </text>
 </g>
-<g id="2002678490"><path d="M1923,292 L1058,292 1055,293 1054,296 1054,529 "
+<g id="2002786022"><path d="M656,287 L656,187 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1052" y1="525" x2="1054" y2="529"
+<line x1="653" y1="193" x2="656" y2="187"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1056" y1="525" x2="1054" y2="529"
+<line x1="659" y1="193" x2="656" y2="187"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1862" y="300">gecor:contribueA  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="510" y="283">gecocs:autresCriteres  DR</tspan>
 </text>
 </g>
-<g id="2002678495"><path d="M3290,562 L3391,562 3393,563 3394,566 3394,745 "
+<g id="2002786027"><path d="M2627,1478 L2627,1533 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3392" y1="741" x2="3394" y2="745"
+<line x1="2624" y1="1527" x2="2627" y2="1533"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="3396" y1="741" x2="3394" y2="745"
+<line x1="2630" y1="1527" x2="2627" y2="1533"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3293" y="561">gecordd:leviersMobilises  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2629" y="1493">gecordd:leviersMobilises  DR</tspan>
 </text>
 </g>
-<g id="2002678500"><path d="M2581,626 L1916,626 1913,625 1912,622 1912,594 "
+<g id="2002786032"><path d="M2511,769 L2511,809 2510,813 2506,815 2113,815 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1910" y1="598" x2="1912" y2="594"
+<line x1="2119" y1="812" x2="2113" y2="815"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1914" y1="598" x2="1912" y2="594"
+<line x1="2119" y1="818" x2="2113" y2="815"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2509" y="633">gecor:utilisePour  DR</tspan>
-<tspan x="2509" y="642">gecore:materiels  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2513" y="784">gecor:sAttaque  </tspan>
 </text>
 </g>
-<g id="2002678505"><path d="M1373,574 L1438,574 1440,573 1441,571 1441,414 1442,412 1445,410 4088,410 "
+<g id="2002786037"><path d="M1644,411 L1644,342 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="4084" y1="409" x2="4088" y2="410"
+<line x1="1641" y1="348" x2="1644" y2="342"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="4084" y1="412" x2="4088" y2="410"
+<line x1="1647" y1="348" x2="1644" y2="342"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1376" y="564">gecor:evoque  </tspan>
-<tspan x="1376" y="573">gecor:sAppliqueA  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1514" y="407">gecoacl:organisme  DR</tspan>
 </text>
 </g>
-<g id="2002678510"><path d="M2581,899 L1742,899 "
+<g id="2002786042"><path d="M1889,1752 L1889,1693 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1745" y1="897" x2="1742" y2="899"
+<line x1="1886" y1="1699" x2="1889" y2="1693"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1745" y1="901" x2="1742" y2="899"
+<line x1="1892" y1="1699" x2="1889" y2="1693"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2465" y="906">gecore:criteresEnvironnementaux  </tspan>
-<tspan x="2465" y="915">DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1760" y="1748">sioc:has_container  DR</tspan>
 </text>
 </g>
-<g id="2002678515"><path d="M2581,795 L280,795 280,799 "
+<g id="2002786047"><path d="M1337,544 L646,544 642,542 640,538 640,447 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="278" y1="795" x2="280" y2="799"
+<line x1="637" y1="453" x2="640" y2="447"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="281" y1="795" x2="280" y2="799"
+<line x1="643" y1="453" x2="640" y2="447"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2490" y="803">gecore:criteresSociaux  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1186" y="557">gecore:criteresSociaux  DR</tspan>
 </text>
 </g>
-<g id="2002678520"><path d="M186,748 L1066,748 1068,747 1069,745 1069,556 "
+<g id="2002786052"><path d="M1651,545 L1905,545 1909,543 1911,539 1911,475 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1067" y1="559" x2="1069" y2="556"
+<line x1="1908" y1="481" x2="1911" y2="475"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1071" y1="559" x2="1069" y2="556"
+<line x1="1914" y1="481" x2="1911" y2="475"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="189" y="747">gecoobj:objectifs  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1655" y="529">gecore:accidentsClimatiquesDefavorises  DR</tspan>
+<tspan x="1655" y="544">gecore:accidentsClimatiquesFavorises  DR</tspan>
 </text>
 </g>
-<g id="2002678525"><path d="M2581,752 L186,752 "
+<g id="2002786057"><path d="M2234,553 L2403,553 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="190" y1="750" x2="186" y2="752"
+<line x1="2397" y1="550" x2="2403" y2="553"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="190" y1="754" x2="186" y2="752"
+<line x1="2397" y1="556" x2="2403" y2="553"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2513" y="759">gecore:objectifs  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2238" y="551">gecoaux:organisme  DR</tspan>
 </text>
 </g>
-<g id="2002678530"><path d="M2014,950 L2091,950 2093,949 2095,946 2095,325 "
+<g id="2002786062"><path d="M1349,1344 L1974,1344 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2093" y1="328" x2="2095" y2="325"
+<line x1="1968" y1="1341" x2="1974" y2="1344"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2096" y1="328" x2="2095" y2="325"
+<line x1="1968" y1="1347" x2="1974" y2="1344"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2017" y="939">dct:subject  DR</tspan>
-<tspan x="2017" y="948">sioc:topic  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1353" y="1208">gecor:estEvoqueDans  </tspan>
+<tspan x="1353" y="1223">gecor:defavorise  </tspan>
+<tspan x="1353" y="1238">gecor:estAppliqueA  </tspan>
+<tspan x="1353" y="1253">gecor:estDefavorisePar  </tspan>
+<tspan x="1353" y="1268">gecor:estMobiliseDans  </tspan>
+<tspan x="1353" y="1283">gecor:contribueA  </tspan>
+<tspan x="1353" y="1298">gecor:favorise  </tspan>
+<tspan x="1353" y="1313">gecor:estFavorisePar  </tspan>
+<tspan x="1353" y="1328">gecor:utiliseDans  </tspan>
+<tspan x="1353" y="1343">gecor:impacte  </tspan>
 </text>
 </g>
-<g id="2002678535"><path d="M2761,640 L2927,640 "
+<g id="2002786067"><path d="M1337,959 L877,959 873,961 871,965 871,1311 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2923" y1="638" x2="2927" y2="640"
+<line x1="868" y1="1305" x2="871" y2="1311"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2923" y1="642" x2="2927" y2="640"
+<line x1="874" y1="1305" x2="871" y2="1311"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2764" y="612">gecor:</tspan>
-<tspan x="2764" y="621">aPourStrategieVisAVisDeLUtilisationDePesticide </tspan>
-<tspan x="2764" y="630"> DR</tspan>
-<tspan x="2764" y="639">gecore:strategiePesticides  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1062" y="972">gecore:strategiePesticides  DR</tspan>
+<tspan x="1062" y="987">gecor:</tspan>
+<tspan x="1062" y="1002">aPourStrategieVisAVisDeLUtilisationDePesticide  </tspan>
+<tspan x="1062" y="1017">DR</tspan>
 </text>
 </g>
-<g id="2002678540"><path d="M1986,29 L2062,29 "
+<g id="2002786072"><path d="M1560,1408 L1349,1408 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2058" y1="27" x2="2062" y2="29"
+<line x1="1355" y1="1405" x2="1349" y2="1408"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2058" y1="31" x2="2062" y2="29"
+<line x1="1355" y1="1411" x2="1349" y2="1408"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1989" y="27">sioc:container_of  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1477" y="1421">gecor:evoque  </tspan>
 </text>
 </g>
-<g id="2002678545"><path d="M4088,427 L2720,427 2717,428 2716,430 2716,529 "
+<g id="2002786077"><path d="M1879,1652 L1588,1652 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2714" y1="526" x2="2716" y2="529"
+<line x1="1594" y1="1649" x2="1588" y2="1652"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2718" y1="526" x2="2716" y2="529"
+<line x1="1594" y1="1655" x2="1588" y2="1652"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3996" y="434">gecor:estComplementaire  </tspan>
-<tspan x="3996" y="443">gecor:aideAAppliquer  </tspan>
-<tspan x="3996" y="452">gecor:estIncompatible  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1797" y="1665">dct:modifier  R</tspan>
+<tspan x="1797" y="1680">dct:creator  R</tspan>
 </text>
 </g>
-<g id="2002678550"><path d="M1373,553 L1424,553 1427,551 1428,549 1428,321 1429,319 1432,317 1923,317 "
+<g id="2002786082"><path d="M897,646 L1337,646 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1919" y1="316" x2="1923" y2="317"
+<line x1="1331" y1="643" x2="1337" y2="646"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1919" y1="319" x2="1923" y2="317"
+<line x1="1331" y1="649" x2="1337" y2="646"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1376" y="551">gecor:evoque  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="901" y="644">gecor:aideAAppliquer  </tspan>
 </text>
 </g>
-<g id="2002678555"><path d="M3586,464 L581,464 578,466 577,468 577,567 "
+<g id="2002786087"><path d="M645,877 L645,1137 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="575" y1="563" x2="577" y2="567"
+<line x1="642" y1="1131" x2="645" y2="1137"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="579" y1="563" x2="577" y2="567"
+<line x1="648" y1="1131" x2="645" y2="1137"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3531" y="472">gecor:sAttaque  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="647" y="892">gecoobj:objectifs  DR</tspan>
 </text>
 </g>
-<g id="2002678560"><path d="M4088,360 L545,360 542,361 541,364 541,567 "
+<g id="2002786092"><path d="M2584,581 L2584,693 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="539" y1="563" x2="541" y2="567"
+<line x1="2581" y1="687" x2="2584" y2="693"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="543" y1="563" x2="541" y2="567"
+<line x1="2587" y1="687" x2="2584" y2="693"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="4031" y="368">gecor:sAttaque  </tspan>
-<tspan x="4031" y="377">gecor:concerne  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2586" y="596">gecor:regule  </tspan>
 </text>
 </g>
-<g id="2002678565"><path d="M925,601 L1002,601 1004,602 1006,604 1006,678 1007,680 1009,682 2581,682 "
+<g id="2002786097"><path d="M2074,949 L2074,894 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2578" y1="680" x2="2581" y2="682"
+<line x1="2071" y1="900" x2="2074" y2="894"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2578" y1="683" x2="2581" y2="682"
+<line x1="2077" y1="900" x2="2074" y2="894"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="927" y="599">gecor:aideAAppliquer  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1982" y="931">gecor:sAttaque  </tspan>
+<tspan x="1982" y="946">gecor:concerne  </tspan>
 </text>
 </g>
-<g id="2002678570"><path d="M3913,807 L3857,807 3855,806 3854,803 3854,784 "
+<g id="2002786102"><path d="M2749,1232 L2749,1182 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3852" y1="787" x2="3854" y2="784"
+<line x1="2746" y1="1188" x2="2749" y2="1182"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="3856" y1="787" x2="3854" y2="784"
+<line x1="2752" y1="1188" x2="2749" y2="1182"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3867" y="815">rdfs:range  </tspan>
-<tspan x="3867" y="824">rdfs:domain  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2676" y="1213">rdfs:domain  </tspan>
+<tspan x="2676" y="1228">rdfs:range  </tspan>
 </text>
 </g>
-<g id="2002678575"><path d="M4088,481 L4027,481 4024,482 4023,484 4023,745 "
+<g id="2002786107"><path d="M2585,1360 L2270,1360 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="4021" y1="741" x2="4023" y2="745"
+<line x1="2276" y1="1358" x2="2270" y2="1360"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="4025" y1="741" x2="4023" y2="745"
+<line x1="2276" y1="1363" x2="2270" y2="1360"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="4028" y="488">rdfs:subClassOf  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2491" y="1373">gecor:concerne  </tspan>
 </text>
 </g>
-<g id="2002678580"><path d="M2278,931 L2195,931 2193,930 2192,928 2192,598 "
+<g id="2002786112"><path d="M1337,565 L492,565 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2190" y1="602" x2="2192" y2="598"
+<line x1="498" y1="562" x2="492" y2="565"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2194" y1="602" x2="2192" y2="598"
+<line x1="498" y1="568" x2="492" y2="565"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2198" y="939">gecoacl:organisme  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1145" y="578">gecore:criteresEnvironnementaux  </tspan>
+<tspan x="1145" y="593">DR</tspan>
 </text>
 </g>
-<g id="2002678585"><path d="M2581,719 L371,719 "
+<g id="2002786117"><path d="M1974,983 L1651,983 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="374" y1="718" x2="371" y2="719"
+<line x1="1657" y1="980" x2="1651" y2="983"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="374" y1="721" x2="371" y2="719"
+<line x1="1657" y1="986" x2="1651" y2="983"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2467" y="727">gecore:criteresAgronomiques  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1822" y="996">gecor:estComplementaire  </tspan>
+<tspan x="1822" y="1011">gecor:aideAAppliquer  </tspan>
+<tspan x="1822" y="1026">gecor:estIncompatible  </tspan>
 </text>
 </g>
-<g id="2002678590"><path d="M3474,514 L3586,514 "
+<g id="2002786122"><path d="M1337,728 L1107,728 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3583" y1="512" x2="3586" y2="514"
+<line x1="1112" y1="725" x2="1107" y2="728"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="3583" y1="515" x2="3586" y2="514"
+<line x1="1112" y1="731" x2="1107" y2="728"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3477" y="512">gecor:regule  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1151" y="741">gecore:</tspan>
+<tspan x="1151" y="756">methodeControleBioagresseurs  </tspan>
+<tspan x="1151" y="771">DR</tspan>
+<tspan x="1151" y="786">gecor:aPourMethodeDeControle  </tspan>
+<tspan x="1151" y="801">DR</tspan>
 </text>
 </g>
-<g id="2002678595"><path d="M925,588 L1002,588 1004,587 1006,584 1006,385 1007,383 1009,382 4088,382 "
+<g id="2002786127"><path d="M601,668 L466,668 462,670 460,674 460,1902 462,1906 466,1908 2221,1908 2225,1906 2227,1902 2227,1476 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="4084" y1="380" x2="4088" y2="382"
+<line x1="2224" y1="1482" x2="2227" y2="1476"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="4084" y1="383" x2="4088" y2="382"
+<line x1="2230" y1="1482" x2="2227" y2="1476"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="927" y="578">gecor:informeSur  </tspan>
-<tspan x="927" y="587">gecor:aideAAppliquer  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="475" y="681">gecor:informeSur  </tspan>
+<tspan x="475" y="696">gecor:aideAAppliquer  </tspan>
 </text>
 </g>
-<g id="2002678600"><path d="M2761,741 L4204,741 4207,740 4208,737 4208,491 "
+<g id="2002786132"><path d="M1879,1602 L1343,1602 1339,1600 1337,1596 1337,1531 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="4206" y1="494" x2="4208" y2="491"
+<line x1="1334" y1="1537" x2="1337" y2="1531"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="4210" y1="494" x2="4208" y2="491"
+<line x1="1340" y1="1537" x2="1337" y2="1531"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2764" y="731">gecor:estComplementaire  </tspan>
-<tspan x="2764" y="740">gecor:estIncompatible  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1793" y="1615">dct:subject  DR</tspan>
+<tspan x="1793" y="1630">sioc:topic  DR</tspan>
 </text>
 </g>
-<g id="2002678605"><path d="M1752,1015 L2066,1015 "
+<g id="2002786137"><path d="M1774,1768 L1588,1768 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2063" y1="1013" x2="2066" y2="1015"
+<line x1="1594" y1="1765" x2="1588" y2="1768"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="2063" y1="1016" x2="2066" y2="1015"
+<line x1="1594" y1="1770" x2="1588" y2="1768"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1755" y="1004">dct:modifier  R</tspan>
-<tspan x="1755" y="1013">dct:creator  R</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1692" y="1781">dct:modifier  R</tspan>
+<tspan x="1692" y="1796">dct:creator  R</tspan>
 </text>
 </g>
-<g id="2002678610"><path d="M3474,491 L3523,491 3525,490 3526,487 3526,461 3527,458 3530,457 4088,457 "
+<g id="2002786142"><path d="M2270,1137 L2396,1137 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="4084" y1="455" x2="4088" y2="457"
+<line x1="2390" y1="1134" x2="2396" y2="1137"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="4084" y1="459" x2="4088" y2="457"
+<line x1="2390" y1="1140" x2="2396" y2="1137"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3477" y="489">gecor:regule  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2274" y="1135">rdfs:subClassOf  </tspan>
 </text>
 </g>
-<g id="2002678615"><path d="M2581,698 L563,698 560,697 559,694 559,594 "
+<g id="2002786147"><path d="M1651,844 L1817,844 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="557" y1="598" x2="559" y2="594"
+<line x1="1811" y1="841" x2="1817" y2="844"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="561" y1="598" x2="559" y2="594"
+<line x1="1811" y1="847" x2="1817" y2="844"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2501" y="705">gecore:productions  DR</tspan>
-<tspan x="2501" y="714">gecore:cultures  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1655" y="827">gecore:productions  DR</tspan>
+<tspan x="1655" y="842">gecore:cultures  DR</tspan>
 </text>
 </g>
-<g id="2002678620"><path d="M1752,993 L1834,993 "
+<g id="2002786152"><path d="M1048,1207 L728,1207 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="1831" y1="991" x2="1834" y2="993"
+<line x1="734" y1="1204" x2="728" y2="1207"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="1831" y1="995" x2="1834" y2="993"
+<line x1="734" y1="1210" x2="728" y2="1207"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1755" y="992">sioc:has_container  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="948" y="1220">gecor:contribueA  </tspan>
 </text>
 </g>
-<g id="2002678625"><path d="M3110,522 L2488,522 2485,521 2484,518 2484,487 2483,485 2480,484 617,484 614,485 613,487 613,567 "
+<g id="2002786157"><path d="M1349,1449 L1560,1449 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="611" y1="563" x2="613" y2="567"
+<line x1="1554" y1="1446" x2="1560" y2="1449"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="615" y1="563" x2="613" y2="567"
+<line x1="1554" y1="1452" x2="1560" y2="1449"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3054" y="530">gecor:concerne  </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1353" y="1448">gecor:estEvoqueDans  </tspan>
 </text>
 </g>
-<g id="2002678630"><path d="M1562,928 L556,928 553,926 552,924 552,856 "
+<g id="2002786162"><path d="M2113,857 L2804,857 2808,855 2810,851 2810,339 2808,335 2804,333 1821,333 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="550" y1="859" x2="552" y2="856"
+<line x1="1827" y1="330" x2="1821" y2="333"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="554" y1="859" x2="552" y2="856"
+<line x1="1827" y1="336" x2="1821" y2="333"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1468" y="935">gecocen:autresCriteres  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2117" y="855">gecor:estImpactePar  DR</tspan>
 </text>
 </g>
-<g id="2002678635"><path d="M3586,494 L3474,494 "
+<g id="2002786167"><path d="M1840,1445 L1974,1445 "
 style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="3478" y1="493" x2="3474" y2="494"
+<line x1="1968" y1="1442" x2="1974" y2="1445"
  style="stroke-width:1;stroke:Black;"/>
-<line x1="3478" y1="496" x2="3474" y2="494"
+<line x1="1968" y1="1448" x2="1974" y2="1445"
  style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3504" y="502">gecor:estRegulePar  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1844" y="1429">gecor:evoque  </tspan>
+<tspan x="1844" y="1444">gecor:sAppliqueA  </tspan>
 </text>
 </g>
-<g id="2002678640"><path d="M2169,325 L2169,345 2170,347 2173,349 3350,349 3353,350 3354,352 3354,481 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="2172,331 2169,325 2166,331 "
+<g id="2002786172"><path d="M1190,1531 L1190,1868 1192,1872 1195,1874 3004,1874 3007,1872 3009,1868 3009,581 3007,577 3004,575 2732,575 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1194,1541 1190,1531 1185,1541 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2171" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1192" y="1546"> </tspan>
 </text>
 </g>
-<g id="2002678642"><path d="M2181,325 L2181,341 2182,344 2185,345 3673,345 3675,346 3676,349 3676,461 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="2184,331 2181,325 2178,331 "
+<g id="2002786174"><path d="M1209,1531 L1209,1862 1211,1866 1215,1868 2989,1868 2993,1866 2995,1862 2995,727 2993,723 2989,721 2802,721 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1214,1541 1209,1531 1204,1541 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2183" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1211" y="1546"> </tspan>
 </text>
 </g>
-<g id="2002678644"><path d="M2157,325 L2157,349 2158,351 2161,352 3227,352 3229,353 3230,356 3230,484 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="2160,331 2157,325 2154,331 "
+<g id="2002786176"><path d="M1229,1531 L1229,1856 1231,1860 1235,1862 2585,1862 2589,1860 2591,1856 2591,1478 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1234,1541 1229,1531 1224,1541 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2159" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1231" y="1546"> </tspan>
 </text>
 </g>
-<g id="2002678646"><path d="M2145,325 L2145,484 2146,486 2149,487 2977,487 2980,488 2981,491 2981,603 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="2148,331 2145,325 2142,331 "
+<g id="2002786178"><path d="M1048,1354 L877,1354 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1038,1359 1048,1354 1038,1349 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2147" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1034" y="1367"> </tspan>
 </text>
 </g>
-<g id="2002678648"><path d="M2133,325 L2133,487 2134,490 2137,491 2668,491 2670,492 2671,494 2671,529 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="2136,331 2133,325 2130,331 "
+<g id="2002786180"><path d="M1343,1126 L1343,1074 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1348,1116 1343,1126 1338,1116 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2135" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1331" y="1123"> </tspan>
 </text>
 </g>
-<g id="2002678650"><path d="M2121,325 L2121,491 2122,493 2125,494 2372,494 2374,496 2375,498 2375,572 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="2124,331 2121,325 2118,331 "
+<g id="2002786182"><path d="M1054,1126 L1054,762 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1059,1116 1054,1126 1049,1116 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2123" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1042" y="1123"> </tspan>
 </text>
 </g>
-<g id="2002678652"><path d="M2109,325 L2109,571 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="2112,331 2109,325 2106,331 "
+<g id="2002786184"><path d="M1170,1531 L1170,1889 1172,1893 1176,1895 3021,1895 3025,1893 3027,1889 3027,311 3025,307 3021,305 1821,305 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1175,1541 1170,1531 1165,1541 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2111" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1172" y="1546"> </tspan>
 </text>
 </g>
-<g id="2002678654"><path d="M1999,325 L1999,567 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="2002,331 1999,325 1996,331 "
+<g id="2002786186"><path d="M1048,1429 L906,1429 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1038,1434 1048,1429 1038,1424 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="2000" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1034" y="1442"> </tspan>
 </text>
 </g>
-<g id="2002678656"><path d="M1987,325 L1987,353 1985,355 1983,356 1732,356 1730,358 1729,360 1729,590 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="1990,331 1987,325 1984,331 "
+<g id="2002786188"><path d="M1343,1531 L1343,1561 1345,1565 1349,1567 1915,1567 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1348,1541 1343,1531 1338,1541 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1988" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1345" y="1546"> </tspan>
 </text>
 </g>
-<g id="2002678658"><path d="M1975,325 L1975,349 1973,352 1971,353 1470,353 1468,354 1466,356 1466,594 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="1978,331 1975,325 1972,331 "
+<g id="2002786190"><path d="M1048,1148 L871,1148 867,1146 865,1142 865,953 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1038,1153 1048,1148 1038,1143 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1976" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1034" y="1161"> </tspan>
 </text>
 </g>
-<g id="2002678660"><path d="M1963,325 L1963,346 1961,348 1959,349 1312,349 1310,350 1309,353 1309,542 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="1966,331 1963,325 1960,331 "
+<g id="2002786192"><path d="M1048,1187 L728,1187 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1038,1192 1048,1187 1038,1182 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1964" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1034" y="1200"> </tspan>
 </text>
 </g>
-<g id="2002678662"><path d="M1951,325 L1951,342 1949,344 1947,346 1103,346 1100,347 1099,349 1099,529 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="1954,331 1951,325 1948,331 "
+<g id="2002786194"><path d="M1349,1429 L1560,1429 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1359,1434 1349,1429 1359,1424 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1952" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1353" y="1427"> </tspan>
 </text>
 </g>
-<g id="2002678664"><path d="M1939,325 L1939,338 1937,341 1935,342 868,342 866,343 865,346 865,556 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="1942,331 1939,325 1936,331 "
+<g id="2002786196"><path d="M1048,1398 L409,1398 405,1396 403,1392 403,615 405,611 409,609 607,609 607,615 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1038,1403 1048,1398 1038,1393 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1940" y="333"> </tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1034" y="1411"> </tspan>
 </text>
 </g>
-<g id="2002678666"><path d="M1927,325 L1927,335 1925,337 1923,338 509,338 506,340 505,342 505,567 "
-style="fill:none;stroke-width:1;stroke:Fuchsia;"/>
-<polygon points="1930,331 1927,325 1924,331 "
+<g id="2002786198"><path d="M1349,1151 L1805,1151 1809,1149 1811,1145 1811,888 1817,888 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1359,1156 1349,1151 1359,1146 "
 style="fill:Silver;stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1928" y="333"> </tspan>
-</text>
-</g>
-<g id="2002678455"><path d="M4088,13 L3974,13 3971,12 3970,10 3970,10 3971,7 3974,6 4178,6 4178,10 "
-style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="4176" y1="6" x2="4178" y2="10"
- style="stroke-width:1;stroke:Black;"/>
-<line x1="4180" y1="6" x2="4178" y2="10"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="3996" y="21">gecor:estMobiliseDans  </tspan>
-<tspan x="3996" y="30">gecor:evoque  </tspan>
-<tspan x="3996" y="39">gecor:estEvoqueDans  </tspan>
-<tspan x="3996" y="48">gecor:defavorise  </tspan>
-<tspan x="3996" y="57">gecor:estAppliqueA  </tspan>
-<tspan x="3996" y="66">gecor:estDefavorisePar  </tspan>
-<tspan x="3996" y="75">gecor:sAppliqueA  </tspan>
-<tspan x="3996" y="84">gecor:contribueA  </tspan>
-<tspan x="3996" y="93">gecor:favorise  </tspan>
-<tspan x="3996" y="102">gecor:sAttaque  </tspan>
-<tspan x="3996" y="111">gecor:estComplementaire  </tspan>
-<tspan x="3996" y="120">gecor:estFavorisePar  </tspan>
-<tspan x="3996" y="129">gecor:concerne  </tspan>
-<tspan x="3996" y="138">gecor:informeSur  </tspan>
-<tspan x="3996" y="147">gecor:regule  </tspan>
-<tspan x="3996" y="156">gecor:utiliseDans  </tspan>
-<tspan x="3996" y="165">gecor:impacte  </tspan>
-<tspan x="3996" y="174">gecor:aideAAppliquer  </tspan>
-<tspan x="3996" y="183">gecor:estIncompatible  </tspan>
-<tspan x="3996" y="192">gecor:limiteLImpact  DR</tspan>
-<tspan x="3996" y="201">gecor:utilise  DR</tspan>
-</text>
-</g>
-<g id="2002678390"><path d="M1923,173 L1727,173 1725,172 1724,170 1724,170 1725,167 1727,166 2054,166 2054,170 "
-style="fill:none;stroke-width:1;stroke:Black;"/>
-<line x1="2052" y1="166" x2="2054" y2="170"
- style="stroke-width:1;stroke:Black;"/>
-<line x1="2056" y1="166" x2="2054" y2="170"
- style="stroke-width:1;stroke:Black;"/>
-<text style="font-family:Arial;font-size:7px;kerning:0;word-spacing:-1px;fill:Black;">
-<tspan x="1837" y="181">gecor:estMobiliseDans  </tspan>
-<tspan x="1837" y="190">gecor:defavorise  </tspan>
-<tspan x="1837" y="199">gecor:aPourParent  DR</tspan>
-<tspan x="1837" y="208">gecor:estAppliqueA  </tspan>
-<tspan x="1837" y="217">gecor:estDefavorisePar  </tspan>
-<tspan x="1837" y="226">gecor:aPourFils  DR</tspan>
-<tspan x="1837" y="235">gecor:favorise  </tspan>
-<tspan x="1837" y="244">gecor:estFavorisePar  </tspan>
-<tspan x="1837" y="253">gecor:utiliseDans  </tspan>
-<tspan x="1837" y="262">gecor:impacte  </tspan>
-<tspan x="1837" y="271">gecor:estUtiliseDans  DR</tspan>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1353" y="1149"> </tspan>
 </text>
 </g>
 </svg>
