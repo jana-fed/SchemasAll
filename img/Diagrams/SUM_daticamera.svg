@@ -1,0 +1,2864 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+ width="5024" height="3660" viewBox="0 0 5024 3660">
+ onmousemove="movetip(evt)" onmouseup="endmove()">
+<rect x="0" y="0" width="100%" height="100%" style="fill:White;"/>
+<script type="application/ecmascript"> <![CDATA[
+var dragtipid = null; var dragcase = false; function init(evt){
+if (window.svgDocument==null) svgDocument = evt.target.ownerDocument;
+}
+function movetip(evt){if (dragtipid!=null){ dragcase = true;
+var tip=svgDocument.getElementById(dragtipid);
+tip.setAttributeNS(null,"x",evt.clientX-2);
+tip.setAttributeNS(null,"y",evt.clientY-2);
+}}
+function endmove(){dragtipid = null;}
+function startmove(evt,id){dragtipid = id; dragcase = false;
+var tip=svgDocument.getElementById(dragtipid);
+tip.setAttributeNS(null,"x",evt.clientX-2);
+tip.setAttributeNS(null,"y",evt.clientY-2);
+}
+function Showtip(evt,id){ dragtipid = null;
+var tip=svgDocument.getElementById(id);
+var vis=tip.getAttributeNS(null,"visibility");
+if (vis=="hidden"){
+tip.setAttributeNS(null,"x",evt.clientX-2);
+tip.setAttributeNS(null,"y",evt.clientY-2);
+tip.setAttributeNS(null,"visibility","visible");
+}}
+function Hidetip(id){ dragtipid = null; if (dragcase==false){
+var tip=svgDocument.getElementById(id);
+tip.setAttributeNS(null,"visibility","hidden");
+}}
+]]></script>
+<defs><linearGradient id="activ1" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" style="stop-color:#FFFF00;stop-opacity:1"/>
+<stop offset="100%" style="stop-color:#FFFFF0;stop-opacity:1"/>
+</linearGradient></defs>
+<g id="2002796887"><polygon points="468,982 778,982 778,1220 468,1220 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="465,985 775,985 775,1223 465,1223 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="507" y="1000">owl:ObjectProperty et al. G113 (~330)</tspan>
+</text>
+<line x1="469" y1="1004" x2="773" y2="1004"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="469" y="1016">dc:description (4) [*] </tspan>
+<tspan x="469" y="1032">owl:equivalentProperty (11) [1]  -&gt; IRI</tspan>
+<tspan x="469" y="1048">owl:versionInfo (170) [*] </tspan>
+<tspan x="469" y="1064">rdf:type (652) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="469" y="1080">rdfs:comment (348) [*] </tspan>
+<tspan x="469" y="1096">rdfs:label (496) [*] </tspan>
+<tspan x="469" y="1112">vs:term_status (62) [1] </tspan>
+<tspan x="469" y="1128">&lt;&gt; owl:inverseOf  DR</tspan>
+<tspan x="469" y="1144">&lt;&gt; rdfs:subPropertyOf  </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="469" y="1156">owl:DatatypeProperty (99)</tspan>
+<tspan x="469" y="1172">owl:FunctionalProperty (4)</tspan>
+<tspan x="469" y="1188">owl:InverseFunctionalProperty (12)</tspan>
+<tspan x="469" y="1204">owl:ObjectProperty (153)</tspan>
+<tspan x="469" y="1220">rdf:Property (62)</tspan>
+</text>
+</g>
+<g id="2002796601"><polygon points="1724,179 2511,179 2511,510 1724,510 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1721,182 2508,182 2508,513 1721,513 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1982" y="197">ocd:deputato or ocd:Deputato G102 (5.5e11)</tspan>
+</text>
+<line x1="1725" y1="201" x2="2506" y2="201"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1725" y="213">dc:description (5.7e4) [*] </tspan>
+<tspan x="1725" y="229">dc:title (5.5e4) [*] </tspan>
+<tspan x="1725" y="245">dct:isReferencedBy (2.6e4) [*]  -&gt; IRI</tspan>
+<tspan x="1725" y="261">foaf:depiction (3.9e4 65%d) [1]  -&gt; IRI</tspan>
+<tspan x="1725" y="277">foaf:firstName (2.6e4) [1] </tspan>
+<tspan x="1725" y="293">foaf:gender (2.6e4) [*] </tspan>
+<tspan x="1725" y="309">foaf:nickname (2.5e4) [*]  -&gt; IRI</tspan>
+<tspan x="1725" y="325">foaf:surname (2.6e4) [1] </tspan>
+<tspan x="1725" y="341">ocd:aderisce (3.0e4) [*] D -&gt; IRI</tspan>
+<tspan x="1725" y="357">ocd:membro (7.6e4) [*] D -&gt; IRI</tspan>
+<tspan x="1725" y="373">ocd:rif_leg (5.5e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="1725" y="389">ont-ods:modified (5.5e4) [*] </tspan>
+<tspan x="1725" y="405">rdf:type (1.1e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1725" y="421">rdfs:label (5.5e4) [*] </tspan>
+<tspan x="1725" y="437">&lt;- ocd:primo_firmatario (1.0e6)  &lt;-  ocd:DOC or ocd:legge,ocd:aic,ocd:atto</tspan>
+<tspan x="1725" y="453">&lt;- ocd:siComponeDi (5.5e4)  &lt;-  ocd:assemblea,ocd:componenteGruppoMisto..(4)</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1725" y="461">ocd:Deputato (2)</tspan>
+<tspan x="1725" y="477">ocd:deputato (5.5e4)</tspan>
+</text>
+</g>
+<g id="2002797030"><polygon points="2007,587 2317,587 2317,716 2007,716 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2091" y="602">ocd:discussione (5.0e5)</tspan>
+</text>
+<line x1="2011" y1="605" x2="2315" y2="605"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2011" y="617">dc:date (2.8e5) [*] </tspan>
+<tspan x="2011" y="633">dc:relation (2.8e5 74%d) [*]  -&gt; IRI</tspan>
+<tspan x="2011" y="649">dc:title (2.8e5) [*] </tspan>
+<tspan x="2011" y="665">dc:type (3.6e4) [*] </tspan>
+<tspan x="2011" y="681">ont-ods:modified (2.7e5) [*] </tspan>
+<tspan x="2011" y="697">rdf:type (7.6e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="2011" y="713">rdfs:label (2.8e5) [*] </tspan>
+</text>
+</g>
+<g id="2002797140"><polygon points="3233,942 3674,942 3674,1449 3233,1449 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3407" y="957">ocd:atto (2.7e5)</tspan>
+</text>
+<line x1="3237" y1="960" x2="3672" y2="960"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3237" y="972">dc:contributor (1.3e6) [*] </tspan>
+<tspan x="3237" y="988">dc:coverage (633) [*] </tspan>
+<tspan x="3237" y="1004">dc:creator (3.0e5) [*] </tspan>
+<tspan x="3237" y="1020">dc:date (2.4e5) [*] </tspan>
+<tspan x="3237" y="1036">dc:description (5.5e4) [*] </tspan>
+<tspan x="3237" y="1052">dc:identifier (2.7e5) [1] </tspan>
+<tspan x="3237" y="1068">dc:relation (2.2e5) [*]  -&gt; IRI</tspan>
+<tspan x="3237" y="1084">dc:title (2.7e5) [*] </tspan>
+<tspan x="3237" y="1100">dc:type (2.7e5) [*] </tspan>
+<tspan x="3237" y="1116">dct:isPartOf (5.2e4) [*] </tspan>
+<tspan x="3237" y="1132">dct:isReferencedBy (2.1e5) [*]  -&gt; IRI</tspan>
+<tspan x="3237" y="1148">dct:provenance (5.2e4) [*] </tspan>
+<tspan x="3237" y="1164">ocd:iniziativa (2.7e5) [1] D</tspan>
+<tspan x="3237" y="1180">ocd:lex (594) [*]  -&gt; IRI</tspan>
+<tspan x="3237" y="1196">ocd:primo_firmatario (3.0e5) [*]  -&gt;  foaf:Person,ocd:deputato or ocd:</tspan>
+<tspan x="3237" y="1212">Deputato,ocd:senatore</tspan>
+<tspan x="3237" y="1228">ocd:rif_leg (2.7e5) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="3237" y="1244">ont-ods:modified (3.6e5) [*] </tspan>
+<tspan x="3237" y="1260">rdf:type (6.2e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3237" y="1276">rdfs:label (2.7e5) [*] </tspan>
+<tspan x="3237" y="1292">w3-skos:changeNote (12) [*]  -&gt; IRI</tspan>
+<tspan x="3237" y="1308">&lt;&gt; ocd:rif_attoCameraAbbinato  D</tspan>
+<tspan x="3237" y="1324">&lt;&gt; ocd:rif_relazioneAttoCamera  D</tspan>
+<tspan x="3237" y="1340">&lt;&gt; ocd:stralciatoIn  DR</tspan>
+</text>
+</g>
+<g id="2002796645"><polygon points="3835,997 4116,997 4116,1080 3835,1080 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3934" y="1012">ocd:natura (6)</tspan>
+</text>
+<line x1="3839" y1="1015" x2="4114" y2="1015"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3839" y="1027">dc:title (6) [*] </tspan>
+<tspan x="3839" y="1043">ont-ods:modified (6) [*] </tspan>
+<tspan x="3839" y="1059">rdf:type (12) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3839" y="1075">rdfs:label (6) [*] </tspan>
+</text>
+</g>
+<g id="2002796722"><polygon points="794,1376 1104,1376 1104,1567 794,1567 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="894" y="1391">ocd:seduta (2.3e5)</tspan>
+</text>
+<line x1="798" y1="1394" x2="1102" y2="1394"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="798" y="1406">dc:coverage (2.4e4) [*] </tspan>
+<tspan x="798" y="1422">dc:date (2.3e5) [*] </tspan>
+<tspan x="798" y="1438">dc:identifier (1.9e4) [1] </tspan>
+<tspan x="798" y="1454">dc:relation (3.1e5 31%d) [*]  -&gt; IRI</tspan>
+<tspan x="798" y="1470">dc:title (2.3e5) [*] </tspan>
+<tspan x="798" y="1486">dct:bibliographicCitation (2.2e4) [*] </tspan>
+<tspan x="798" y="1502">dct:isReferencedBy (4.5e4) [*]  -&gt; IRI</tspan>
+<tspan x="798" y="1518">ocd:rif_leg (2.3e5) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="798" y="1534">ont-ods:modified (2.3e5) [*] </tspan>
+<tspan x="798" y="1550">rdf:type (4.7e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="798" y="1566">rdfs:label (2.3e5) [*] </tspan>
+</text>
+</g>
+<g id="2002796843"><polygon points="1533,586 1980,586 1980,901 1533,901 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1530,589 1977,589 1977,905 1530,905 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1630" y="604">ocd:mandatoCamera et al. G112 (~8.8e4)</tspan>
+</text>
+<line x1="1534" y1="608" x2="1975" y2="608"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1534" y="620">dc:date (8.9e4) [*] </tspan>
+<tspan x="1534" y="636">dc:title (8.9e4) [*] </tspan>
+<tspan x="1534" y="652">dct:isReferencedBy (4) [*]  -&gt; IRI</tspan>
+<tspan x="1534" y="668">ocd:carica (2.5e4) [1] D</tspan>
+<tspan x="1534" y="684">ocd:convalida (2.2e4) [*] D</tspan>
+<tspan x="1534" y="700">ocd:endDate (4.7e4) [1] </tspan>
+<tspan x="1534" y="716">ocd:motivoTermine (3.2e4) [1] </tspan>
+<tspan x="1534" y="732">ocd:rif_leg (8.9e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="1534" y="748">ocd:ruolo (6132) [1] </tspan>
+<tspan x="1534" y="764">ocd:startDate (5.4e4) [1] </tspan>
+<tspan x="1534" y="780">ocd:tipoProclamazione (2976) [1] D -&gt; IRI</tspan>
+<tspan x="1534" y="796">ont-ods:deleted (155) [*] </tspan>
+<tspan x="1534" y="812">ont-ods:modified (8.8e4) [*] </tspan>
+<tspan x="1534" y="828">rdf:type (1.8e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1534" y="844">rdfs:label (8.9e4) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1534" y="852">ocd:incarico (6132)</tspan>
+<tspan x="1534" y="868">ocd:mandatoCamera (5.7e4)</tspan>
+<tspan x="1534" y="884">ocd:presidenteCamera (155)</tspan>
+<tspan x="1534" y="900">ocd:ufficioParlamentare (2.5e4)</tspan>
+</text>
+</g>
+<g id="2002796986"><polygon points="978,738 1289,738 1289,1069 978,1069 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1070" y="753">ocd:votazione (2.3e5)</tspan>
+</text>
+<line x1="982" y1="757" x2="1287" y2="757"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="982" y="769">dc:date (2.3e5) [*] </tspan>
+<tspan x="982" y="785">dc:description (2.3e5) [*] </tspan>
+<tspan x="982" y="801">dc:identifier (2.3e5) [1] </tspan>
+<tspan x="982" y="817">dc:relation (2.3e5 15%d) [*]  -&gt; IRI</tspan>
+<tspan x="982" y="833">dc:title (2.3e5) [*] </tspan>
+<tspan x="982" y="849">dc:type (2.3e5) [*] </tspan>
+<tspan x="982" y="865">ocd:approvato (2.3e5) [1] D</tspan>
+<tspan x="982" y="881">ocd:astenuti (2.3e5) [1] D</tspan>
+<tspan x="982" y="897">ocd:contrari (2.3e5) [1] D</tspan>
+<tspan x="982" y="913">ocd:favorevoli (2.3e5) [1] D</tspan>
+<tspan x="982" y="929">ocd:maggioranza (2.3e5) [1] D</tspan>
+<tspan x="982" y="945">ocd:presenti (2.3e5) [1] D</tspan>
+<tspan x="982" y="961">ocd:richiestaFiducia (2.3e5) [1] D</tspan>
+<tspan x="982" y="977">ocd:rif_leg (2.3e5) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="982" y="993">ocd:votanti (2.3e5) [1] D</tspan>
+<tspan x="982" y="1009">ocd:votazioneFinale (2.3e5) [1] D</tspan>
+<tspan x="982" y="1025">ocd:votazioneSegreta (2.3e5) [1] D</tspan>
+<tspan x="982" y="1041">ont-ods:modified (2.2e5) [*] </tspan>
+<tspan x="982" y="1057">rdf:type (4.6e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="982" y="1073">rdfs:label (2.3e5) [*] </tspan>
+</text>
+</g>
+<g id="2002796766"><polygon points="1332,1221 1643,1221 1643,1397 1332,1397 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1411" y="1236">ocd:assegnazione (1.4e5)</tspan>
+</text>
+<line x1="1336" y1="1240" x2="1640" y2="1240"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1336" y="1252">dc:date (3.6e4) [*] </tspan>
+<tspan x="1336" y="1268">dc:identifier (1.8e4) [1] </tspan>
+<tspan x="1336" y="1284">dc:title (4.1e4) [*] </tspan>
+<tspan x="1336" y="1300">dc:type (806) [*] </tspan>
+<tspan x="1336" y="1316">ocd:dataAssegnazione (1.8e4) [1] D</tspan>
+<tspan x="1336" y="1332">ocd:rif_leg (1.8e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="1336" y="1348">ocd:sede (3.6e4) [1] D</tspan>
+<tspan x="1336" y="1364">ont-ods:modified (1.4e5) [*] </tspan>
+<tspan x="1336" y="1380">rdf:type (3.1e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1336" y="1396">rdfs:label (1.4e5) [*] </tspan>
+</text>
+</g>
+<g id="2002796964"><polygon points="900,1611 1211,1611 1211,1741 900,1741 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="994" y="1627">ocd:assemblea (102)</tspan>
+</text>
+<line x1="905" y1="1630" x2="1209" y2="1630"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="905" y="1642">dc:title (102) [*] </tspan>
+<tspan x="905" y="1658">ocd:rif_leg (102) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="905" y="1674">ocd:siComponeDi (5.6e4) [*]  -&gt;  foaf:Person,ocd:</tspan>
+<tspan x="905" y="1690">deputato or ocd:Deputato,ocd:organo</tspan>
+<tspan x="905" y="1706">ont-ods:modified (102) [*] </tspan>
+<tspan x="905" y="1722">rdf:type (204) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="905" y="1738">rdfs:label (102) [*] </tspan>
+</text>
+</g>
+<g id="2002796821"><polygon points="3776,1153 4086,1153 4086,1329 3776,1329 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3879" y="1168">ocd:governo (294)</tspan>
+</text>
+<line x1="3780" y1="1172" x2="4084" y2="1172"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3780" y="1184">dc:date (294) [*] </tspan>
+<tspan x="3780" y="1200">dc:title (294) [*] </tspan>
+<tspan x="3780" y="1216">ocd:endDate (136) [1] </tspan>
+<tspan x="3780" y="1232">ocd:rif_leg (342) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="3780" y="1248">ocd:startDate (138) [1] </tspan>
+<tspan x="3780" y="1264">ont-ods:modified (294) [*] </tspan>
+<tspan x="3780" y="1280">owl:sameAs (176) [*]  -&gt;  foaf:Person,owl:Class or </tspan>
+<tspan x="3780" y="1296">rdfs:Class</tspan>
+<tspan x="3780" y="1312">rdf:type (588) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3780" y="1328">rdfs:label (294) [*] </tspan>
+</text>
+</g>
+<g id="2002797261"><polygon points="3478,721 3835,721 3835,851 3478,851 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3579" y="736">ocd:organoGoverno (5401)</tspan>
+</text>
+<line x1="3482" y1="740" x2="3833" y2="740"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3482" y="752">dc:title (5232) [*] </tspan>
+<tspan x="3482" y="768">ocd:dicastero (5026) [1] D</tspan>
+<tspan x="3482" y="784">ont-ods:modified (5401) [*] </tspan>
+<tspan x="3482" y="800">owl:sameAs (2682) [*]  -&gt;  foaf:Person,owl:Class or rdfs:Class</tspan>
+<tspan x="3482" y="816">rdf:type (1.1e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3482" y="832">rdfs:label (5232) [*] </tspan>
+</text>
+</g>
+<g id="2002796612"><polygon points="3878,602 4185,602 4185,763 3878,763 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3949" y="617">ocd:mandatoSenato (1.7e4)</tspan>
+</text>
+<line x1="3882" y1="621" x2="4182" y2="621"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3882" y="633">dc:date (1.7e4) [*] </tspan>
+<tspan x="3882" y="649">dc:title (1.7e4) [*] </tspan>
+<tspan x="3882" y="665">ocd:endDate (1.1e4) [1] </tspan>
+<tspan x="3882" y="681">ocd:motivoTermine (4642) [1] </tspan>
+<tspan x="3882" y="697">ocd:rif_leg (1.2e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="3882" y="713">ocd:startDate (1.2e4) [1] </tspan>
+<tspan x="3882" y="729">ont-ods:modified (1.7e4) [*] </tspan>
+<tspan x="3882" y="745">rdf:type (3.4e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3882" y="761">rdfs:label (1.7e4) [*] </tspan>
+</text>
+</g>
+<g id="2002796777"><polygon points="3564,1458 3874,1458 3874,1665 3564,1665 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3659" y="1473">ocd:elezione (2.6e4)</tspan>
+</text>
+<line x1="3568" y1="1477" x2="3872" y2="1477"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3568" y="1489">dc:coverage (2.6e4) [*] </tspan>
+<tspan x="3568" y="1505">dc:date (2.6e4) [*] </tspan>
+<tspan x="3568" y="1521">dc:title (2.6e4) [*] </tspan>
+<tspan x="3568" y="1537">dct:spatial (3686) [1] </tspan>
+<tspan x="3568" y="1553">ocd:lista (7492) [1] D</tspan>
+<tspan x="3568" y="1569">ocd:opzione (570) [*] D</tspan>
+<tspan x="3568" y="1585">ocd:plurieletto (588) [1] D -&gt; IRI</tspan>
+<tspan x="3568" y="1601">ocd:rif_leg (2.6e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="3568" y="1617">ocd:tipoElezione (2.6e4) [1] D</tspan>
+<tspan x="3568" y="1633">ont-ods:modified (2.6e4) [*] </tspan>
+<tspan x="3568" y="1649">rdf:type (5.1e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3568" y="1665">rdfs:label (2.6e4) [*] </tspan>
+</text>
+</g>
+<g id="2002796832"><polygon points="925,2120 1236,2120 1236,2311 925,2311 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1021" y="2135">ocd:dibattito (4.3e5)</tspan>
+</text>
+<line x1="929" y1="2138" x2="1234" y2="2138"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="929" y="2150">dc:coverage (2.0e4) [*] </tspan>
+<tspan x="929" y="2166">dc:date (2.6e4) [*] </tspan>
+<tspan x="929" y="2182">dc:title (4.4e5) [*] </tspan>
+<tspan x="929" y="2198">dc:type (1.8e5) [*] </tspan>
+<tspan x="929" y="2214">dct:isReferencedBy (1.8e5) [*]  -&gt; IRI</tspan>
+<tspan x="929" y="2230">ocd:endDate (2.5e5) [1] </tspan>
+<tspan x="929" y="2246">ocd:rif_leg (4.3e5) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="929" y="2262">ocd:startDate (2.5e5) [1] </tspan>
+<tspan x="929" y="2278">ont-ods:modified (2.5e5) [*] </tspan>
+<tspan x="929" y="2294">rdf:type (6.8e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="929" y="2310">rdfs:label (4.4e5) [*] </tspan>
+</text>
+</g>
+<g id="2002796623"><polygon points="1266,2752 1576,2752 1576,3176 1266,3176 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1263,2755 1573,2755 1573,3180 1263,3180 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1291" y="2770">bibo:Article or bibo:Website G111 (~4.1e4)</tspan>
+</text>
+<line x1="1267" y1="2774" x2="1571" y2="2774"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1267" y="2786">bibo:doi (688) [1] D</tspan>
+<tspan x="1267" y="2802">bibo:issue (2.4e4) [1] D</tspan>
+<tspan x="1267" y="2818">bibo:page (10) [1] D</tspan>
+<tspan x="1267" y="2834">bibo:pages (4.0e4) [1] D</tspan>
+<tspan x="1267" y="2850">bibo:volume (2.3e4) [*] </tspan>
+<tspan x="1267" y="2866">dc:coverage (4.2e4) [*] </tspan>
+<tspan x="1267" y="2882">dc:language (4.1e4) [1] </tspan>
+<tspan x="1267" y="2898">dc:title (4.1e4) [*] </tspan>
+<tspan x="1267" y="2914">dc:type (4.1e4) [*] </tspan>
+<tspan x="1267" y="2930">dct:available (7750) [1] </tspan>
+<tspan x="1267" y="2946">dct:bibliographicCitation (4.1e4) [*] </tspan>
+<tspan x="1267" y="2962">dct:isPartOf (4.1e4) [*]  -&gt;  bibo:Book or bibo:</tspan>
+<tspan x="1267" y="2978">Periodical,oad:Instance or oad:UoD,ocd:organo</tspan>
+<tspan x="1267" y="2994">dct:issued (4.1e4) [1] </tspan>
+<tspan x="1267" y="3010">dct:provenance (4.1e4) [*]  -&gt; IRI</tspan>
+<tspan x="1267" y="3026">isbd:P1004 (4.1e4) [1] </tspan>
+<tspan x="1267" y="3042">isbd:P1006 (1.0e4) [1] </tspan>
+<tspan x="1267" y="3058">isbd:P1007 (7778) [1] </tspan>
+<tspan x="1267" y="3074">isbd:P1018 (646) [1] </tspan>
+<tspan x="1267" y="3090">ont-ods:deleted (95) [*] </tspan>
+<tspan x="1267" y="3106">ont-ods:modified (7.7e4) [*] </tspan>
+<tspan x="1267" y="3122">rdf:type (8.2e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1267" y="3138">rdfs:label (2) [*] </tspan>
+<tspan x="1267" y="3154">w3-skos:note (1.8e4) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1267" y="3158">bibo:Article (4.1e4)</tspan>
+<tspan x="1267" y="3174">bibo:Website (9)</tspan>
+</text>
+</g>
+<g id="2002797195"><polygon points="1474,2245 1824,2245 1824,2545 1474,2545 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1596" y="2260">ocd:organo (5204)</tspan>
+</text>
+<line x1="1478" y1="2264" x2="1822" y2="2264"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1478" y="2276">dc:coverage (591) [*] </tspan>
+<tspan x="1478" y="2292">dc:date (5408) [*] </tspan>
+<tspan x="1478" y="2308">dc:description (1082) [*] </tspan>
+<tspan x="1478" y="2324">dc:title (5408) [*] </tspan>
+<tspan x="1478" y="2340">dc:type (4727) [*] </tspan>
+<tspan x="1478" y="2356">dct:isPartOf (162) [*]  -&gt;  bibo:Book or bibo:Periodical,oad:</tspan>
+<tspan x="1478" y="2372">Instance or oad:UoD,ocd:organo</tspan>
+<tspan x="1478" y="2388">ocd:endDate (4395) [1] </tspan>
+<tspan x="1478" y="2404">ocd:haMembro (1.8e5) [*] D -&gt; IRI</tspan>
+<tspan x="1478" y="2420">ocd:rif_leg (5408) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="1478" y="2436">ocd:startDate (4727) [1] </tspan>
+<tspan x="1478" y="2452">ont-ods:modified (1.4e4) [*] </tspan>
+<tspan x="1478" y="2468">rdf:type (2.0e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1478" y="2484">rdfs:label (5408) [*] </tspan>
+<tspan x="1478" y="2500">&lt;- dct:isPartOf (176)  &lt;-  bibo:Article or bibo:Website,ocd:atto.</tspan>
+<tspan x="1478" y="2516">.(6)</tspan>
+<tspan x="1478" y="2532">&lt;- ocd:siComponeDi (5079)  &lt;-  ocd:assemblea,ocd:</tspan>
+<tspan x="1478" y="2548">componenteGruppoMisto..(4)</tspan>
+</text>
+</g>
+<g id="2002796634"><polygon points="1693,2623 2005,2623 2005,2783 1693,2783 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1773" y="2638">foaf:OnlineAccount (2171)</tspan>
+</text>
+<line x1="1697" y1="2641" x2="2003" y2="2641"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1697" y="2653">dc:title (2127) [*] </tspan>
+<tspan x="1697" y="2669">foaf:accountName (2101) [*] D</tspan>
+<tspan x="1697" y="2685">foaf:accountServiceHomepage (2161 0.01%d) [*] D -&gt; </tspan>
+<tspan x="1697" y="2701">IRI</tspan>
+<tspan x="1697" y="2717">foaf:interest (110) [*] D</tspan>
+<tspan x="1697" y="2733">foaf:page (30) [1] D -&gt; IRI</tspan>
+<tspan x="1697" y="2749">ont-ods:modified (2204) [*] </tspan>
+<tspan x="1697" y="2765">rdf:type (4361) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1697" y="2781">rdfs:label (2171) [*] </tspan>
+</text>
+</g>
+<g id="2002797129"><polygon points="2188,2364 2498,2364 2498,2649 2188,2649 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2295" y="2379">ocd:post (1.1e4)</tspan>
+</text>
+<line x1="2192" y1="2383" x2="2496" y2="2383"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2192" y="2395">dc:coverage (26) [*] </tspan>
+<tspan x="2192" y="2411">dc:description (6354) [*] </tspan>
+<tspan x="2192" y="2427">dc:note (15) [1] D</tspan>
+<tspan x="2192" y="2443">dc:title (6360) [*] </tspan>
+<tspan x="2192" y="2459">dct:issued (6358) [1] </tspan>
+<tspan x="2192" y="2475">dct:spatial (385) [1] </tspan>
+<tspan x="2192" y="2491">ocd:eurovoc (47) [*] D -&gt; IRI</tspan>
+<tspan x="2192" y="2507">ocd:griglia (15) [*] D -&gt; IRI</tspan>
+<tspan x="2192" y="2523">ocd:lex (1080) [*]  -&gt; IRI</tspan>
+<tspan x="2192" y="2539">ocd:rif_leg (6360) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="2192" y="2555">ont-ods:deleted (4453) [*] </tspan>
+<tspan x="2192" y="2571">ont-ods:ha_agenda (6) [*] D -&gt; IRI</tspan>
+<tspan x="2192" y="2587">ont-ods:inevidenza (2) [1] D</tspan>
+<tspan x="2192" y="2603">ont-ods:modified (6363) [*] </tspan>
+<tspan x="2192" y="2619">rdf:type (1.7e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="2192" y="2635">w3-skos:changeNote (50) [*]  -&gt; IRI</tspan>
+<tspan x="2192" y="2651">&lt;&gt; dct:references  </tspan>
+</text>
+</g>
+<g id="2002797063"><polygon points="3155,1896 3465,1896 3465,1979 3155,1979 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3240" y="1911">ocd:rispostaAIC (7.9e4)</tspan>
+</text>
+<line x1="3159" y1="1915" x2="3463" y2="1915"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3159" y="1927">dc:date (7.9e4) [*] </tspan>
+<tspan x="3159" y="1943">dc:description (4.1e4) [*] </tspan>
+<tspan x="3159" y="1959">ocd:ruolo (7.8e4) [1] </tspan>
+<tspan x="3159" y="1975">rdf:type (7.9e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+</text>
+</g>
+<g id="2002796557"><polygon points="3409,1727 3689,1727 3689,1888 3409,1888 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3484" y="1742">ocd:cronologia (1.4e4)</tspan>
+</text>
+<line x1="3413" y1="1746" x2="3687" y2="1746"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3413" y="1758">dc:date (1.4e4) [*] </tspan>
+<tspan x="3413" y="1774">dc:description (1.4e4) [*] </tspan>
+<tspan x="3413" y="1790">dc:title (1.3e4) [*] </tspan>
+<tspan x="3413" y="1806">dc:type (1.4e4) [*] </tspan>
+<tspan x="3413" y="1822">ocd:rif_leg (1.3e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="3413" y="1838">ont-ods:deleted (104) [*] </tspan>
+<tspan x="3413" y="1854">ont-ods:modified (1.4e4) [*] </tspan>
+<tspan x="3413" y="1870">rdf:type (2.7e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3413" y="1886">rdfs:label (100) [*] </tspan>
+</text>
+</g>
+<g id="2002796810"><polygon points="4047,1408 4595,1408 4595,1943 4047,1943 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="4265" y="1423">foaf:Person (3.2e4)</tspan>
+</text>
+<line x1="4051" y1="1426" x2="4593" y2="1426"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4051" y="1438">bio:Birth (2.7e4) [1]  -&gt; IRI</tspan>
+<tspan x="4051" y="1454">bio:Death (1.5e4) [1]  -&gt; IRI</tspan>
+<tspan x="4051" y="1470">dc:date (2) [*] </tspan>
+<tspan x="4051" y="1486">dc:description (2.7e4) [*] </tspan>
+<tspan x="4051" y="1502">dc:title (3.2e4) [*] </tspan>
+<tspan x="4051" y="1518">foaf:depiction (1.6e4 70%d) [1]  -&gt; IRI</tspan>
+<tspan x="4051" y="1534">foaf:firstName (3.2e4) [1] </tspan>
+<tspan x="4051" y="1550">foaf:gender (3.2e4) [*] </tspan>
+<tspan x="4051" y="1566">foaf:nickname (1.7e4) [*]  -&gt; IRI</tspan>
+<tspan x="4051" y="1582">foaf:surname (3.2e4) [1] </tspan>
+<tspan x="4051" y="1598">ocd:membroConsulta (810) [1] D</tspan>
+<tspan x="4051" y="1614">ont-ods:deleted (6) [*] </tspan>
+<tspan x="4051" y="1630">ont-ods:modified (3.2e4) [*] </tspan>
+<tspan x="4051" y="1646">owl:sameAs (2.0e4) [*]  -&gt;  foaf:Person,owl:Class or rdfs:Class</tspan>
+<tspan x="4051" y="1662">rdf:type (6.4e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="4051" y="1678">rdfs:label (3.2e4) [*] </tspan>
+<tspan x="4051" y="1694">&lt;- ocd:primo_firmatario (1.2e5)  &lt;-  ocd:DOC or ocd:legge,ocd:aic,ocd:atto</tspan>
+<tspan x="4051" y="1710">&lt;- ocd:siComponeDi (833)  &lt;-  ocd:assemblea,ocd:componenteGruppoMisto..(4)</tspan>
+<tspan x="4051" y="1726">&lt;- owl:sameAs (2)  &lt;-  ocd:luogo or ocd:presidenteRepubblica,lg-ont:Village et al...(8)</tspan>
+</text>
+</g>
+<g id="2002796733"><polygon points="2624,1816 2934,1816 2934,2192 2624,2192 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2735" y="1831">ocd:aic (1.1e6)</tspan>
+</text>
+<line x1="2628" y1="1835" x2="2932" y2="1835"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2628" y="1847">dc:contributor (2.9e6) [*] </tspan>
+<tspan x="2628" y="1863">dc:creator (1.0e6) [*] </tspan>
+<tspan x="2628" y="1879">dc:date (1.0e6) [*] </tspan>
+<tspan x="2628" y="1895">dc:description (1.0e6) [*] </tspan>
+<tspan x="2628" y="1911">dc:identifier (1.0e6) [1] </tspan>
+<tspan x="2628" y="1927">dc:relation (1.0e6 29%d) [*]  -&gt; IRI</tspan>
+<tspan x="2628" y="1943">dc:subject (1.9e4) [*]  -&gt; IRI</tspan>
+<tspan x="2628" y="1959">dc:title (1.0e6) [*] </tspan>
+<tspan x="2628" y="1975">dc:type (1.0e6) [*] </tspan>
+<tspan x="2628" y="1991">dct:isReferencedBy (1.0e6 29%d) [*]  -&gt; IRI</tspan>
+<tspan x="2628" y="2007">ocd:concluso (1.0e6) [1] D</tspan>
+<tspan x="2628" y="2023">ocd:endDate (2.7e5) [1] </tspan>
+<tspan x="2628" y="2039">ocd:primo_firmatario (1.0e6) [*]  -&gt;  foaf:Person,ocd:</tspan>
+<tspan x="2628" y="2055">deputato or ocd:Deputato,ocd:senatore</tspan>
+<tspan x="2628" y="2071">ocd:ramo (4.7e5) [1] D</tspan>
+<tspan x="2628" y="2087">ocd:rif_delegato (2.2e5) [*] D -&gt; IRI</tspan>
+<tspan x="2628" y="2103">ocd:rif_firmaAIC (1.6e6) [*] D -&gt; IRI</tspan>
+<tspan x="2628" y="2119">ocd:rif_leg (1.0e6) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="2628" y="2135">ocd:startDate (4.8e5) [1] </tspan>
+<tspan x="2628" y="2151">ont-ods:modified (1.1e6) [*] </tspan>
+<tspan x="2628" y="2167">rdf:type (2.1e6) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="2628" y="2183">rdfs:label (1.0e6) [*] </tspan>
+</text>
+</g>
+<g id="2002796689"><polygon points="2904,2945 3274,2945 3274,3204 2904,3204 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3029" y="2960">ocd:legislatura (101)</tspan>
+</text>
+<line x1="2908" y1="2963" x2="3272" y2="2963"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2908" y="2975">dc:date (101) [*] </tspan>
+<tspan x="2908" y="2991">dc:title (101) [*] </tspan>
+<tspan x="2908" y="3007">ocd:endDate (38) [1] </tspan>
+<tspan x="2908" y="3023">ocd:siComponeDi (2709) [*]  -&gt;  foaf:Person,ocd:deputato or </tspan>
+<tspan x="2908" y="3039">ocd:Deputato,ocd:organo</tspan>
+<tspan x="2908" y="3055">ocd:startDate (39) [1] </tspan>
+<tspan x="2908" y="3071">ont-ods:modified (100) [*] </tspan>
+<tspan x="2908" y="3087">owl:sameAs (34) [*]  -&gt;  foaf:Person,owl:Class or rdfs:Class</tspan>
+<tspan x="2908" y="3103">rdf:type (201) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="2908" y="3119">rdfs:label (99) [*] </tspan>
+<tspan x="2908" y="3135">&lt;- ocd:rif_leg (2.7e6)  &lt;-  ocd:post,ocd:assegnazione..(25)</tspan>
+</text>
+</g>
+<g id="2002796898"><polygon points="2988,3283 3312,3283 3312,3402 2988,3402 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3069" y="3298">oad:ArchivalResource (143)</tspan>
+</text>
+<line x1="2992" y1="3302" x2="3310" y2="3302"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2992" y="3314">dc:date (111) [*] </tspan>
+<tspan x="2992" y="3330">dc:format (69) [*] </tspan>
+<tspan x="2992" y="3346">dc:title (143) [*] </tspan>
+<tspan x="2992" y="3362">rdf:type (143) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="2992" y="3378">rdfs:label (143) [*] </tspan>
+</text>
+</g>
+<g id="2002797250"><polygon points="3848,2914 4097,2914 4097,2965 3848,2965 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3918" y="2929">eac-cpf:Name (24)</tspan>
+</text>
+<line x1="3852" y1="2932" x2="4094" y2="2932"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3852" y="2944">rdf:type (24) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3852" y="2960">rdfs:label (24) [*] </tspan>
+</text>
+</g>
+<g id="2002797184"><polygon points="3774,2770 4153,2770 4153,2869 3774,2869 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="3771,2773 4150,2773 4150,2872 3771,2872 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3798" y="2788">eac-cpf:CorporateBody or eac-cpf:Person G107 (~104)</tspan>
+</text>
+<line x1="3775" y1="2791" x2="4148" y2="2791"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3775" y="2803">rdf:type (104) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3775" y="2819">rdfs:label (104) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3775" y="2834">eac-cpf:CorporateBody (96)</tspan>
+<tspan x="3775" y="2850">eac-cpf:Person (8)</tspan>
+</text>
+</g>
+<g id="2002797008"><polygon points="4201,2708 4512,2708 4512,3070 4201,3070 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="4198,2711 4508,2711 4508,3073 4198,3073 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="4235" y="2726">oad:Instance or oad:UoD G110 (~7.5e4)</tspan>
+</text>
+<line x1="4202" y1="2729" x2="4506" y2="2729"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4202" y="2741">dc:date (7.1e4) [*] </tspan>
+<tspan x="4202" y="2757">dc:description (109) [*] </tspan>
+<tspan x="4202" y="2773">dc:format (6.7e4) [*] </tspan>
+<tspan x="4202" y="2789">dc:identifier (7.2e4) [1] </tspan>
+<tspan x="4202" y="2805">dc:subject (3.7e5) [*] </tspan>
+<tspan x="4202" y="2821">dc:title (7.5e4) [*] </tspan>
+<tspan x="4202" y="2837">dct:isPartOf (7.5e4) [*]  -&gt;  bibo:Book or bibo:</tspan>
+<tspan x="4202" y="2853">Periodical,oad:Instance or oad:UoD,ocd:organo</tspan>
+<tspan x="4202" y="2869">foaf:primaryTopic (21) [*] D -&gt; IRI</tspan>
+<tspan x="4202" y="2885">oad:extentAndMedium (454) [1] D</tspan>
+<tspan x="4202" y="2901">oad:hasLevel (7.5e4) [1] D -&gt; IRI</tspan>
+<tspan x="4202" y="2917">oad:has_level (539) [1] D -&gt; IRI</tspan>
+<tspan x="4202" y="2933">oad:scopeAndContent (6.7e4) [*] </tspan>
+<tspan x="4202" y="2949">rdf:type (7.5e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="4202" y="2965">rdfs:label (7.5e4) [*] </tspan>
+<tspan x="4202" y="2981">&lt;- dct:isPartOf (7.5e4)  &lt;-  bibo:Article or bibo:Website,</tspan>
+<tspan x="4202" y="2997">ocd:atto..(6)</tspan>
+<tspan x="4202" y="3013">&lt;&gt; oad:hasNextInSequence  D</tspan>
+<tspan x="4202" y="3029">&lt;&gt; oad:has_nextInSequence  DR</tspan>
+<tspan x="4202" y="3045">&lt;&gt; rdfs:seeAlso  </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="4202" y="3052">oad:Instance (7.5e4)</tspan>
+<tspan x="4202" y="3068">oad:UoD (539)</tspan>
+</text>
+</g>
+<g id="2002796711"><polygon points="3735,3144 3994,3144 3994,3227 3735,3227 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3807" y="3159">oad:FindingAid (22)</tspan>
+</text>
+<line x1="3739" y1="3163" x2="3992" y2="3163"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3739" y="3175">dc:title (22) [*] </tspan>
+<tspan x="3739" y="3191">dct:isReferencedBy (1) [*]  -&gt; IRI</tspan>
+<tspan x="3739" y="3207">rdf:type (22) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3739" y="3223">rdfs:label (22) [*] </tspan>
+</text>
+</g>
+<g id="2002797151"><polygon points="4165,2467 4442,2467 4442,2615 4165,2615 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="4174" y="2483">oad:AdministrativeBiographicalHistory (236)</tspan>
+</text>
+<line x1="4169" y1="2486" x2="4440" y2="2486"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4169" y="2498">dc:description (236) [*] </tspan>
+<tspan x="4169" y="2514">rdf:type (236) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="4169" y="2530">rdfs:label (232) [*] </tspan>
+</text>
+</g>
+<g id="2002796744"><polygon points="403,1376 675,1376 675,1520 403,1520 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="454" y="1391">ocd:sessioneLegislatura (98)</tspan>
+</text>
+<line x1="407" y1="1394" x2="673" y2="1394"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="407" y="1406">dc:date (98) [*] </tspan>
+<tspan x="407" y="1422">dc:title (98) [*] </tspan>
+<tspan x="407" y="1438">ocd:endDate (98) [1] </tspan>
+<tspan x="407" y="1454">ocd:rif_leg (98) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="407" y="1470">ocd:startDate (98) [1] </tspan>
+<tspan x="407" y="1486">ont-ods:modified (98) [*] </tspan>
+<tspan x="407" y="1502">rdf:type (196) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="407" y="1518">rdfs:label (98) [*] </tspan>
+</text>
+</g>
+<g id="2002796590"><polygon points="91,1133 402,1133 402,1294 91,1294 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="88,1136 398,1136 398,1297 88,1297 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="156" y="1152">lg-ont:Village et al. G106 (~8)</tspan>
+</text>
+<line x1="92" y1="1155" x2="396" y2="1155"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="92" y="1167">owl:sameAs (17) [*]  -&gt;  foaf:Person,owl:Class or rdfs:</tspan>
+<tspan x="92" y="1183">Class</tspan>
+<tspan x="92" y="1199">rdf:type (8) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="92" y="1215">wgs84_pos:lat (10) [*] </tspan>
+<tspan x="92" y="1231">wgs84_pos:long (10) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="92" y="1245">lg-ont:City (1)</tspan>
+<tspan x="92" y="1261">lg-ont:Place (1)</tspan>
+<tspan x="92" y="1277">lg-ont:Town (2)</tspan>
+<tspan x="92" y="1293">lg-ont:Village (4)</tspan>
+</text>
+</g>
+<g id="2002796931"><polygon points="86,1317 396,1317 396,1399 86,1399 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="178" y="1332">schema:Website (20)</tspan>
+</text>
+<line x1="90" y1="1335" x2="394" y2="1335"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="90" y="1347">rdf:type (20) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="90" y="1363">rdfs:label (20) [*] </tspan>
+<tspan x="90" y="1379">schema:dateCreated (20) [1] D</tspan>
+<tspan x="90" y="1395">schema:license (20) [1] D -&gt; IRI</tspan>
+</text>
+</g>
+<g id="2002797052"><polygon points="82,1419 392,1419 392,1471 82,1471 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="195" y="1434">ont-ods:file (8)</tspan>
+</text>
+<line x1="86" y1="1438" x2="390" y2="1438"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="86" y="1450">ont-ods:keywords (4) [1] </tspan>
+<tspan x="86" y="1466">rdf:type (8) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+</text>
+</g>
+<g id="2002796568"><polygon points="82,1489 392,1489 392,1536 82,1536 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="200" y="1504">bio:date (33)</tspan>
+</text>
+<line x1="86" y1="1508" x2="390" y2="1508"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="86" y="1520">rdf:type (33) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+</text>
+</g>
+<g id="2002796579"><polygon points="545,1675 856,1675 856,1897 545,1897 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="633" y="1690">w3-skos:Concept (250)</tspan>
+</text>
+<line x1="550" y1="1693" x2="854" y2="1693"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="550" y="1705">dc:type (26) [*] </tspan>
+<tspan x="550" y="1721">dct:references (52) [*] </tspan>
+<tspan x="550" y="1737">ont-ods:modified (248) [*] </tspan>
+<tspan x="550" y="1753">owl:deprecated (26) [1] D</tspan>
+<tspan x="550" y="1769">rdf:type (498) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="550" y="1785">rdfs:label (250) [*] </tspan>
+<tspan x="550" y="1801">w3-skos:definition (201) [*] D</tspan>
+<tspan x="550" y="1817">w3-skos:historyNote (26) [1] D</tspan>
+<tspan x="550" y="1833">w3-skos:notation (250) [1] D</tspan>
+<tspan x="550" y="1849">w3-skos:prefLabel (30) [1] D</tspan>
+<tspan x="550" y="1865">w3-skos:scopeNote (26) [1] D</tspan>
+<tspan x="550" y="1881">&lt;&gt; w3-skos:broader  D</tspan>
+<tspan x="550" y="1897">&lt;&gt; w3-skos:inScheme  D</tspan>
+</text>
+</g>
+<g id="2002797239"><polygon points="438,1955 690,1955 690,2022 438,2022 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="478" y="1970">w3-skos:ConceptScheme (2)</tspan>
+</text>
+<line x1="442" y1="1974" x2="688" y2="1974"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="442" y="1986">ont-ods:modified (2) [*] </tspan>
+<tspan x="442" y="2002">rdf:type (4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="442" y="2018">rdfs:label (2) [*] </tspan>
+</text>
+</g>
+<g id="2002796854"><polygon points="1262,3211 1572,3211 1572,3355 1262,3355 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1370" y="3226">dcat:Catalog (1)</tspan>
+</text>
+<line x1="1266" y1="3229" x2="1570" y2="3229"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1266" y="3241">dct:description (1) [1] </tspan>
+<tspan x="1266" y="3257">dct:issued (1) [1] </tspan>
+<tspan x="1266" y="3273">dct:license (1) [1]  -&gt; IRI</tspan>
+<tspan x="1266" y="3289">dct:rights (1) [1] D -&gt; IRI</tspan>
+<tspan x="1266" y="3305">dct:title (1) [1] </tspan>
+<tspan x="1266" y="3321">rdf:type (1) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1266" y="3337">rdfs:label (1) [*] </tspan>
+<tspan x="1266" y="3353">&lt;&gt; foaf:homepage  </tspan>
+</text>
+</g>
+<g id="2002796953"><polygon points="1274,3456 1585,3456 1585,3601 1274,3601 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1378" y="3471">dcat:Dataset (40)</tspan>
+</text>
+<line x1="1278" y1="3474" x2="1583" y2="3474"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1278" y="3486">dcat:keyword (40) [1] D</tspan>
+<tspan x="1278" y="3502">dcat:landingPage (40) [1] D -&gt; IRI</tspan>
+<tspan x="1278" y="3518">dct:accrualPeriodicity (40) [1] D -&gt; IRI</tspan>
+<tspan x="1278" y="3534">dct:description (40) [1] </tspan>
+<tspan x="1278" y="3550">dct:language (40) [1] D -&gt; IRI</tspan>
+<tspan x="1278" y="3566">dct:title (40) [1] </tspan>
+<tspan x="1278" y="3582">rdf:type (40) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1278" y="3598">rdfs:label (40) [*] </tspan>
+</text>
+</g>
+<g id="2002796755"><polygon points="1737,3456 2029,3456 2029,3601 1737,3601 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1822" y="3471">dcat:Distribution (40)</tspan>
+</text>
+<line x1="1741" y1="3474" x2="2027" y2="3474"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1741" y="3486">dcat:accessURL (41) [*] D -&gt; IRI</tspan>
+<tspan x="1741" y="3502">dcat:downloadURL (45) [*] D -&gt; IRI</tspan>
+<tspan x="1741" y="3518">dct:description (40) [1] </tspan>
+<tspan x="1741" y="3534">dct:format (40) [1]  -&gt; IRI</tspan>
+<tspan x="1741" y="3550">dct:license (40) [1]  -&gt; IRI</tspan>
+<tspan x="1741" y="3566">dct:title (40) [1] </tspan>
+<tspan x="1741" y="3582">rdf:type (40) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1741" y="3598">rdfs:label (40) [*] </tspan>
+</text>
+</g>
+<g id="2002796975"><polygon points="2526,2474 2837,2474 2837,2650 2526,2650 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2604" y="2489">ocd:sistemaElettorale (27)</tspan>
+</text>
+<line x1="2531" y1="2492" x2="2835" y2="2492"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2531" y="2504">bibo:abstract (26) [1] D</tspan>
+<tspan x="2531" y="2520">dc:date (26) [*] </tspan>
+<tspan x="2531" y="2536">dc:description (26) [*] </tspan>
+<tspan x="2531" y="2552">dc:title (26) [*] </tspan>
+<tspan x="2531" y="2568">ocd:endDate (18) [1] </tspan>
+<tspan x="2531" y="2584">ocd:rif_leg (98) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="2531" y="2600">ocd:startDate (26) [1] </tspan>
+<tspan x="2531" y="2616">ont-ods:deleted (1) [*] </tspan>
+<tspan x="2531" y="2632">ont-ods:modified (26) [*] </tspan>
+<tspan x="2531" y="2648">rdf:type (53) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+</text>
+</g>
+<g id="2002797206"><polygon points="1914,3033 2224,3033 2224,3379 1914,3379 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1911,3036 2221,3036 2221,3382 1911,3382 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1973" y="3051">ocd:autore et al. G108 (~1.8e4)</tspan>
+</text>
+<line x1="1915" y1="3054" x2="2219" y2="3054"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1915" y="3066">bio:Birth (14) [1]  -&gt; IRI</tspan>
+<tspan x="1915" y="3082">bio:Death (2) [1]  -&gt; IRI</tspan>
+<tspan x="1915" y="3098">dc:description (6) [*] </tspan>
+<tspan x="1915" y="3114">dc:title (4) [*] </tspan>
+<tspan x="1915" y="3130">dc:type (4) [*] </tspan>
+<tspan x="1915" y="3146">dct:provenance (2) [*]  -&gt; IRI</tspan>
+<tspan x="1915" y="3162">foaf:firstName (932) [1] </tspan>
+<tspan x="1915" y="3178">foaf:nick (4) [1] D</tspan>
+<tspan x="1915" y="3194">foaf:surname (936) [1] </tspan>
+<tspan x="1915" y="3210">ont-ods:deleted (69) [*] </tspan>
+<tspan x="1915" y="3226">ont-ods:modified (1.8e4) [*] </tspan>
+<tspan x="1915" y="3242">org:unitOf (32) [1]  -&gt; IRI</tspan>
+<tspan x="1915" y="3258">owl:sameAs (116) [*]  -&gt;  foaf:Person,owl:Class or </tspan>
+<tspan x="1915" y="3274">rdfs:Class</tspan>
+<tspan x="1915" y="3290">rdf:type (3.6e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1915" y="3306">rdfs:label (1.8e4) [*] </tspan>
+<tspan x="1915" y="3322">w3-skos:changeNote (1176) [*]  -&gt; IRI</tspan>
+<tspan x="1915" y="3338">w3-skos:editorialNote (2) [1] D</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1915" y="3346">ocd:autore (1.8e4)</tspan>
+<tspan x="1915" y="3362">org:Organization (5)</tspan>
+<tspan x="1915" y="3378">org:OrganizationalUnit (30)</tspan>
+</text>
+</g>
+<g id="2002797217"><polygon points="2304,2773 2614,2773 2614,3088 2304,3088 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2416" y="2788">ocd:file (1.2e4)</tspan>
+</text>
+<line x1="2308" y1="2791" x2="2612" y2="2791"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2308" y="2803">dc:creator (8) [*] </tspan>
+<tspan x="2308" y="2819">dc:relation (5268) [*]  -&gt; IRI</tspan>
+<tspan x="2308" y="2835">dc:title (1.1e4) [*] </tspan>
+<tspan x="2308" y="2851">dct:accessRights (1.1e4) [1] </tspan>
+<tspan x="2308" y="2867">dct:available (8) [1] </tspan>
+<tspan x="2308" y="2883">dct:format (1.1e4) [1]  -&gt; IRI</tspan>
+<tspan x="2308" y="2899">dct:provenance (2) [*]  -&gt; IRI</tspan>
+<tspan x="2308" y="2915">nfo:fileName (8) [1] D</tspan>
+<tspan x="2308" y="2931">nfo:fileSize (9872) [1] D</tspan>
+<tspan x="2308" y="2947">nfo:fileUrl (66) [1] D -&gt; IRI</tspan>
+<tspan x="2308" y="2963">nfo:hashValue (9872) [1] D</tspan>
+<tspan x="2308" y="2979">nfo:remoteDataObject (1.1e4) [*] D -&gt; IRI</tspan>
+<tspan x="2308" y="2995">ocd:lex (16) [*]  -&gt; IRI</tspan>
+<tspan x="2308" y="3011">ont-ods:deleted (44) [*] </tspan>
+<tspan x="2308" y="3027">ont-ods:fileMetadata (8) [1] D</tspan>
+<tspan x="2308" y="3043">ont-ods:keywords (194) [1] </tspan>
+<tspan x="2308" y="3059">ont-ods:modified (1.1e4) [*] </tspan>
+<tspan x="2308" y="3075">ont-ods:ocr (8) [1] D</tspan>
+<tspan x="2308" y="3091">rdf:type (2.3e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+</text>
+</g>
+<g id="2002797041"><polygon points="524,2048 834,2048 834,2783 524,2783 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="521,2051 831,2051 831,2786 521,2786 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="548" y="2066">bibo:Book or bibo:Periodical G109 (~1.4e4)</tspan>
+</text>
+<line x1="525" y1="2070" x2="829" y2="2070"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="525" y="2082">bibo:edition (316) [1] </tspan>
+<tspan x="525" y="2098">bibo:isbn (958) [1] D</tspan>
+<tspan x="525" y="2114">bibo:issn (142) [1] D</tspan>
+<tspan x="525" y="2130">bibo:pageStart (139) [1] D</tspan>
+<tspan x="525" y="2146">bibo:volume (208) [*] </tspan>
+<tspan x="525" y="2162">dc:coverage (1.0e4) [*] </tspan>
+<tspan x="525" y="2178">dc:date (28) [*] </tspan>
+<tspan x="525" y="2194">dc:language (9571) [1] </tspan>
+<tspan x="525" y="2210">dc:publisher (1.2e4) [1] </tspan>
+<tspan x="525" y="2226">dc:relation (107) [*]  -&gt; IRI</tspan>
+<tspan x="525" y="2242">dc:title (1.4e4) [*] </tspan>
+<tspan x="525" y="2258">dc:type (1.4e4) [*] </tspan>
+<tspan x="525" y="2274">dct:accessRights (14) [1] </tspan>
+<tspan x="525" y="2290">dct:available (1866) [1] </tspan>
+<tspan x="525" y="2306">dct:extent (9180) [1] D</tspan>
+<tspan x="525" y="2322">dct:isPartOf (30) [*]  -&gt;  bibo:Book or bibo:Periodical,</tspan>
+<tspan x="525" y="2338">oad:Instance or oad:UoD,ocd:organo</tspan>
+<tspan x="525" y="2354">dct:issued (1.2e4) [1] </tspan>
+<tspan x="525" y="2370">dct:provenance (9184) [*]  -&gt; IRI</tspan>
+<tspan x="525" y="2386">isbd:P1004 (1.4e4) [1] </tspan>
+<tspan x="525" y="2402">isbd:P1006 (6623) [1] </tspan>
+<tspan x="525" y="2418">isbd:P1007 (4551) [1] </tspan>
+<tspan x="525" y="2434">isbd:P1010 (14) [1] D</tspan>
+<tspan x="525" y="2450">isbd:P1012 (2108) [1] D</tspan>
+<tspan x="525" y="2466">isbd:P1015 (146) [1] D</tspan>
+<tspan x="525" y="2482">isbd:P1016 (1.2e4) [1] </tspan>
+<tspan x="525" y="2498">isbd:P1017 (1.2e4) [1] </tspan>
+<tspan x="525" y="2514">isbd:P1018 (2749) [1] </tspan>
+<tspan x="525" y="2530">isbd:P1026 (3480) [1] D</tspan>
+<tspan x="525" y="2546">isbd:P1031 (2818) [1] D</tspan>
+<tspan x="525" y="2562">ocd:endDate (184) [1] </tspan>
+<tspan x="525" y="2578">ocd:rif_leg (357) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="525" y="2594">ocd:sessioneLegislatura (339) [1] D -&gt; IRI</tspan>
+<tspan x="525" y="2610">ocd:startDate (184) [1] </tspan>
+<tspan x="525" y="2626">ont-ods:catenaVirtuale (139) [1] D</tspan>
+<tspan x="525" y="2642">ont-ods:deleted (38) [*] </tspan>
+<tspan x="525" y="2658">ont-ods:modified (1.4e4) [*] </tspan>
+<tspan x="525" y="2674">rdf:type (2.8e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="525" y="2690">schema:bookFormat (359) [1] D</tspan>
+<tspan x="525" y="2706">schema:isPartOf (138) [1] D</tspan>
+<tspan x="525" y="2722">schema:version (139) [1] D</tspan>
+<tspan x="525" y="2738">w3-skos:note (4509) [*] </tspan>
+<tspan x="525" y="2754">&lt;- dct:isPartOf (4.1e4)  &lt;-  bibo:Article or bibo:Website,</tspan>
+<tspan x="525" y="2770">ocd:atto..(6)</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="525" y="2765">bibo:Book (1.2e4)</tspan>
+<tspan x="525" y="2781">bibo:Periodical (2349)</tspan>
+</text>
+</g>
+<g id="2002796678"><polygon points="1763,1750 2073,1750 2073,1926 1763,1926 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1760,1753 2070,1753 2070,1929 1760,1929 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1829" y="1768">owl:Event et al. G103 (4.9e9)</tspan>
+</text>
+<line x1="1764" y1="1772" x2="2068" y2="1772"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1764" y="1784">dc:title (4.6e4) [*] </tspan>
+<tspan x="1764" y="1800">dct:isReferencedBy (1.7e4 40%d) [*]  -&gt; IRI</tspan>
+<tspan x="1764" y="1816">ocd:esito (1.5e4) [1] D</tspan>
+<tspan x="1764" y="1832">ocd:tipoTesto (5796) [*] D</tspan>
+<tspan x="1764" y="1848">ont-ods:modified (4.9e4) [*] </tspan>
+<tspan x="1764" y="1864">rdf:type (1.4e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1764" y="1880">rdfs:label (4.6e4) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1764" y="1893">ocd:abbinamento (5793)</tspan>
+<tspan x="1764" y="1909">ocd:richiestaParere (1.8e4)</tspan>
+<tspan x="1764" y="1925">owl:Event (4.9e4)</tspan>
+</text>
+</g>
+<g id="2002796700"><polygon points="785,1150 1063,1150 1063,1342 785,1342 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="781,1153 1060,1153 1060,1346 781,1346 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="786" y="1168">ocd:bollettino or ocd:versioneTestoAtto G117 </tspan>
+<tspan x="897" y="1185">(~5.3e4)</tspan>
+</text>
+<line x1="786" y1="1188" x2="1058" y2="1188"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="786" y="1200">dc:date (5.2e4) [*] </tspan>
+<tspan x="786" y="1216">dc:isReferencedBy (2) [1] D -&gt; IRI</tspan>
+<tspan x="786" y="1232">dc:title (5.0e4) [*] </tspan>
+<tspan x="786" y="1248">dct:isReferencedBy (5.3e4 23%d) [*]  -&gt; IRI</tspan>
+<tspan x="786" y="1264">ocd:rif_leg (2.2e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="786" y="1280">ont-ods:modified (4.6e4) [*] </tspan>
+<tspan x="786" y="1296">rdf:type (9.9e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="786" y="1312">rdfs:label (5.0e4) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="786" y="1324">ocd:bollettino (2.2e4)</tspan>
+<tspan x="786" y="1340">ocd:versioneTestoAtto (3.1e4)</tspan>
+</text>
+</g>
+<g id="2002797096"><polygon points="1220,197 1531,197 1531,412 1220,412 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1217,200 1528,200 1528,415 1217,415 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1258" y="215">ocd:relatore or ocd:voto G115 (~4.9e7)</tspan>
+</text>
+<line x1="1221" y1="218" x2="1526" y2="218"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1221" y="230">dc:description (1.6e7) [*] </tspan>
+<tspan x="1221" y="246">dc:identifier (4.9e7) [1] </tspan>
+<tspan x="1221" y="262">dc:title (5.0e7) [*] </tspan>
+<tspan x="1221" y="278">dc:type (4.9e7) [*] </tspan>
+<tspan x="1221" y="294">ocd:siglaGruppo (4.9e7) [*] D</tspan>
+<tspan x="1221" y="310">ont-ods:modified (4.9e7) [*] </tspan>
+<tspan x="1221" y="326">rdf:type (9.9e7) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="1221" y="342">rdfs:label (5.0e7) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1221" y="355">ocd:relatore (8.8e4)</tspan>
+<tspan x="1221" y="371">ocd:voto (4.9e7)</tspan>
+</text>
+</g>
+<g id="2002797019"><polygon points="680,881 937,881 937,948 680,948 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="760" y="896">owl:Ontology (2)</tspan>
+</text>
+<line x1="684" y1="899" x2="935" y2="899"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="684" y="911">dc:description (2) [*] </tspan>
+<tspan x="684" y="927">dc:title (2) [*] </tspan>
+<tspan x="684" y="943">rdf:type (4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+</text>
+</g>
+<g id="2002796876"><polygon points="2674,341 2985,341 2985,502 2674,502 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="2671,344 2982,344 2982,505 2671,505 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2676" y="359">ocd:intervento or ocd:allegatoDiscussione G119 (~</tspan>
+<tspan x="2808" y="376">1.1e6)</tspan>
+</text>
+<line x1="2675" y1="379" x2="2980" y2="379"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2675" y="391">dc:relation (1.1e6 51%d) [*]  -&gt; IRI</tspan>
+<tspan x="2675" y="407">dc:title (1.1e6) [*] </tspan>
+<tspan x="2675" y="423">ocd:rif_leg (4.6e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="2675" y="439">ont-ods:modified (8.0e5) [*] </tspan>
+<tspan x="2675" y="455">rdf:type (1.9e6) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="2675" y="471">rdfs:label (1.1e6) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2675" y="484">ocd:allegatoDiscussione (5.6e4)</tspan>
+<tspan x="2675" y="500">ocd:intervento (1.0e6)</tspan>
+</text>
+</g>
+<g id="2002797085"><polygon points="3134,288 3444,288 3444,557 3134,557 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3205" y="303">ocd:membroGoverno (1.5e4)</tspan>
+</text>
+<line x1="3138" y1="306" x2="3442" y2="306"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3138" y="318">dc:date (1.5e4) [*] </tspan>
+<tspan x="3138" y="334">dc:description (1156) [*] </tspan>
+<tspan x="3138" y="350">dc:title (1.5e4) [*] </tspan>
+<tspan x="3138" y="366">foaf:firstName (1.1e4) [1] </tspan>
+<tspan x="3138" y="382">foaf:nickname (602) [*]  -&gt; IRI</tspan>
+<tspan x="3138" y="398">foaf:surname (1.1e4) [1] </tspan>
+<tspan x="3138" y="414">ocd:endDate (1.1e4) [1] </tspan>
+<tspan x="3138" y="430">ocd:incaricoGovernativo (4188) [1] D</tspan>
+<tspan x="3138" y="446">ocd:interim (1.1e4) [1] D</tspan>
+<tspan x="3138" y="462">ocd:membroGoverno (1.1e4) [1] D</tspan>
+<tspan x="3138" y="478">ocd:motivoTermine (1.1e4) [1] </tspan>
+<tspan x="3138" y="494">ocd:rif_leg (1.8e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="3138" y="510">ocd:startDate (1.1e4) [1] </tspan>
+<tspan x="3138" y="526">ont-ods:modified (1.5e4) [*] </tspan>
+<tspan x="3138" y="542">rdf:type (3.0e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3138" y="558">rdfs:label (1.5e4) [*] </tspan>
+</text>
+</g>
+<g id="2002796667"><polygon points="4308,1222 4578,1222 4578,1352 4308,1352 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="4334" y="1237">ocd:presidenteConsiglioMinistri (294)</tspan>
+</text>
+<line x1="4312" y1="1241" x2="4576" y2="1241"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4312" y="1253">dc:date (294) [*] </tspan>
+<tspan x="4312" y="1269">dc:title (294) [*] </tspan>
+<tspan x="4312" y="1285">ocd:endDate (132) [1] </tspan>
+<tspan x="4312" y="1301">ocd:startDate (138) [1] </tspan>
+<tspan x="4312" y="1317">ont-ods:modified (294) [*] </tspan>
+<tspan x="4312" y="1333">rdf:type (588) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="4312" y="1349">rdfs:label (294) [*] </tspan>
+</text>
+</g>
+<g id="2002796788"><polygon points="4706,1573 5017,1573 5017,1828 4706,1828 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="4703,1576 5014,1576 5014,1831 4703,1831 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="4716" y="1591">ocd:luogo or ocd:presidenteRepubblica G116 (~</tspan>
+<tspan x="4842" y="1608">5020)</tspan>
+</text>
+<line x1="4707" y1="1611" x2="5011" y2="1611"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4707" y="1623">dc:date (22) [*] </tspan>
+<tspan x="4707" y="1639">dc:title (5012) [*] </tspan>
+<tspan x="4707" y="1655">ocd:name (398) [1] </tspan>
+<tspan x="4707" y="1671">ocd:parentADM1 (4744) [1] </tspan>
+<tspan x="4707" y="1687">ocd:parentADM2 (4466) [1] D</tspan>
+<tspan x="4707" y="1703">ocd:parentADM3 (4744) [1] D</tspan>
+<tspan x="4707" y="1719">ocd:parentCountry (240) [1] D</tspan>
+<tspan x="4707" y="1735">ont-ods:modified (5020) [*] </tspan>
+<tspan x="4707" y="1751">owl:sameAs (1.3e4) [*]  -&gt;  foaf:Person,owl:Class or </tspan>
+<tspan x="4707" y="1767">rdfs:Class</tspan>
+<tspan x="4707" y="1783">rdf:type (1.0e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="4707" y="1799">rdfs:label (5012) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="4707" y="1810">ocd:luogo (4998)</tspan>
+<tspan x="4707" y="1826">ocd:presidenteRepubblica (22)</tspan>
+</text>
+</g>
+<g id="2002796942"><polygon points="3935,806 4246,806 4246,982 3935,982 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="3932,809 4242,809 4242,985 3932,985 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3944" y="824">ocd:statoIter or ocd:trasmissione G118 (~1.2e5)</tspan>
+</text>
+<line x1="3936" y1="828" x2="4240" y2="828"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3936" y="840">dc:date (1.2e5) [*] </tspan>
+<tspan x="3936" y="856">dc:title (1.2e5) [*] </tspan>
+<tspan x="3936" y="872">dc:type (1.2e5) [*] </tspan>
+<tspan x="3936" y="888">dct:provenance (4350) [*] </tspan>
+<tspan x="3936" y="904">ocd:rif_attoSenato (624) [1] D -&gt; IRI</tspan>
+<tspan x="3936" y="920">ont-ods:modified (1.2e5) [*] </tspan>
+<tspan x="3936" y="936">rdf:type (2.3e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3936" y="952">rdfs:label (1.2e5) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3936" y="964">ocd:statoIter (1.1e5)</tspan>
+<tspan x="3936" y="980">ocd:trasmissione (4350)</tspan>
+</text>
+</g>
+<g id="2002796997"><polygon points="3132,570 3482,570 3482,715 3132,715 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3246" y="585">ocd:senatore (1.7e4)</tspan>
+</text>
+<line x1="3136" y1="589" x2="3480" y2="589"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3136" y="601">dc:title (1.7e4) [*] </tspan>
+<tspan x="3136" y="617">dct:isReferencedBy (1.2e4 9%d) [*]  -&gt; IRI</tspan>
+<tspan x="3136" y="633">ocd:rif_leg (1.2e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="3136" y="649">ont-ods:modified (1.7e4) [*] </tspan>
+<tspan x="3136" y="665">rdf:type (3.4e4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3136" y="681">rdfs:label (1.7e4) [*] </tspan>
+<tspan x="3136" y="697">&lt;- ocd:primo_firmatario (9.9e4)  &lt;-  ocd:DOC or ocd:legge,</tspan>
+<tspan x="3136" y="713">ocd:aic,ocd:atto</tspan>
+</text>
+</g>
+<g id="2002797228"><polygon points="2872,3430 3133,3430 3133,3528 2872,3528 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2950" y="3445">le-ont:Event (142)</tspan>
+</text>
+<line x1="2876" y1="3449" x2="3131" y2="3449"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2876" y="3461">dc:date (110) [*] </tspan>
+<tspan x="2876" y="3477">dc:format (69) [*] </tspan>
+<tspan x="2876" y="3493">dc:type (142) [*] </tspan>
+<tspan x="2876" y="3509">rdf:type (142) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="2876" y="3525">rdfs:label (142) [*] </tspan>
+</text>
+</g>
+<g id="2002796909"><polygon points="3183,3439 3432,3439 3432,3507 3183,3507 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3252" y="3454">cult:Collections (2)</tspan>
+</text>
+<line x1="3187" y1="3458" x2="3430" y2="3458"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3187" y="3470">dc:title (4) [*] </tspan>
+<tspan x="3187" y="3486">rdf:type (4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3187" y="3502">rdfs:label (4) [*] </tspan>
+</text>
+</g>
+<g id="2002797173"><polygon points="3556,3443 3805,3443 3805,3511 3556,3511 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="3607" y="3459">cult:HolderOfArchives (2)</tspan>
+</text>
+<line x1="3560" y1="3462" x2="3803" y2="3462"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3560" y="3474">dc:title (4) [*] </tspan>
+<tspan x="3560" y="3490">rdf:type (4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="3560" y="3506">rdfs:label (4) [*] </tspan>
+</text>
+</g>
+<g id="2002796799"><polygon points="927,2342 1238,2342 1238,2689 927,2689 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="924,2345 1235,2345 1235,2692 924,2692 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="968" y="2360">ocd:DOC or ocd:legge G114 (~9.3e4)</tspan>
+</text>
+<line x1="928" y1="2364" x2="1233" y2="2364"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="928" y="2376">dc:creator (2558) [*] </tspan>
+<tspan x="928" y="2392">dc:date (7.7e4) [*] </tspan>
+<tspan x="928" y="2408">dc:identifier (9.0e4) [1] </tspan>
+<tspan x="928" y="2424">dc:publisher (3.4e4) [1] </tspan>
+<tspan x="928" y="2440">dc:relation (4.8e4 31%d) [*]  -&gt; IRI</tspan>
+<tspan x="928" y="2456">dc:title (9.0e4) [*] </tspan>
+<tspan x="928" y="2472">dc:type (8.7e4) [*] </tspan>
+<tspan x="928" y="2488">dct:isPartOf (2714) [*] </tspan>
+<tspan x="928" y="2504">dct:isReferencedBy (3.6e4 3%d) [*]  -&gt; IRI</tspan>
+<tspan x="928" y="2520">dct:provenance (2714) [*] </tspan>
+<tspan x="928" y="2536">ocd:lavoriPreparatori (3.6e4) [*] D -&gt; IRI</tspan>
+<tspan x="928" y="2552">ocd:lex (3.4e4) [*]  -&gt; IRI</tspan>
+<tspan x="928" y="2568">ocd:primo_firmatario (1710) [*]  -&gt;  foaf:Person,ocd:</tspan>
+<tspan x="928" y="2584">deputato or ocd:Deputato,ocd:senatore</tspan>
+<tspan x="928" y="2600">ocd:rif_leg (9.0e4) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="928" y="2616">ont-ods:modified (9.0e4) [*] </tspan>
+<tspan x="928" y="2632">rdf:type (1.8e5) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="928" y="2648">rdfs:label (9.0e4) [*] </tspan>
+<tspan x="928" y="2664">&lt;&gt; ocd:rif_doc  </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="928" y="2671">ocd:DOC (6.0e4)</tspan>
+<tspan x="928" y="2687">ocd:legge (3.4e4)</tspan>
+</text>
+</g>
+<g id="2002796865"><polygon points="10,62 462,62 462,513 10,513 "
+style="fill:White; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="14" y="76">PREFIX ocd: &lt;http://dati.camera.it/ocd/&gt;</tspan>
+<tspan x="14" y="92">PREFIX dct: &lt;http://purl.org/dc/terms/&gt;</tspan>
+<tspan x="14" y="108">PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;</tspan>
+<tspan x="14" y="124">PREFIX oad: &lt;http://culturalis.org/oad#&gt;</tspan>
+<tspan x="14" y="140">PREFIX dc: &lt;http://purl.org/dc/elements/1.1/&gt;</tspan>
+<tspan x="14" y="156">PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;</tspan>
+<tspan x="14" y="172">PREFIX bibo: &lt;http://purl.org/ontology/bibo/&gt;</tspan>
+<tspan x="14" y="188">PREFIX w3-skos: &lt;http://www.w3.org/2008/05/skos#&gt;</tspan>
+<tspan x="14" y="204">PREFIX isbd: &lt;http://iflastandards.info/ns/isbd/elements/&gt;</tspan>
+<tspan x="14" y="220">PREFIX ont-ods: &lt;http://lod.xdams.org/ontologies/ods/&gt;</tspan>
+<tspan x="14" y="236">PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;</tspan>
+<tspan x="14" y="252">PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;</tspan>
+<tspan x="14" y="268">PREFIX schema: &lt;http://schema.org/&gt;</tspan>
+<tspan x="14" y="284">PREFIX nfo: &lt;http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#&gt;</tspan>
+<tspan x="14" y="300">PREFIX eac-cpf: &lt;http://culturalis.org/eac-cpf#&gt;</tspan>
+<tspan x="14" y="316">PREFIX cult: &lt;http://culturalis.org/cult/0.1#&gt;</tspan>
+<tspan x="14" y="332">PREFIX lg-ont: &lt;http://linkedgeodata.org/ontology/&gt;</tspan>
+<tspan x="14" y="348">PREFIX org: &lt;http://www.w3.org/ns/org#&gt;</tspan>
+<tspan x="14" y="364">PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</tspan>
+<tspan x="14" y="380">PREFIX bio: &lt;http://purl.org/vocab/bio/0.1/&gt;</tspan>
+<tspan x="14" y="396">PREFIX le-ont: &lt;http://linkedevents.org/ontology/&gt;</tspan>
+<tspan x="14" y="412">PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;</tspan>
+<tspan x="14" y="428">PREFIX vocab-voaf: &lt;http://labs.mondeca.com/vocab/voaf#&gt;</tspan>
+<tspan x="14" y="444">PREFIX vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt;</tspan>
+<tspan x="14" y="460">PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;</tspan>
+<tspan x="14" y="476">PREFIX vann: &lt;http://purl.org/vocab/vann/&gt;</tspan>
+<tspan x="14" y="492">PREFIX cc: &lt;http://creativecommons.org/ns#&gt;</tspan>
+</text>
+</g>
+<g id="2002796920"><polygon points="747,101 1058,101 1058,336 747,336 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="798" y="117">ocd:componenteGruppoMisto (198)</tspan>
+</text>
+<line x1="751" y1="120" x2="1056" y2="120"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="751" y="132">dc:date (198) [*] </tspan>
+<tspan x="751" y="148">dc:title (198) [*] </tspan>
+<tspan x="751" y="164">dct:alternative (198) [1] </tspan>
+<tspan x="751" y="180">ocd:denominazione (92) [*]  -&gt; IRI</tspan>
+<tspan x="751" y="196">ocd:diventa (26) [*]  -&gt; IRI</tspan>
+<tspan x="751" y="212">ocd:endDate (160) [1] </tspan>
+<tspan x="751" y="228">ocd:rif_leg (198) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="751" y="244">ocd:siComponeDi (1892) [*]  -&gt;  foaf:Person,ocd:</tspan>
+<tspan x="751" y="260">deputato or ocd:Deputato,ocd:organo</tspan>
+<tspan x="751" y="276">ocd:startDate (198) [1] </tspan>
+<tspan x="751" y="292">ont-ods:modified (198) [*] </tspan>
+<tspan x="751" y="308">rdf:type (396) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="751" y="324">rdfs:label (198) [*] </tspan>
+</text>
+</g>
+<g id="2002797162"><polygon points="748,368 1043,368 1043,598 748,598 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="806" y="384">ocd:gruppoParlamentare (454)</tspan>
+</text>
+<line x1="752" y1="387" x2="1041" y2="387"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="752" y="399">dc:date (430) [*] </tspan>
+<tspan x="752" y="415">dc:title (430) [*] </tspan>
+<tspan x="752" y="431">dct:alternative (430) [1] </tspan>
+<tspan x="752" y="447">ocd:denominazione (114) [*]  -&gt; IRI</tspan>
+<tspan x="752" y="463">ocd:diventa (18) [*]  -&gt; IRI</tspan>
+<tspan x="752" y="479">ocd:endDate (370) [1] </tspan>
+<tspan x="752" y="495">ocd:rif_leg (430) [*]  -&gt;  ocd:legislatura</tspan>
+<tspan x="752" y="511">ocd:siComponeDi (3.0e4) [*]  -&gt;  foaf:Person,ocd:</tspan>
+<tspan x="752" y="527">deputato or ocd:Deputato,ocd:organo</tspan>
+<tspan x="752" y="543">ocd:startDate (430) [1] </tspan>
+<tspan x="752" y="559">ont-ods:modified (454) [*] </tspan>
+<tspan x="752" y="575">rdf:type (884) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="752" y="591">rdfs:label (430) [*] </tspan>
+</text>
+</g>
+<g id="2002797118"><polygon points="360,534 745,534 745,831 360,831 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="357,537 742,537 742,834 357,834 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="440" y="552">owl:Class or rdfs:Class G104 (3.8e9)</tspan>
+</text>
+<line x1="361" y1="556" x2="740" y2="556"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="361" y="568">owl:equivalentClass (5) [*] D -&gt; IRI</tspan>
+<tspan x="361" y="584">owl:sameAs (4) [*]  -&gt;  foaf:Person,owl:Class or rdfs:Class</tspan>
+<tspan x="361" y="600">owl:unionOf (221) [1] D -&gt; IRI</tspan>
+<tspan x="361" y="616">owl:versionInfo (102) [*] </tspan>
+<tspan x="361" y="632">rdf:type (537) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="361" y="648">rdfs:comment (179) [*] </tspan>
+<tspan x="361" y="664">rdfs:label (298) [*] </tspan>
+<tspan x="361" y="680">vs:term_status (13) [1] </tspan>
+<tspan x="361" y="696">&lt;- owl:sameAs (2)  &lt;-  ocd:luogo or ocd:presidenteRepubblica,lg-</tspan>
+<tspan x="361" y="712">ont:Village et al...(8)</tspan>
+<tspan x="361" y="728">&lt;- rdf:type (1.1e8)  &lt;-  bibo:Article or bibo:Website,ocd:post..(65)</tspan>
+<tspan x="361" y="744">&lt;&gt; owl:disjointWith  DR</tspan>
+<tspan x="361" y="760">&lt;&gt; rdfs:subClassOf  D</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="361" y="770">owl:Class (380)</tspan>
+<tspan x="361" y="786">rdfs:Class (13)</tspan>
+</text>
+</g>
+<g id="2002797107"><polygon points="34,1044 345,1044 345,1091 34,1091 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="111" y="1059">owl:AnnotationProperty (7)</tspan>
+</text>
+<line x1="38" y1="1063" x2="343" y2="1063"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="38" y="1075">rdf:type (8) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+</text>
+</g>
+<g id="2002797074"><polygon points="26,930 336,930 336,1010 26,1010 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="121" y="946">owl:Restriction (114)</tspan>
+</text>
+<line x1="30" y1="949" x2="334" y2="949"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="30" y="961">owl:someValuesFrom (39) [1] D -&gt; IRI</tspan>
+<tspan x="30" y="977">rdf:type (114) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+</text>
+</g>
+<g id="2002796656"><polygon points="84,1557 394,1557 394,1608 84,1608 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="164" y="1572">owl:AllDisjointClasses (4)</tspan>
+</text>
+<line x1="88" y1="1575" x2="392" y2="1575"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="88" y="1587">owl:members (4) [1] D -&gt; IRI</tspan>
+<tspan x="88" y="1603">rdf:type (4) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+</text>
+</g>
+<g id="2002796546"><polygon points="90,1647 401,1647 401,1901 90,1901 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="87,1650 397,1650 397,1904 87,1904 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="105" y="1665">owl:NamedIndividual or vocab-voaf:Vocabulary </tspan>
+<tspan x="210" y="1682">G105 (292)</tspan>
+</text>
+<line x1="91" y1="1685" x2="395" y2="1685"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="91" y="1697">cc:licence (1) [1] D -&gt; IRI</tspan>
+<tspan x="91" y="1713">dc:creator (1) [*] </tspan>
+<tspan x="91" y="1729">dc:issued (1) [1] D</tspan>
+<tspan x="91" y="1745">dc:modified (5) [*] D</tspan>
+<tspan x="91" y="1761">dc:publisher (1) [1] </tspan>
+<tspan x="91" y="1777">dc:rights (1) [1] D</tspan>
+<tspan x="91" y="1793">dct:modified (6) [*] D</tspan>
+<tspan x="91" y="1809">owl:imports (1) [1] D -&gt; IRI</tspan>
+<tspan x="91" y="1825">owl:versionInfo (1) [*] </tspan>
+<tspan x="91" y="1841">rdf:type (6) [*]  -&gt;  owl:Class or rdfs:Class</tspan>
+<tspan x="91" y="1857">skos:historyNote (29) [*] D -&gt; IRI</tspan>
+<tspan x="91" y="1873">vann:preferredNamespacePrefix (1) [1] D</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="91" y="1883">owl:NamedIndividual (2)</tspan>
+<tspan x="91" y="1899">vocab-voaf:Vocabulary (1)</tspan>
+</text>
+</g>
+<g id="2002797437"><path d="M2934,2180 L4047,2180 4051,2178 4053,2174 4053,1943 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4050" y1="1949" x2="4053" y2="1943"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4056" y1="1949" x2="4053" y2="1943"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2938" y="2177">ocd:altro_firmatario  </tspan>
+</text>
+</g>
+<g id="2002797442"><path d="M4144,2773 L4144,1943 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4141" y1="1949" x2="4144" y2="1943"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4147" y1="1949" x2="4144" y2="1943"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4051" y="2753">dct:relation  </tspan>
+<tspan x="4051" y="2769">eac-cpf:named  </tspan>
+</text>
+</g>
+<g id="2002797517"><path d="M769,985 L769,948 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="766" y1="954" x2="769" y2="948"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="772" y1="954" x2="769" y2="948"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="668" y="981">rdfs:isDefinedBy  </tspan>
+</text>
+</g>
+<g id="2002797602"><path d="M2624,1995 L1480,1995 1476,1993 1474,1989 1474,1397 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1471" y1="1403" x2="1474" y2="1397"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1477" y1="1403" x2="1474" y2="1397"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2482" y="2009">ocd:rif_assegnazione  R</tspan>
+</text>
+</g>
+<g id="2002797612"><path d="M2227,2649 L2227,3042 2221,3042 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2227" y1="3039" x2="2221" y2="3042"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2227" y1="3045" x2="2221" y2="3042"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2229" y="2664">dct:creator  </tspan>
+<tspan x="2229" y="2680">ocd:rif_unitaOrganizzativa  D</tspan>
+<tspan x="2229" y="2696">ont-ods:twittedBy  DR</tspan>
+</text>
+</g>
+<g id="2002797707"><path d="M2208,716 L2208,1461 2206,1466 2201,1468 1104,1468 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1111" y1="1465" x2="1104" y2="1468"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1111" y1="1471" x2="1104" y2="1468"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2210" y="731">ocd:rif_seduta  </tspan>
+</text>
+</g>
+<g id="2002797907"><path d="M2624,2166 L1824,2166 1820,2168 1817,2172 1817,2245 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1814" y1="2239" x2="1817" y2="2245"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1821" y1="2239" x2="1817" y2="2245"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2505" y="2179">ocd:assegnatario  D</tspan>
+</text>
+</g>
+<g id="2002797587"><path d="M722,834 L722,881 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="719" y1="875" x2="722" y2="881"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="726" y1="875" x2="722" y2="881"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="724" y="849">rdfs:isDefinedBy  </tspan>
+</text>
+</g>
+<g id="2002797682"><path d="M4424,2711 L4424,2615 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4420" y1="2622" x2="4424" y2="2615"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4427" y1="2622" x2="4424" y2="2615"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4152" y="2675">oad:has_administrativeBiographicalHistory  DR</tspan>
+<tspan x="4152" y="2691">oad:hasAdministrativeBiographicalHistory  D</tspan>
+<tspan x="4152" y="2707">oad:AdministrativeBiographicalHistory  DR</tspan>
+</text>
+</g>
+<g id="2002797897"><path d="M2188,2454 L1824,2454 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1830" y1="2451" x2="1824" y2="2454"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1830" y1="2457" x2="1824" y2="2454"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2096" y="2467">dct:audience  R</tspan>
+</text>
+</g>
+<g id="2002797492"><path d="M1999,3036 L1999,2783 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1995" y1="2789" x2="1999" y2="2783"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2002" y1="2789" x2="1999" y2="2783"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1922" y="3031">foaf:account  </tspan>
+</text>
+</g>
+<g id="2002797512"><path d="M1236,2281 L1474,2281 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1468" y1="2278" x2="1474" y2="2281"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1468" y1="2284" x2="1474" y2="2281"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1240" y="2279">ocd:rif_organo  </tspan>
+</text>
+</g>
+<g id="2002797857"><path d="M1811,1929 L1811,2245 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1808" y1="2239" x2="1811" y2="2245"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1814" y1="2239" x2="1811" y2="2245"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1813" y="1944">ocd:rif_organo  </tspan>
+</text>
+</g>
+<g id="2002797892"><path d="M3233,1193 L1060,1193 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1066" y1="1190" x2="1060" y2="1193"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1066" y1="1196" x2="1060" y2="1193"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3061" y="1206">ocd:rif_versioneTestoAtto  DR</tspan>
+</text>
+</g>
+<g id="2002797657"><path d="M659,985 L659,834 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="656" y1="840" x2="659" y2="834"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="662" y1="840" x2="659" y2="834"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="583" y="965">rdfs:domain  </tspan>
+<tspan x="583" y="981">rdfs:range  </tspan>
+</text>
+</g>
+<g id="2002797467"><path d="M2671,390 L2508,390 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2514" y1="387" x2="2508" y2="390"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2514" y1="393" x2="2508" y2="390"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2570" y="403">ocd:rif_deputato  </tspan>
+</text>
+</g>
+<g id="2002797692"><path d="M2982,414 L3134,414 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3128" y1="411" x2="3134" y2="414"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3128" y1="417" x2="3134" y2="414"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2986" y="412">ocd:rif_membroGoverno  </tspan>
+</text>
+</g>
+<g id="2002797487"><path d="M2508,301 L3134,301 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3128" y1="298" x2="3134" y2="301"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3128" y1="304" x2="3134" y2="301"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2512" y="299">ocd:rif_membroGoverno  </tspan>
+</text>
+</g>
+<g id="2002797787"><path d="M3482,641 L3878,641 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3872" y1="638" x2="3878" y2="641"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3872" y1="644" x2="3878" y2="641"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3486" y="638">ocd:rif_mandatoSenato  </tspan>
+</text>
+</g>
+<g id="2002797797"><path d="M3878,619 L3482,619 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3488" y1="616" x2="3482" y2="619"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3488" y1="622" x2="3482" y2="619"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3766" y="632">ocd:rif_senatore  R</tspan>
+</text>
+</g>
+<g id="2002797462"><path d="M3674,978 L3932,978 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3926" y1="975" x2="3932" y2="978"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3926" y1="981" x2="3932" y2="978"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3678" y="960">ocd:rif_statoIter  DR</tspan>
+<tspan x="3678" y="976">ocd:rif_trasmissione  DR</tspan>
+</text>
+</g>
+<g id="2002797522"><path d="M3674,1035 L3835,1035 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3828" y1="1032" x2="3835" y2="1035"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3828" y1="1038" x2="3835" y2="1035"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3678" y="1033">ocd:rif_natura  D</tspan>
+</text>
+</g>
+<g id="2002797732"><path d="M1914,589 L1914,513 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1911" y1="520" x2="1914" y2="513"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1917" y1="520" x2="1914" y2="513"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1814" y="584">ocd:rif_deputato  </tspan>
+</text>
+</g>
+<g id="2002797377"><path d="M1920,513 L1920,589 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1917" y1="583" x2="1920" y2="589"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1923" y1="583" x2="1920" y2="589"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1922" y="528">ocd:rif_mandatoCamera  R</tspan>
+<tspan x="1922" y="544">ocd:rif_ufficioParlamentare  </tspan>
+<tspan x="1922" y="560">ocd:rif_incarico  </tspan>
+</text>
+</g>
+<g id="2002797772"><path d="M1282,738 L1282,491 1284,486 1289,484 1721,484 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1715" y1="481" x2="1721" y2="484"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1715" y1="487" x2="1721" y2="484"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1154" y="733">ocd:presiedutaDa  DR</tspan>
+</text>
+</g>
+<g id="2002797497"><path d="M2741,1816 L2741,668 2743,663 2747,661 3132,661 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3126" y1="658" x2="3132" y2="661"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3126" y1="664" x2="3132" y2="661"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2623" y="1812">ocd:altro_firmatario  </tspan>
+</text>
+</g>
+<g id="2002797912"><path d="M3233,1330 L1643,1330 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1649" y1="1327" x2="1643" y2="1330"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1649" y1="1333" x2="1643" y2="1330"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3092" y="1343">ocd:rif_assegnazione  R</tspan>
+</text>
+</g>
+<g id="2002797812"><path d="M1072,1567 L1072,1611 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1069" y1="1605" x2="1072" y2="1611"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1075" y1="1605" x2="1072" y2="1611"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1074" y="1582">ocd:rif_assemblea  R</tspan>
+</text>
+</g>
+<g id="2002797822"><path d="M1098,1069 L1098,1376 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1095" y1="1369" x2="1098" y2="1376"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1101" y1="1369" x2="1098" y2="1376"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1100" y="1084">ocd:rif_seduta  </tspan>
+</text>
+</g>
+<g id="2002797597"><path d="M1205,1069 L1205,1611 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1202" y1="1605" x2="1205" y2="1611"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1208" y1="1605" x2="1205" y2="1611"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1207" y="1084">ocd:rif_assemblea  R</tspan>
+</text>
+</g>
+<g id="2002797722"><path d="M1655,905 L1655,2245 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1652" y1="2239" x2="1655" y2="2245"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1658" y1="2239" x2="1655" y2="2245"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1657" y="920">ocd:rif_organo  </tspan>
+</text>
+</g>
+<g id="2002797777"><path d="M3674,1253 L3776,1253 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3769" y1="1250" x2="3776" y2="1253"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3769" y1="1256" x2="3776" y2="1253"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3678" y="1251">ocd:rif_governo  </tspan>
+</text>
+</g>
+<g id="2002797322"><path d="M3828,851 L3828,1153 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3825" y1="1147" x2="3828" y2="1153"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3832" y1="1147" x2="3828" y2="1153"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3831" y="866">ocd:rif_governo  </tspan>
+</text>
+</g>
+<g id="2002797767"><path d="M3674,1425 L4047,1425 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1422" x2="4047" y2="1425"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1428" x2="4047" y2="1425"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3678" y="1423">ocd:altro_firmatario  </tspan>
+</text>
+</g>
+<g id="2002797572"><path d="M3306,3402 L3306,3439 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3303" y1="3433" x2="3306" y2="3439"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3309" y1="3433" x2="3306" y2="3439"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3308" y="3417">cult:isIncludedIn  DR</tspan>
+</text>
+</g>
+<g id="2002797357"><path d="M4198,3028 L3274,3028 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3280" y1="3025" x2="3274" y2="3028"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3280" y1="3032" x2="3274" y2="3028"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4125" y="3041">dct:relation  </tspan>
+</text>
+</g>
+<g id="2002797802"><path d="M3148,3283 L3148,3204 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3145" y1="3211" x2="3148" y2="3204"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3152" y1="3211" x2="3148" y2="3204"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3027" y="3278">oad:isProducedBy  D</tspan>
+</text>
+</g>
+<g id="2002797382"><path d="M1920,905 L1920,1566 1922,1570 1926,1572 3564,1572 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3557" y1="1569" x2="3564" y2="1572"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3557" y1="1575" x2="3564" y2="1572"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1922" y="920">ocd:rif_elezione  DR</tspan>
+</text>
+</g>
+<g id="2002797392"><path d="M2934,1945 L3155,1945 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3148" y1="1942" x2="3155" y2="1945"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3148" y1="1948" x2="3155" y2="1945"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2938" y="1942">ocd:risposta  D</tspan>
+</text>
+</g>
+<g id="2002797622"><path d="M2934,1860 L3397,1860 3401,1858 3403,1854 3403,1449 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3400" y1="1455" x2="3403" y2="1449"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3406" y1="1455" x2="3403" y2="1449"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2938" y="1857">ocd:rif_attoCamera  </tspan>
+</text>
+</g>
+<g id="2002797482"><path d="M1236,2160 L2624,2160 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2618" y1="2157" x2="2624" y2="2160"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2618" y1="2163" x2="2624" y2="2160"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1240" y="2158">ocd:rif_aic  </tspan>
+</text>
+</g>
+<g id="2002797397"><path d="M1236,2138 L2299,2138 2303,2136 2305,2132 2305,716 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2302" y1="722" x2="2305" y2="716"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2308" y1="722" x2="2305" y2="716"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1240" y="2136">ocd:rif_discussione  D</tspan>
+</text>
+</g>
+<g id="2002797742"><path d="M1817,2623 L1817,2545 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1814" y1="2551" x2="1817" y2="2545"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1821" y1="2551" x2="1817" y2="2545"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1727" y="2618">dct:audience  R</tspan>
+</text>
+</g>
+<g id="2002797637"><path d="M1092,2120 L1092,1741 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1089" y1="1747" x2="1092" y2="1741"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1095" y1="1747" x2="1092" y2="1741"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="968" y="2115">ocd:rif_assemblea  R</tspan>
+</text>
+</g>
+<g id="2002797592"><path d="M792,2051 L792,1897 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="789" y1="1903" x2="792" y2="1897"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="795" y1="1903" x2="792" y2="1897"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="722" y="2047">dct:subject  </tspan>
+</text>
+</g>
+<g id="2002797867"><path d="M1104,1489 L1474,1489 1478,1491 1480,1496 1480,2245 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1477" y1="2239" x2="1480" y2="2245"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1483" y1="2239" x2="1480" y2="2245"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1108" y="1487">ocd:rif_organo  </tspan>
+</text>
+</g>
+<g id="2002797297"><path d="M2190,587 L2190,513 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2187" y1="520" x2="2190" y2="513"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2193" y1="520" x2="2190" y2="513"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2091" y="582">ocd:rif_deputato  </tspan>
+</text>
+</g>
+<g id="2002797677"><path d="M3597,1888 L3597,2876 3595,2880 3590,2882 2614,2882 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2621" y1="2879" x2="2614" y2="2882"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2621" y1="2886" x2="2614" y2="2882"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3599" y="1903">ocd:rif_file  </tspan>
+</text>
+</g>
+<g id="2002797672"><path d="M3051,3430 L3051,3402 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3048" y1="3408" x2="3051" y2="3402"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3054" y1="3408" x2="3051" y2="3402"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2944" y="3425">le-ont:involved  DR</tspan>
+</text>
+</g>
+<g id="2002797687"><path d="M3312,3322 L3698,3322 3702,3320 3704,3316 3704,2857 3706,2852 3710,2850 3771,2850 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3764" y1="2847" x2="3771" y2="2850"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3764" y1="2853" x2="3771" y2="2850"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3316" y="3320">oad:isProducedBy  D</tspan>
+</text>
+</g>
+<g id="2002797827"><path d="M3998,2872 L3998,2914 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3995" y1="2907" x2="3998" y2="2914"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4001" y1="2907" x2="3998" y2="2914"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4000" y="2887">eac-cpf:named  </tspan>
+</text>
+</g>
+<g id="2002797332"><path d="M4198,3055 L3862,3055 3857,3057 3855,3062 3855,3144 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3852" y1="3138" x2="3855" y2="3144"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3858" y1="3138" x2="3855" y2="3144"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4074" y="3068">oad:isContainedIn  R</tspan>
+</text>
+</g>
+<g id="2002797337"><path d="M4304,3073 L4304,3372 4301,3376 4297,3378 3312,3378 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3318" y1="3375" x2="3312" y2="3378"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3318" y1="3381" x2="3312" y2="3378"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4306" y="3088">oad:isEntryOf  </tspan>
+</text>
+</g>
+<g id="2002797617"><path d="M4508,2893 L4583,2893 4587,2891 4589,2887 4589,1943 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4586" y1="1949" x2="4589" y2="1943"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4592" y1="1949" x2="4589" y2="1943"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4513" y="2890">dct:relation  </tspan>
+</text>
+</g>
+<g id="2002797927"><path d="M3815,2773 L3815,2364 3813,2360 3809,2358 1824,2358 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1830" y1="2355" x2="1824" y2="2358"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1830" y1="2361" x2="1824" y2="2358"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3745" y="2768">dct:relation  </tspan>
+</text>
+</g>
+<g id="2002797577"><path d="M3564,1638 L3146,1638 3142,1640 3140,1645 3140,2554 3138,2559 3134,2561 2837,2561 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2843" y1="2557" x2="2837" y2="2561"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2843" y1="2564" x2="2837" y2="2561"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3411" y="1651">ocd:rif_sistemaElettorale  </tspan>
+</text>
+</g>
+<g id="2002797307"><path d="M3022,2945 L3022,2620 3020,2615 3016,2613 2837,2613 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2843" y1="2610" x2="2837" y2="2613"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2843" y1="2616" x2="2837" y2="2613"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2847" y="2924">ocd:rif_sistemaElettorale  </tspan>
+<tspan x="2847" y="2940">ocd:rif_sistema_elettorale  DR</tspan>
+</text>
+</g>
+<g id="2002797427"><path d="M336,1003 L465,1003 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="459" y1="1000" x2="465" y2="1003"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="459" y1="1006" x2="465" y2="1003"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="340" y="1000">owl:onProperty  D</tspan>
+</text>
+</g>
+<g id="2002797287"><path d="M336,964 L539,964 543,962 545,957 545,834 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="542" y1="840" x2="545" y2="834"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="549" y1="840" x2="545" y2="834"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="340" y="946">owl:allValuesFrom  D</tspan>
+<tspan x="340" y="962">owl:allValueFrom  DR</tspan>
+</text>
+</g>
+<g id="2002797547"><path d="M465,1062 L345,1062 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="351" y1="1059" x2="345" y2="1062"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="351" y1="1065" x2="345" y2="1062"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="349" y="1075">rdfs:subPropertyOf  </tspan>
+</text>
+</g>
+<g id="2002797837"><path d="M357,701 L242,701 238,703 236,707 236,930 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="233" y1="924" x2="236" y2="930"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="239" y1="924" x2="236" y2="930"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="244" y="714">rdfs:subClassOf  D</tspan>
+</text>
+</g>
+<g id="2002797412"><path d="M592,1897 L592,1955 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="589" y1="1949" x2="592" y2="1955"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="595" y1="1949" x2="592" y2="1955"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="594" y="1912">w3-skos:inScheme  D</tspan>
+<tspan x="594" y="1928">w3-skos:broader  D</tspan>
+</text>
+</g>
+<g id="2002797752"><path d="M775,2786 L775,3319 777,3323 781,3325 1262,3325 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1255" y1="3322" x2="1262" y2="3325"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1255" y1="3329" x2="1262" y2="3325"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="777" y="2801">foaf:homepage  </tspan>
+</text>
+</g>
+<g id="2002797352"><path d="M1585,3526 L1737,3526 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1731" y1="3523" x2="1737" y2="3526"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1731" y1="3529" x2="1737" y2="3526"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1589" y="3524">dcat:distribution  DR</tspan>
+</text>
+</g>
+<g id="2002797342"><path d="M1420,3180 L1420,3211 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1417" y1="3204" x2="1420" y2="3211"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1423" y1="3204" x2="1420" y2="3211"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1422" y="3195">foaf:homepage  </tspan>
+</text>
+</g>
+<g id="2002797747"><path d="M1422,3355 L1422,3456 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1419" y1="3450" x2="1422" y2="3456"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1425" y1="3450" x2="1422" y2="3456"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1424" y="3371">dcat:dataset  DR</tspan>
+</text>
+</g>
+<g id="2002797757"><path d="M1547,3456 L1547,3375 1549,3371 1554,3369 1911,3369 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1904" y1="3366" x2="1911" y2="3369"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1904" y1="3372" x2="1911" y2="3369"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1430" y="3420">dct:creator  </tspan>
+<tspan x="1430" y="3436">dct:publisher  R</tspan>
+<tspan x="1430" y="3452">dct:rightsHolder  DR</tspan>
+</text>
+</g>
+<g id="2002797432"><path d="M1911,3324 L1572,3324 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1578" y1="3321" x2="1572" y2="3324"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1578" y1="3328" x2="1572" y2="3324"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1814" y="3337">foaf:homepage  </tspan>
+</text>
+</g>
+<g id="2002797537"><path d="M1572,3266 L1911,3266 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1904" y1="3263" x2="1911" y2="3266"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1904" y1="3270" x2="1911" y2="3266"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1576" y="3248">dct:creator  </tspan>
+<tspan x="1576" y="3264">dct:publisher  R</tspan>
+</text>
+</g>
+<g id="2002797917"><path d="M1573,3144 L1911,3144 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1904" y1="3141" x2="1911" y2="3144"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1904" y1="3147" x2="1911" y2="3144"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1577" y="3126">dct:creator  </tspan>
+<tspan x="1577" y="3142">dct:contributor  R</tspan>
+</text>
+</g>
+<g id="2002797737"><path d="M2426,2649 L2426,2773 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2423" y1="2767" x2="2426" y2="2773"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2429" y1="2767" x2="2426" y2="2773"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2428" y="2664">ocd:rif_file  </tspan>
+</text>
+</g>
+<g id="2002797852"><path d="M1573,2930 L2304,2930 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2298" y1="2927" x2="2304" y2="2930"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2298" y1="2933" x2="2304" y2="2930"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1577" y="2928">ocd:rif_file  </tspan>
+</text>
+</g>
+<g id="2002797532"><path d="M582,2786 L582,3642 584,3646 588,3648 2052,3648 2057,3646 2059,3642 2059,3382 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2056" y1="3389" x2="2059" y2="3382"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2062" y1="3389" x2="2059" y2="3382"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="584" y="2801">dct:creator  </tspan>
+<tspan x="584" y="2817">dct:contributor  R</tspan>
+</text>
+</g>
+<g id="2002797452"><path d="M2578,2650 L2578,2773 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2575" y1="2767" x2="2578" y2="2773"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2581" y1="2767" x2="2578" y2="2773"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2580" y="2665">ocd:rif_file  </tspan>
+</text>
+</g>
+<g id="2002797477"><path d="M687,2786 L687,3629 689,3633 693,3635 2448,3635 2452,3633 2454,3629 2454,3088 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2451" y1="3095" x2="2454" y2="3088"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2457" y1="3095" x2="2454" y2="3088"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="689" y="2801">ocd:rif_file  </tspan>
+</text>
+</g>
+<g id="2002797727"><path d="M1263,2956 L885,2956 881,2954 879,2950 879,1883 877,1879 873,1876 856,1876 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="862" y1="1873" x2="856" y2="1876"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="862" y1="1880" x2="856" y2="1876"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1191" y="2969">dct:subject  </tspan>
+</text>
+</g>
+<g id="2002797647"><path d="M2624,2017 L900,2017 896,2015 894,2011 894,1567 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="891" y1="1573" x2="894" y2="1567"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="897" y1="1573" x2="894" y2="1567"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2533" y="2030">ocd:rif_seduta  </tspan>
+</text>
+</g>
+<g id="2002797327"><path d="M3115,2945 L3115,1740 3113,1736 3109,1734 1211,1734 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1217" y1="1731" x2="1211" y2="1734"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1217" y1="1737" x2="1211" y2="1734"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3030" y="2940">ocd:nomina  D</tspan>
+</text>
+</g>
+<g id="2002797847"><path d="M926,1376 L926,1346 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="923" y1="1352" x2="926" y2="1346"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="929" y1="1352" x2="926" y2="1346"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="816" y="1371">ocd:rif_bollettino  D</tspan>
+</text>
+</g>
+<g id="2002797387"><path d="M794,1448 L675,1448 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="681" y1="1445" x2="675" y2="1448"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="681" y1="1451" x2="675" y2="1448"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="679" y="1461">ocd:rif_sessione  D</tspan>
+</text>
+</g>
+<g id="2002797667"><path d="M959,598 L959,625 962,629 966,631 1530,631 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1524" y1="628" x2="1530" y2="631"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1524" y1="634" x2="1530" y2="631"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="961" y="613">ocd:rif_incarico  </tspan>
+</text>
+</g>
+<g id="2002797372"><path d="M1217,276 L1058,276 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1064" y1="273" x2="1058" y2="276"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1064" y1="279" x2="1058" y2="276"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1094" y="289">ocd:rif_componente  </tspan>
+</text>
+</g>
+<g id="2002797607"><path d="M1217,397 L1043,397 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1049" y1="394" x2="1043" y2="397"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1049" y1="401" x2="1043" y2="397"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1047" y="410">ocd:rif_gruppoParlamentare  </tspan>
+</text>
+</g>
+<g id="2002797807"><path d="M1223,415 L1223,433 1221,437 1217,439 1133,439 1129,441 1127,445 1127,738 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1124" y1="732" x2="1127" y2="738"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1130" y1="732" x2="1127" y2="738"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1225" y="430">ocd:rif_votazione  D</tspan>
+</text>
+</g>
+<g id="2002797542"><path d="M1528,307 L1721,307 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1715" y1="304" x2="1721" y2="307"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1715" y1="311" x2="1721" y2="307"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1532" y="305">ocd:rif_deputato  </tspan>
+</text>
+</g>
+<g id="2002797527"><path d="M1530,701 L908,701 904,699 901,694 901,598 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="898" y1="604" x2="901" y2="598"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="905" y1="604" x2="901" y2="598"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1360" y="714">ocd:rif_gruppoParlamentare  </tspan>
+</text>
+</g>
+<g id="2002797717"><path d="M2097,716 L2097,937 2095,941 2091,943 1358,943 1354,941 1352,937 1352,415 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1349" y1="421" x2="1352" y2="415"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1355" y1="421" x2="1352" y2="415"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2099" y="731">ocd:rif_relatore  R</tspan>
+</text>
+</g>
+<g id="2002797292"><path d="M1649,2245 L1649,905 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1646" y1="911" x2="1649" y2="905"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1652" y1="911" x2="1649" y2="905"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1488" y="2240">ocd:rif_ufficioParlamentare  </tspan>
+</text>
+</g>
+<g id="2002797922"><path d="M913,336 L913,368 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="910" y1="362" x2="913" y2="368"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="916" y1="362" x2="913" y2="368"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="915" y="351">ocd:rif_gruppoParlamentare  </tspan>
+</text>
+</g>
+<g id="2002797302"><path d="M2934,1834 L3047,1834 3051,1832 3053,1828 3053,803 3055,799 3059,797 3478,797 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3471" y1="794" x2="3478" y2="797"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3471" y1="800" x2="3478" y2="797"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2938" y="1832">ocd:destinatario  D</tspan>
+</text>
+</g>
+<g id="2002797842"><path d="M3633,942 L3633,851 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3630" y1="857" x2="3633" y2="851"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3636" y1="857" x2="3633" y2="851"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3495" y="937">ocd:rif_organoGoverno  </tspan>
+</text>
+</g>
+<g id="2002797832"><path d="M1289,1032 L3233,1032 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3227" y1="1029" x2="3233" y2="1032"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3227" y1="1035" x2="3233" y2="1032"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1293" y="1029">ocd:rif_attoCamera  </tspan>
+</text>
+</g>
+<g id="2002797457"><path d="M3233,1010 L1350,1010 1346,1008 1343,1004 1343,415 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1340" y1="421" x2="1343" y2="415"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1347" y1="421" x2="1343" y2="415"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3129" y="1023">ocd:rif_relatore  R</tspan>
+</text>
+</g>
+<g id="2002797502"><path d="M2317,640 L2690,640 2694,638 2696,633 2696,505 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2693" y1="511" x2="2696" y2="505"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2699" y1="511" x2="2696" y2="505"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2321" y="622">ocd:rif_intervento  R</tspan>
+<tspan x="2321" y="638">ocd:rif_allegatoDiscussione  </tspan>
+</text>
+</g>
+<g id="2002797272"><path d="M3233,967 L3098,967 3094,965 3092,960 3092,528 3094,524 3098,522 3134,522 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3128" y1="519" x2="3134" y2="522"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3128" y1="525" x2="3134" y2="522"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3104" y="980">ocd:diConcertoCon  D</tspan>
+</text>
+</g>
+<g id="2002797762"><path d="M2624,1852 L2502,1852 2497,1850 2495,1845 2495,513 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2492" y1="520" x2="2495" y2="513"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2498" y1="520" x2="2495" y2="513"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2504" y="1865">ocd:altro_firmatario  </tspan>
+</text>
+</g>
+<g id="2002797417"><path d="M3233,988 L2611,988 2607,986 2605,982 2605,435 2603,431 2599,428 2508,428 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2514" y1="425" x2="2508" y2="428"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2514" y1="432" x2="2508" y2="428"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3113" y="1001">ocd:altro_firmatario  </tspan>
+</text>
+</g>
+<g id="2002797872"><path d="M1977,773 L3290,773 3294,771 3296,767 3296,715 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3293" y1="721" x2="3296" y2="715"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3300" y1="721" x2="3296" y2="715"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1981" y="771">ocd:rif_senatore  R</tspan>
+</text>
+</g>
+<g id="2002797712"><path d="M3398,942 L3398,715 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3395" y1="721" x2="3398" y2="715"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3401" y1="721" x2="3398" y2="715"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3280" y="937">ocd:altro_firmatario  </tspan>
+</text>
+</g>
+<g id="2002797402"><path d="M4595,1453 L4753,1453 4757,1451 4759,1447 4759,359 4757,355 4753,353 3444,353 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3451" y1="350" x2="3444" y2="353"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3451" y1="356" x2="3444" y2="353"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4600" y="1451">ocd:rif_membroGoverno  </tspan>
+</text>
+</g>
+<g id="2002797782"><path d="M3444,386 L4747,386 4751,388 4753,392 4753,1425 4751,1429 4747,1431 4595,1431 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4602" y1="1428" x2="4595" y2="1431"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4602" y1="1435" x2="4595" y2="1431"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3449" y="384">ocd:rif_persona  </tspan>
+</text>
+</g>
+<g id="2002797817"><path d="M4595,1425 L4740,1425 4744,1423 4747,1419 4747,671 4744,667 4740,664 4185,664 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4191" y1="661" x2="4185" y2="664"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4191" y1="668" x2="4185" y2="664"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4600" y="1423">ocd:rif_mandatoSenato  </tspan>
+</text>
+</g>
+<g id="2002797507"><path d="M4086,1220 L4282,1220 4286,1218 4288,1214 4288,433 4286,428 4282,426 3444,426 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3451" y1="423" x2="3444" y2="426"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3451" y1="430" x2="3444" y2="426"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4090" y="1218">ocd:rif_membroGoverno  </tspan>
+</text>
+</g>
+<g id="2002797632"><path d="M4086,1311 L4308,1311 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4301" y1="1308" x2="4308" y2="1311"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4301" y1="1314" x2="4308" y2="1311"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4090" y="1309">ocd:rif_presidenteConsiglioMinistri  R</tspan>
+</text>
+</g>
+<g id="2002797567"><path d="M4308,1278 L4086,1278 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4092" y1="1275" x2="4086" y2="1278"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4092" y1="1281" x2="4086" y2="1278"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4210" y="1291">ocd:rif_governo  </tspan>
+</text>
+</g>
+<g id="2002797792"><path d="M4483,1352 L4483,1408 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4479" y1="1401" x2="4483" y2="1408"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4486" y1="1401" x2="4483" y2="1408"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4485" y="1367">ocd:rif_persona  </tspan>
+</text>
+</g>
+<g id="2002797422"><path d="M4410,1408 L4410,1352 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4407" y1="1358" x2="4410" y2="1352"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4413" y1="1358" x2="4410" y2="1352"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4195" y="1403">ocd:rif_presidenteConsiglioMinistri  R</tspan>
+</text>
+</g>
+<g id="2002797552"><path d="M4703,1732 L4595,1732 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4602" y1="1728" x2="4595" y2="1732"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4602" y1="1735" x2="4595" y2="1732"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4604" y="1745">ocd:rif_persona  </tspan>
+</text>
+</g>
+<g id="2002797582"><path d="M4502,2711 L4502,2280 4500,2276 4496,2274 1824,2274 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1830" y1="2271" x2="1824" y2="2274"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1830" y1="2277" x2="1824" y2="2274"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4432" y="2706">dct:relation  </tspan>
+</text>
+</g>
+<g id="2002797652"><path d="M3689,1807 L4047,1807 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1804" x2="4047" y2="1807"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1810" x2="4047" y2="1807"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3693" y="1805">ocd:rif_persona  </tspan>
+</text>
+</g>
+<g id="2002797662"><path d="M3444,472 L3752,472 3756,474 3758,478 3758,721 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3755" y1="715" x2="3758" y2="721"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3761" y1="715" x2="3758" y2="721"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3449" y="469">ocd:rif_organoGoverno  </tspan>
+</text>
+</g>
+<g id="2002797282"><path d="M3651,721 L3651,551 3649,546 3645,544 3444,544 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3451" y1="541" x2="3444" y2="544"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3451" y1="548" x2="3444" y2="544"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3506" y="717">ocd:rif_membroGoverno  </tspan>
+</text>
+</g>
+<g id="2002797562"><path d="M3444,448 L4260,448 4264,450 4266,454 4266,1186 4264,1190 4260,1192 4086,1192 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4092" y1="1189" x2="4086" y2="1192"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4092" y1="1195" x2="4086" y2="1192"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3449" y="446">ocd:rif_governo  </tspan>
+</text>
+</g>
+<g id="2002797367"><path d="M3771,2793 L3667,2793 3663,2796 3661,2800 3661,2992 3659,2996 3655,2998 3274,2998 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3280" y1="2995" x2="3274" y2="2998"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3280" y1="3002" x2="3274" y2="2998"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3698" y="2807">dct:relation  </tspan>
+</text>
+</g>
+<g id="2002797557"><path d="M3556,3474 L3432,3474 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3438" y1="3471" x2="3432" y2="3474"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3438" y1="3478" x2="3432" y2="3474"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3448" y="3488">cult:maintains  DR</tspan>
+</text>
+</g>
+<g id="2002797347"><path d="M3312,3354 L3851,3354 3855,3352 3857,3348 3857,3227 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3854" y1="3233" x2="3857" y2="3227"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3861" y1="3233" x2="3857" y2="3227"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3316" y="3352">oad:isDescriberBy  DR</tspan>
+</text>
+</g>
+<g id="2002797882"><path d="M4059,1943 L4059,2709 4057,2713 4053,2715 2005,2715 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2011" y1="2712" x2="2005" y2="2715"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2011" y1="2718" x2="2005" y2="2715"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="4061" y="1958">foaf:account  </tspan>
+</text>
+</g>
+<g id="2002797697"><path d="M3274,2971 L3613,2971 3617,2969 3619,2965 3619,2331 3621,2327 3626,2325 3874,2325 3878,2323 3880,2318 3880,1329 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3877" y1="1335" x2="3880" y2="1329"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3883" y1="1335" x2="3880" y2="1329"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3278" y="2969">ocd:rif_governo  </tspan>
+</text>
+</g>
+<g id="2002797407"><path d="M3465,1918 L4047,1918 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1915" x2="4047" y2="1918"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1921" x2="4047" y2="1918"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3469" y="1915">ocd:rif_persona  </tspan>
+</text>
+</g>
+<g id="2002797362"><path d="M3312,3301 L3568,3301 3572,3299 3574,3294 3574,1941 3576,1936 3580,1934 4047,1934 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1931" x2="4047" y2="1934"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1938" x2="4047" y2="1934"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3316" y="3298">oad:isProducedBy  D</tspan>
+</text>
+</g>
+<g id="2002797862"><path d="M1080,2311 L1080,2345 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1076" y1="2339" x2="1080" y2="2345"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1083" y1="2339" x2="1080" y2="2345"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1082" y="2326">ocd:rif_doc  </tspan>
+</text>
+</g>
+<g id="2002797627"><path d="M1376,1397 L1376,2253 1378,2257 1382,2259 1474,2259 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1468" y1="2256" x2="1474" y2="2259"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1468" y1="2263" x2="1474" y2="2259"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1378" y="1412">ocd:rif_organo  </tspan>
+</text>
+</g>
+<g id="2002797877"><path d="M1760,1874 L1236,1874 1232,1876 1230,1881 1230,2120 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1226" y1="2113" x2="1230" y2="2120"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1233" y1="2113" x2="1230" y2="2120"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1663" y="1887">ocd:rif_dibattito  </tspan>
+</text>
+</g>
+<g id="2002797277"><path d="M3233,1421 L1230,1421 1225,1423 1223,1427 1223,2120 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1220" y1="2113" x2="1223" y2="2120"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1226" y1="2113" x2="1223" y2="2120"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3137" y="1434">ocd:rif_dibattito  </tspan>
+</text>
+</g>
+<g id="2002797887"><path d="M1217,2120 L1217,1221 1219,1217 1223,1215 3233,1215 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3227" y1="1212" x2="3233" y2="1215"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3227" y1="1218" x2="3233" y2="1215"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1100" y="2115">ocd:rif_attoCamera  </tspan>
+</text>
+</g>
+<g id="2002797317"><path d="M1814,905 L1814,1690 1816,1694 1821,1696 4047,1696 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1693" x2="4047" y2="1696"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1699" x2="4047" y2="1696"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1816" y="920">ocd:rif_persona  </tspan>
+</text>
+</g>
+<g id="2002797937"><path d="M4047,1719 L1778,1719 1774,1717 1772,1713 1772,905 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1769" y1="911" x2="1772" y2="905"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1775" y1="911" x2="1772" y2="905"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3888" y="1732">ocd:rif_mandatoCamera  R</tspan>
+</text>
+</g>
+<g id="2002797447"><path d="M3240,1449 L3240,1786 3237,1791 3233,1793 2070,1793 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2076" y1="1790" x2="2070" y2="1793"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2076" y1="1796" x2="2070" y2="1793"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="3242" y="1464">ocd:rif_abbinamento  DR</tspan>
+<tspan x="3242" y="1480">ocd:rif_richiestaParere  DR</tspan>
+</text>
+</g>
+<g id="2002797312"><path d="M2070,1786 L2244,1786 2248,1784 2250,1780 2250,1449 2252,1445 2256,1443 3233,1443 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="3227" y1="1440" x2="3233" y2="1443"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="3227" y1="1446" x2="3233" y2="1443"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2074" y="1768">ocd:rif_attoCamera  </tspan>
+<tspan x="2074" y="1784">ocd:attoPortante  D</tspan>
+</text>
+</g>
+<g id="2002797932"><path d="M1289,1054 L2265,1054 2269,1056 2271,1060 2271,1983 2273,1987 2277,1989 2624,1989 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2618" y1="1986" x2="2624" y2="1989"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2618" y1="1992" x2="2624" y2="1989"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1293" y="1051">ocd:rif_aic  </tspan>
+</text>
+</g>
+<g id="2002797472"><path d="M2311,716 L2311,1669 2313,1674 2317,1676 4047,1676 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1673" x2="4047" y2="1676"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="4041" y1="1679" x2="4047" y2="1676"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2313" y="731">ocd:rif_persona  </tspan>
+</text>
+</g>
+<g id="2002797642"><path d="M196,1010 L196,1044 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="193" y1="1038" x2="196" y2="1044"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="199" y1="1038" x2="196" y2="1044"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="198" y="1025">owl:onProperty  D</tspan>
+</text>
+</g>
+<g id="2002797702"><path d="M545,1785 L397,1785 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="404" y1="1782" x2="397" y2="1785"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="404" y1="1788" x2="397" y2="1785"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="427" y="1798">dct:isReplacedBy  D</tspan>
+</text>
+</g>
+<g id="2002797902"><path d="M2624,2072 L894,2072 890,2070 888,2066 888,1796 886,1792 882,1790 856,1790 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="862" y1="1786" x2="856" y2="1790"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="862" y1="1793" x2="856" y2="1790"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2552" y="2085">dct:subject  </tspan>
+</text>
+</g>
+</svg>

@@ -1,0 +1,1343 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+ width="2899" height="2176" viewBox="0 0 2899 2176">
+ onmousemove="movetip(evt)" onmouseup="endmove()">
+<rect x="0" y="0" width="100%" height="100%" style="fill:White;"/>
+<script type="application/ecmascript"> <![CDATA[
+var dragtipid = null; var dragcase = false; function init(evt){
+if (window.svgDocument==null) svgDocument = evt.target.ownerDocument;
+}
+function movetip(evt){if (dragtipid!=null){ dragcase = true;
+var tip=svgDocument.getElementById(dragtipid);
+tip.setAttributeNS(null,"x",evt.clientX-2);
+tip.setAttributeNS(null,"y",evt.clientY-2);
+}}
+function endmove(){dragtipid = null;}
+function startmove(evt,id){dragtipid = id; dragcase = false;
+var tip=svgDocument.getElementById(dragtipid);
+tip.setAttributeNS(null,"x",evt.clientX-2);
+tip.setAttributeNS(null,"y",evt.clientY-2);
+}
+function Showtip(evt,id){ dragtipid = null;
+var tip=svgDocument.getElementById(id);
+var vis=tip.getAttributeNS(null,"visibility");
+if (vis=="hidden"){
+tip.setAttributeNS(null,"x",evt.clientX-2);
+tip.setAttributeNS(null,"y",evt.clientY-2);
+tip.setAttributeNS(null,"visibility","visible");
+}}
+function Hidetip(id){ dragtipid = null; if (dragcase==false){
+var tip=svgDocument.getElementById(id);
+tip.setAttributeNS(null,"visibility","hidden");
+}}
+]]></script>
+<defs><linearGradient id="activ1" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" style="stop-color:#FFFF00;stop-opacity:1"/>
+<stop offset="100%" style="stop-color:#FFFFF0;stop-opacity:1"/>
+</linearGradient></defs>
+<g id="2002791903"><polygon points="1210,937 1516,937 1516,1048 1210,1048 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1296" y="952">daap-org:Laboratory (1)</tspan>
+</text>
+<line x1="1214" y1="955" x2="1514" y2="955"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1214" y="967">daap-org:signature (1) [1] </tspan>
+<tspan x="1214" y="982">rdf:type (1) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="1214" y="997">shacl:ShapeClass</tspan>
+<tspan x="1214" y="1012">rdfs:label (3) [*] </tspan>
+<tspan x="1214" y="1027">rdfs:seeAlso (1) [*]  -&gt;  daap-device:Device,inri-a:team </tspan>
+<tspan x="1214" y="1042">et al.,wd:Q1622062</tspan>
+</text>
+</g>
+<g id="2002791914"><polygon points="661,1303 964,1303 964,1440 661,1440 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="757" y="1318">owl:Restriction (17)</tspan>
+</text>
+<line x1="665" y1="1322" x2="962" y2="1322"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="665" y="1334">owl:maxQualifiedCardinality (2) [1] D</tspan>
+<tspan x="665" y="1349">owl:minQualifiedCardinality (2) [1] D</tspan>
+<tspan x="665" y="1364">owl:qualifiedCardinality (1) [1] D</tspan>
+<tspan x="665" y="1379">rdf:type (17) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="665" y="1394">shacl:ShapeClass</tspan>
+<tspan x="665" y="1409">&lt;- rdfs:subClassOf (15)  &lt;-  owl:Class,shacl:</tspan>
+<tspan x="665" y="1424">NodeShape..(4)</tspan>
+</text>
+</g>
+<g id="2002791936"><polygon points="708,216 1012,216 1012,312 708,312 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="770" y="231">daap-analyse:J774InSlide (100)</tspan>
+</text>
+<line x1="712" y1="234" x2="1010" y2="234"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="712" y="246">daap-analyse:hasMeasure (12) [*]  -&gt; IRI</tspan>
+<tspan x="712" y="261">daap-analyse:hasPicture (100) [1]  -&gt; IRI</tspan>
+<tspan x="712" y="276">rdf:type (100) [*]  -&gt;  inri-a:team et al.,shacl:</tspan>
+<tspan x="712" y="291">NodeShape,shacl:ShapeClass</tspan>
+<tspan x="712" y="306">rdfs:label (100) [*] </tspan>
+</text>
+</g>
+<g id="2002791947"><polygon points="21,1693 689,1693 689,2166 21,2166 "
+style="fill:White; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="25" y="1707">PREFIX daap-wiki: &lt;http://daap.dsi.universite-paris-saclay.fr/wiki/&gt;</tspan>
+<tspan x="25" y="1722">PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;</tspan>
+<tspan x="25" y="1737">PREFIX greg-wiki: &lt;http://gregorius.dsi.universite-paris-saclay.fr/wiki/&gt;</tspan>
+<tspan x="25" y="1752">PREFIX schemadesc: &lt;http://spectropluviometre.projet.latmos.ipsl.fr/ontology/2016/schemaDesc/disdrometer#&gt;</tspan>
+<tspan x="25" y="1767">PREFIX daap-project: &lt;http://daap.dsi.universite-paris-saclay.fr/wiki/Data:Project#&gt;</tspan>
+<tspan x="25" y="1782">PREFIX daap-analyse: &lt;http://daap.dsi.universite-paris-saclay.fr/wiki/Data:Analyse_des_macrophages#&gt;</tspan>
+<tspan x="25" y="1797">PREFIX biblio-ont: &lt;http://www.universite-paris-saclay.fr/fr/Vie-de-campus/Bibliotheques/ontology#&gt;</tspan>
+<tspan x="25" y="1812">PREFIX cdmfr: &lt;http://www.cdmfr.fr#&gt;</tspan>
+<tspan x="25" y="1827">PREFIX shacl: &lt;http://www.w3.org/ns/shacl#&gt;</tspan>
+<tspan x="25" y="1842">PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;</tspan>
+<tspan x="25" y="1857">PREFIX wd: &lt;http://www.wikidata.org/entity/&gt;</tspan>
+<tspan x="25" y="1872">PREFIX direct: &lt;http://www.wikidata.org/prop/direct/&gt;</tspan>
+<tspan x="25" y="1887">PREFIX efsup: &lt;http://complement.stef.ens-cachan.fr/passage/Open_Dataset_efsup_sem1/&gt;</tspan>
+<tspan x="25" y="1902">PREFIX vcard: &lt;http://www.w3.org/2006/vcard/ns#&gt;</tspan>
+<tspan x="25" y="1917">PREFIX daap-org: &lt;http://daap.dsi.universite-paris-saclay.fr/wiki/Data:Organization#&gt;</tspan>
+<tspan x="25" y="1932">PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</tspan>
+<tspan x="25" y="1947">PREFIX sd: &lt;http://www.w3.org/ns/sparql-service-description#&gt;</tspan>
+<tspan x="25" y="1962">PREFIX daap-device: &lt;http://daap.dsi.universite-paris-saclay.fr/wiki/Data:Device#&gt;</tspan>
+<tspan x="25" y="1977">PREFIX u-pdud-rof: &lt;http://www.informatique-scientifique.u-psud.fr/ROF/&gt;</tspan>
+<tspan x="25" y="1992">PREFIX modalmi: &lt;http://www.MoDALMI.fr/&gt;</tspan>
+<tspan x="25" y="2007">PREFIX aiiso: &lt;http://purl.org/vocab/aiiso/schema#&gt;</tspan>
+<tspan x="25" y="2022">PREFIX rof: &lt;http://www.u-psud.fr/ROF/&gt;</tspan>
+<tspan x="25" y="2037">PREFIX wgs84_pos: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;</tspan>
+<tspan x="25" y="2052">PREFIX score: &lt;http://sparqlscore.net/Score#&gt;</tspan>
+<tspan x="25" y="2067">PREFIX inri-a: &lt;http://inri-a.fr/&gt;</tspan>
+<tspan x="25" y="2082">PREFIX dl-acm: &lt;http://dl.acm.org/ontology#&gt;</tspan>
+<tspan x="25" y="2097">PREFIX wikiba-ont: &lt;http://wikiba.se/ontology#&gt;</tspan>
+<tspan x="25" y="2112">PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;</tspan>
+<tspan x="25" y="2127">PREFIX schema: &lt;http://schema.org/&gt;</tspan>
+<tspan x="25" y="2142">PREFIX xmlns: &lt;http://xmlns.com/foaf/&gt;</tspan>
+</text>
+</g>
+<g id="2002791980"><polygon points="449,1507 804,1507 804,1603 449,1603 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="579" y="1522">owl:Ontology (4)</tspan>
+</text>
+<line x1="453" y1="1525" x2="802" y2="1525"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="453" y="1537">owl:imports (5) [*] D -&gt; IRI</tspan>
+<tspan x="453" y="1552">owl:versionIRI (1) [1] D -&gt; IRI</tspan>
+<tspan x="453" y="1567">owl:versionInfo (2) [1] D</tspan>
+<tspan x="453" y="1582">rdf:type (5) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,shacl:</tspan>
+<tspan x="453" y="1597">ShapeClass</tspan>
+</text>
+</g>
+<g id="2002792002"><polygon points="2276,726 2580,726 2580,807 2276,807 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2359" y="741">schemadesc:Sensor (1)</tspan>
+</text>
+<line x1="2280" y1="744" x2="2578" y2="744"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2280" y="756">rdf:type (1) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="2280" y="771">shacl:ShapeClass</tspan>
+<tspan x="2280" y="786">rdfs:label (1) [*] </tspan>
+<tspan x="2280" y="801">schemadesc:disdrometer (1) [1] D -&gt; IRI</tspan>
+</text>
+</g>
+<g id="2002792035"><polygon points="1874,500 2178,500 2178,596 1874,596 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1958" y="515">daap-project:Project (2)</tspan>
+</text>
+<line x1="1878" y1="518" x2="2176" y2="518"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1878" y="530">daap-project:protocol (1) [1] D -&gt; IRI</tspan>
+<tspan x="1878" y="545">daap-project:signature (1) [1] D</tspan>
+<tspan x="1878" y="560">rdf:type (3) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="1878" y="575">shacl:ShapeClass</tspan>
+<tspan x="1878" y="590">rdfs:label (8) [*] </tspan>
+</text>
+</g>
+<g id="2002792046"><polygon points="2454,921 2758,921 2758,1032 2454,1032 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2524" y="936">schemadesc:Experiment (1)</tspan>
+</text>
+<line x1="2458" y1="939" x2="2756" y2="939"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2458" y="951">rdf:type (1) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="2458" y="966">shacl:ShapeClass</tspan>
+<tspan x="2458" y="981">rdfs:label (1) [*] </tspan>
+<tspan x="2458" y="996">wgs84_pos:alt (1) [1] D</tspan>
+<tspan x="2458" y="1011">wgs84_pos:lat (1) [1] </tspan>
+<tspan x="2458" y="1026">wgs84_pos:long (1) [1] </tspan>
+</text>
+</g>
+<g id="2002792079"><polygon points="764,1102 1104,1102 1104,1259 764,1259 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="893" y="1117">owl:Class (18)</tspan>
+</text>
+<line x1="768" y1="1120" x2="1102" y2="1120"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="768" y="1132">owl:unionOf (1) [1] D -&gt; IRI</tspan>
+<tspan x="768" y="1147">rdf:type (18) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,shacl:</tspan>
+<tspan x="768" y="1162">ShapeClass</tspan>
+<tspan x="768" y="1177">rdfs:comment (13) [*] </tspan>
+<tspan x="768" y="1192">rdfs:label (19) [*] </tspan>
+<tspan x="768" y="1207">rdfs:subClassOf (21) [*]  -&gt;  owl:Class,owl:Restriction,shacl:</tspan>
+<tspan x="768" y="1222">NodeShape</tspan>
+<tspan x="768" y="1237">&lt;- rdfs:subClassOf (6)  &lt;-  owl:Class,shacl:NodeShape..(4)</tspan>
+</text>
+</g>
+<g id="2002792090"><polygon points="239,188 542,188 542,346 239,346 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="236,191 539,191 539,349 236,349 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="246" y="206">daap-analyse:MeasureInJ774Cytoplasm or daap-</tspan>
+<tspan x="301" y="222">analyse:Medium G111 (~280)</tspan>
+</text>
+<line x1="240" y1="226" x2="537" y2="226"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="240" y="238">daap-analyse:hasMeasure (332) [*]  -&gt; IRI</tspan>
+<tspan x="240" y="253">daap-analyse:hasPicture (16) [1]  -&gt; IRI</tspan>
+<tspan x="240" y="268">daap-analyse:medium (16) [1]  -&gt; IRI</tspan>
+<tspan x="240" y="283">rdf:type (280) [*]  -&gt;  inri-a:team et al.,shacl:</tspan>
+<tspan x="240" y="298">NodeShape,shacl:ShapeClass</tspan>
+<tspan x="240" y="313">rdfs:label (280) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="240" y="329">daap-analyse:MeasureInJ774Cytoplasm (264)</tspan>
+<tspan x="240" y="344">daap-analyse:Medium (16)</tspan>
+</text>
+</g>
+<g id="2002792123"><polygon points="223,492 526,492 526,603 223,603 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="298" y="507">daap-project:Campaign (5)</tspan>
+</text>
+<line x1="227" y1="510" x2="524" y2="510"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="227" y="522">daap-project:dateBegin (10) [*] D</tspan>
+<tspan x="227" y="537">daap-project:dateEnd (10) [*] D</tspan>
+<tspan x="227" y="552">daap-project:filesFinalDestination (5) [1] D -&gt; IRI</tspan>
+<tspan x="227" y="567">rdf:type (5) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="227" y="582">shacl:ShapeClass</tspan>
+<tspan x="227" y="597">rdfs:label (15) [*] </tspan>
+</text>
+</g>
+<g id="2002792167"><polygon points="1268,486 1572,486 1572,552 1268,552 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1329" y="501">daap-project:GeneralMethod (2)</tspan>
+</text>
+<line x1="1272" y1="504" x2="1570" y2="504"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1272" y="516">rdf:type (2) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="1272" y="531">shacl:ShapeClass</tspan>
+<tspan x="1272" y="546">rdfs:label (6) [*] </tspan>
+</text>
+</g>
+<g id="2002792233"><polygon points="1781,895 2087,895 2087,1143 1781,1143 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1778,898 2084,898 2084,1146 1778,1146 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1842" y="913">inri-a:team et al. G109 (~3141)</tspan>
+</text>
+<line x1="1782" y1="916" x2="2082" y2="916"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1782" y="928">direct:P2179 (7499) [*] </tspan>
+<tspan x="1782" y="943">rdf:type (3141) [*]  -&gt;  inri-a:team et al.,shacl:</tspan>
+<tspan x="1782" y="958">NodeShape,shacl:ShapeClass</tspan>
+<tspan x="1782" y="973">rdfs:comment (3123) [*] </tspan>
+<tspan x="1782" y="988">rdfs:label (3163) [*] </tspan>
+<tspan x="1782" y="1003">rdfs:seeAlso (1) [*]  -&gt;  daap-device:Device,inri-a:team </tspan>
+<tspan x="1782" y="1018">et al.,wd:Q1622062</tspan>
+<tspan x="1782" y="1033">&lt;- rdf:type (2)  &lt;-  owl:Restriction,daap-project:Project..</tspan>
+<tspan x="1782" y="1048">(40)</tspan>
+<tspan x="1782" y="1063">&lt;- rdfs:seeAlso (1.1e6)  &lt;-  shacl:NodeShape,daap-</tspan>
+<tspan x="1782" y="1078">device:Device..(7)</tspan>
+<tspan x="1782" y="1093">&lt;&gt; daap-project:item  R</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1782" y="1110">daap-project:Protocol (1)</tspan>
+<tspan x="1782" y="1125">inri-a:team (3123)</tspan>
+<tspan x="1782" y="1140">wikiba-ont:Item (17)</tspan>
+</text>
+</g>
+<g id="2002792255"><polygon points="1772,680 2076,680 2076,807 1772,807 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1769,683 2073,683 2073,810 1769,810 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1781" y="698">vcard:Individual or daap-org:Individual G103 (618)</tspan>
+</text>
+<line x1="1773" y1="701" x2="2071" y2="701"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1773" y="713">rdf:type (12) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="1773" y="728">shacl:ShapeClass</tspan>
+<tspan x="1773" y="743">rdfs:label (6) [*] </tspan>
+<tspan x="1773" y="758">vcard:email (6) [1]  -&gt; IRI</tspan>
+<tspan x="1773" y="773">vcard:fn (6) [1] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1773" y="789">daap-org:Individual (6)</tspan>
+<tspan x="1773" y="804">vcard:Individual (6)</tspan>
+</text>
+</g>
+<g id="2002792266"><polygon points="449,1622 753,1622 753,1668 449,1668 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="557" y="1637">shacl:Graph (1)</tspan>
+</text>
+<line x1="453" y1="1640" x2="751" y2="1640"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="453" y="1652">shacl:shapesGraph (1) [1] D -&gt; IRI</tspan>
+</text>
+</g>
+<g id="2002792277"><polygon points="237,1160 540,1160 540,1241 237,1241 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="313" y="1175">owl:DatatypeProperty (17)</tspan>
+</text>
+<line x1="241" y1="1178" x2="538" y2="1178"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="241" y="1190">rdf:type (17) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="241" y="1205">shacl:ShapeClass</tspan>
+<tspan x="241" y="1220">rdfs:comment (2) [*] </tspan>
+<tspan x="241" y="1235">rdfs:label (13) [*] </tspan>
+</text>
+</g>
+<g id="2002792299"><polygon points="644,363 947,363 947,475 644,475 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="693" y="378">daap-analyse:SlideInCampaign (36)</tspan>
+</text>
+<line x1="648" y1="382" x2="945" y2="382"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="648" y="394">daap-analyse:celltype (36) [1] D -&gt; IRI</tspan>
+<tspan x="648" y="409">daap-analyse:hasPicture (36) [1]  -&gt; IRI</tspan>
+<tspan x="648" y="424">daap-analyse:medium (36) [1]  -&gt; IRI</tspan>
+<tspan x="648" y="439">rdf:type (36) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="648" y="454">shacl:ShapeClass</tspan>
+<tspan x="648" y="469">rdfs:label (36) [*] </tspan>
+</text>
+</g>
+<g id="2002792310"><polygon points="933,621 1237,621 1237,702 933,702 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1015" y="636">vcard:Organization (150)</tspan>
+</text>
+<line x1="937" y1="640" x2="1235" y2="640"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="937" y="652">rdf:type (164) [*]  -&gt;  inri-a:team et al.,shacl:</tspan>
+<tspan x="937" y="667">NodeShape,shacl:ShapeClass</tspan>
+<tspan x="937" y="682">rdfs:label (8) [*] </tspan>
+<tspan x="937" y="697">vcard:fn (148) [1] </tspan>
+</text>
+</g>
+<g id="2002792343"><polygon points="1231,1215 1534,1215 1534,1399 1231,1399 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1228,1218 1531,1218 1531,1402 1228,1402 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1246" y="1233">rdf:Property or owl:ObjectProperty G110 (~56)</tspan>
+</text>
+<line x1="1232" y1="1237" x2="1529" y2="1237"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1232" y="1249">rdf:type (56) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="1232" y="1264">shacl:ShapeClass</tspan>
+<tspan x="1232" y="1279">rdfs:comment (9) [*] </tspan>
+<tspan x="1232" y="1294">rdfs:label (64) [*] </tspan>
+<tspan x="1232" y="1309">&lt;&gt; owl:inverseOf  DR</tspan>
+<tspan x="1232" y="1324">&lt;&gt; rdfs:subPropertyOf  </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1232" y="1340">owl:ObjectProperty (34)</tspan>
+<tspan x="1232" y="1355">rdf:Property (22)</tspan>
+</text>
+</g>
+<g id="2002792365"><polygon points="24,1404 428,1404 428,1667 24,1667 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="171" y="1419">greg-wiki:Pape (19)</tspan>
+</text>
+<line x1="28" y1="1422" x2="426" y2="1422"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="28" y="1434">greg-wiki:Property:BnfID (1) [1]  -&gt; IRI</tspan>
+<tspan x="28" y="1449">greg-wiki:Property:WikidataID (14) [1]  -&gt; IRI</tspan>
+<tspan x="28" y="1464">greg-wiki:Property:deces (12) [*] </tspan>
+<tspan x="28" y="1479">greg-wiki:Property:electionAuPontificat (10) [*] D</tspan>
+<tspan x="28" y="1494">greg-wiki:Property:finDuPontificat (8) [*] D</tspan>
+<tspan x="28" y="1509">greg-wiki:Property:intronisation (7) [*] D</tspan>
+<tspan x="28" y="1524">greg-wiki:Property:lieuDeDeces (13) [1] </tspan>
+<tspan x="28" y="1539">greg-wiki:Property:lieuDeNaissance (11) [1] </tspan>
+<tspan x="28" y="1554">greg-wiki:Property:naissance (10) [*] </tspan>
+<tspan x="28" y="1569">greg-wiki:Property:naissancePrecision (5) [1] D</tspan>
+<tspan x="28" y="1584">greg-wiki:Property:nomDeNaissance (10) [1] D</tspan>
+<tspan x="28" y="1599">greg-wiki:Property:picture (6) [1]  -&gt; IRI</tspan>
+<tspan x="28" y="1614">greg-wiki:Property:pictureLegend (1) [1] D</tspan>
+<tspan x="28" y="1629">rdf:type (19) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,shacl:</tspan>
+<tspan x="28" y="1644">ShapeClass</tspan>
+<tspan x="28" y="1659">rdfs:label (18) [*] </tspan>
+</text>
+</g>
+<g id="2002792376"><polygon points="2308,241 2614,241 2614,458 2308,458 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2401" y="256">shacl:NodeShape (8)</tspan>
+</text>
+<line x1="2312" y1="259" x2="2612" y2="259"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2312" y="271">rdf:type (16) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="2312" y="286">shacl:ShapeClass</tspan>
+<tspan x="2312" y="301">rdfs:label (15) [*] </tspan>
+<tspan x="2312" y="316">rdfs:seeAlso (2) [*]  -&gt;  daap-device:Device,inri-a:team </tspan>
+<tspan x="2312" y="331">et al.,wd:Q1622062</tspan>
+<tspan x="2312" y="346">rdfs:subClassOf (5) [*]  -&gt;  owl:Class,owl:Restriction,</tspan>
+<tspan x="2312" y="361">shacl:NodeShape</tspan>
+<tspan x="2312" y="376">shacl:property (8.2e4) [*]  -&gt; IRI</tspan>
+<tspan x="2312" y="391">&lt;- rdf:type (60)  &lt;-  owl:Restriction,daap-project:</tspan>
+<tspan x="2312" y="406">Project..(40)</tspan>
+<tspan x="2312" y="421">&lt;- rdfs:subClassOf (4)  &lt;-  owl:Class,shacl:</tspan>
+<tspan x="2312" y="436">NodeShape..(4)</tspan>
+<tspan x="2312" y="451">&lt;&gt; shacl:targetClass  DR</tspan>
+</text>
+</g>
+<g id="2002792387"><polygon points="2586,664 2889,664 2889,821 2586,821 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2659" y="679">schemadesc:TimeSerie (1)</tspan>
+</text>
+<line x1="2590" y1="682" x2="2887" y2="682"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2590" y="694">rdf:type (1) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="2590" y="709">shacl:ShapeClass</tspan>
+<tspan x="2590" y="724">schemadesc:date (1) [1] D</tspan>
+<tspan x="2590" y="739">schemadesc:fileNetCDF (1) [1] D -&gt; IRI</tspan>
+<tspan x="2590" y="754">schemadesc:periodBegin (1) [1] </tspan>
+<tspan x="2590" y="769">schemadesc:periodEnd (1) [1] </tspan>
+<tspan x="2590" y="784">schemadesc:rainRateMax (1) [1] D</tspan>
+<tspan x="2590" y="799">schemadesc:rainRateMean (1) [1] D</tspan>
+<tspan x="2590" y="814">schemadesc:rainRatePercent (1) [1] D</tspan>
+</text>
+</g>
+<g id="2002792409"><polygon points="741,886 1044,886 1044,1079 741,1079 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="824" y="901">daap-device:Device (45)</tspan>
+</text>
+<line x1="745" y1="904" x2="1042" y2="904"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="745" y="916">daap-device:picture (28) [1] D -&gt; IRI</tspan>
+<tspan x="745" y="931">rdf:type (115) [*]  -&gt;  inri-a:team et al.,shacl:</tspan>
+<tspan x="745" y="946">NodeShape,shacl:ShapeClass</tspan>
+<tspan x="745" y="961">rdfs:label (65) [*] </tspan>
+<tspan x="745" y="976">rdfs:seeAlso (70) [*]  -&gt;  daap-device:Device,inri-a:</tspan>
+<tspan x="745" y="991">team et al.,wd:Q1622062</tspan>
+<tspan x="745" y="1006">wgs84_pos:lat (45) [1] </tspan>
+<tspan x="745" y="1021">wgs84_pos:long (45) [1] </tspan>
+<tspan x="745" y="1036">&lt;- rdfs:seeAlso (42)  &lt;-  shacl:NodeShape,daap-</tspan>
+<tspan x="745" y="1051">device:Device..(7)</tspan>
+</text>
+</g>
+<g id="2002792431"><polygon points="1073,766 1378,766 1378,832 1073,832 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1165" y="781">daap-org:Platform (1)</tspan>
+</text>
+<line x1="1077" y1="784" x2="1376" y2="784"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1077" y="796">daap-org:signature (1) [1] </tspan>
+<tspan x="1077" y="811">rdfs:seeAlso (1) [*]  -&gt;  daap-device:Device,inri-a:team </tspan>
+<tspan x="1077" y="826">et al.,wd:Q1622062</tspan>
+</text>
+</g>
+<g id="2002792398"><polygon points="703,90 1007,90 1007,171 703,171 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="740" y="105">daap-analyse:MeasureInJ774Core (264)</tspan>
+</text>
+<line x1="707" y1="108" x2="1005" y2="108"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="707" y="120">daap-analyse:hasMeasure (264) [*]  -&gt; IRI</tspan>
+<tspan x="707" y="135">rdf:type (264) [*]  -&gt;  inri-a:team et al.,shacl:</tspan>
+<tspan x="707" y="150">NodeShape,shacl:ShapeClass</tspan>
+<tspan x="707" y="165">rdfs:label (264) [*] </tspan>
+</text>
+</g>
+<g id="2002792354"><polygon points="1868,422 2172,422 2172,468 1868,468 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1917" y="437">daap-wiki:Raman_Spectroscopy (1)</tspan>
+</text>
+</g>
+<g id="2002792145"><polygon points="1511,296 1815,296 1815,422 1511,422 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1508,299 1811,299 1811,425 1508,425 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1543" y="314">wd:Q2041172 or wd:Q188463 G101 (20)</tspan>
+</text>
+<line x1="1512" y1="317" x2="1809" y2="317"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1512" y="329">modalmi:thumbnail (2) [1] D -&gt; IRI</tspan>
+<tspan x="1512" y="344">rdf:type (7) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="1512" y="359">shacl:ShapeClass</tspan>
+<tspan x="1512" y="374">rdfs:comment (2) [*] </tspan>
+<tspan x="1512" y="389">rdfs:label (2) [*] </tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1512" y="405">wd:Q188463 (2)</tspan>
+<tspan x="1512" y="420">wd:Q2041172 (2)</tspan>
+</text>
+</g>
+<g id="2002792321"><polygon points="1219,380 1435,380 1435,425 1219,425 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1282" y="395">wd:Q862228 (1)</tspan>
+</text>
+<line x1="1224" y1="398" x2="1433" y2="398"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1224" y="410">modalmi:toContact (1) [1]  -&gt; IRI</tspan>
+</text>
+</g>
+<g id="2002791969"><polygon points="1133,309 1437,309 1437,359 1133,359 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1130,312 1434,312 1434,362 1130,362 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1169" y="327">wd:Q874402 or wd:Q180809 G104 (10)</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1134" y="342">wd:Q180809 (1)</tspan>
+<tspan x="1134" y="357">wd:Q874402 (1)</tspan>
+</text>
+</g>
+<g id="2002792178"><polygon points="1505,160 1808,160 1808,256 1505,256 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1611" y="175">wd:Q483242 (2)</tspan>
+</text>
+<line x1="1509" y1="178" x2="1806" y2="178"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1509" y="190">rdf:type (2) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="1509" y="205">shacl:ShapeClass</tspan>
+<tspan x="1509" y="220">rdfs:label (2) [*] </tspan>
+<tspan x="1509" y="235">wgs84_pos:lat (2) [1] </tspan>
+<tspan x="1509" y="250">wgs84_pos:long (2) [1] </tspan>
+</text>
+</g>
+<g id="2002792200"><polygon points="2309,486 2613,486 2613,531 2309,531 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2424" y="501">rdfs:class (1)</tspan>
+</text>
+</g>
+<g id="2002792134"><polygon points="2313,553 2661,553 2661,635 2313,635 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="2310,556 2658,556 2658,638 2310,638 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2327" y="571">daap-wiki:Mid_Infrared_Spectroscopy et al. G108 (~3)</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2314" y="586">daap-wiki:Mid_Infrared_Spectroscopy (1)</tspan>
+<tspan x="2314" y="601">daap-wiki:Near_Infrared_Spectroscopy (1)</tspan>
+<tspan x="2314" y="616">daap-wiki:Raman_Spectrometry (1)</tspan>
+</text>
+</g>
+<g id="2002792244"><polygon points="2455,1077 2759,1077 2759,1158 2455,1158 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2529" y="1092">schemadesc:Campaign (1)</tspan>
+</text>
+<line x1="2459" y1="1095" x2="2757" y2="1095"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2459" y="1107">rdf:type (1) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="2459" y="1122">shacl:ShapeClass</tspan>
+<tspan x="2459" y="1137">schemadesc:periodBegin (1) [1] </tspan>
+<tspan x="2459" y="1152">schemadesc:periodEnd (1) [1] </tspan>
+</text>
+</g>
+<g id="2002791881"><polygon points="2455,1202 2759,1202 2759,1283 2455,1283 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2538" y="1217">schemadesc:Project (1)</tspan>
+</text>
+<line x1="2459" y1="1220" x2="2757" y2="1220"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2459" y="1232">rdf:type (1) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="2459" y="1247">shacl:ShapeClass</tspan>
+<tspan x="2459" y="1262">rdfs:label (1) [*] </tspan>
+<tspan x="2459" y="1277">vcard:email (1) [1] </tspan>
+</text>
+</g>
+<g id="2002792024"><polygon points="2335,1319 2763,1319 2763,1460 2335,1460 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2476" y="1334">greg-wiki:Encyclique (12)</tspan>
+</text>
+<line x1="2339" y1="1337" x2="2761" y2="1337"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2339" y="1349">greg-wiki:Property:auteur (11) [1] D</tspan>
+<tspan x="2339" y="1364">greg-wiki:Property:date (11) [*] D</tspan>
+<tspan x="2339" y="1379">greg-wiki:Property:siecle (12) [1] D</tspan>
+<tspan x="2339" y="1394">rdf:type (12) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,shacl:ShapeClass</tspan>
+<tspan x="2339" y="1409">rdfs:label (12) [*] </tspan>
+<tspan x="2339" y="1424">rdfs:seeAlso (11) [*]  -&gt;  daap-device:Device,inri-a:team et al.,wd:Q1622062</tspan>
+</text>
+</g>
+<g id="2002792332"><polygon points="1972,1326 2276,1326 2276,1452 1972,1452 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2078" y="1341">sd:Service (626)</tspan>
+</text>
+<line x1="1976" y1="1344" x2="2274" y2="1344"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1976" y="1356">rdf:type (626) [*]  -&gt;  inri-a:team et al.,shacl:</tspan>
+<tspan x="1976" y="1371">NodeShape,shacl:ShapeClass</tspan>
+<tspan x="1976" y="1386">score:scoreTest (626) [1] D</tspan>
+<tspan x="1976" y="1401">score:totalTest (626) [1] D</tspan>
+<tspan x="1976" y="1416">sd:server (626) [1] D -&gt; IRI</tspan>
+<tspan x="1976" y="1431">sd:testedBy (626) [1] D -&gt; IRI</tspan>
+<tspan x="1976" y="1446">sd:testedDate (626) [*] D</tspan>
+</text>
+</g>
+<g id="2002792189"><polygon points="2372,1508 2764,1508 2764,1665 2372,1665 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2496" y="1523">cdmfr:Programme (4464)</tspan>
+</text>
+<line x1="2376" y1="1526" x2="2762" y2="1526"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2376" y="1538">aiiso:code (8928) [*] </tspan>
+<tspan x="2376" y="1553">aiiso:name (4464) [1] </tspan>
+<tspan x="2376" y="1568">rdf:type (4464) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,shacl:</tspan>
+<tspan x="2376" y="1583">ShapeClass</tspan>
+<tspan x="2376" y="1598">rof:nature (2232) [1] D</tspan>
+<tspan x="2376" y="1613">rof:profession (8) [*] D -&gt; IRI</tspan>
+<tspan x="2376" y="1628">u-pdud-rof:nature (2232) [1] D</tspan>
+<tspan x="2376" y="1643">u-pdud-rof:profession (8) [*] D -&gt; IRI</tspan>
+<tspan x="2376" y="1658">&lt;&gt; cdmfr:hasSubProgram  DR</tspan>
+</text>
+</g>
+<g id="2002792420"><polygon points="1908,1529 2211,1529 2211,1625 1908,1625 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2001" y="1544">aiiso:Course (1.2e4)</tspan>
+</text>
+<line x1="1912" y1="1547" x2="2209" y2="1547"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1912" y="1559">aiiso:code (2.4e4) [*] </tspan>
+<tspan x="1912" y="1574">aiiso:name (1.2e4) [1] </tspan>
+<tspan x="1912" y="1589">cdmfr:hasLevel (156) [*] D -&gt; IRI</tspan>
+<tspan x="1912" y="1604">rdf:type (1.2e4) [*]  -&gt;  inri-a:team et al.,shacl:</tspan>
+<tspan x="1912" y="1619">NodeShape,shacl:ShapeClass</tspan>
+</text>
+</g>
+<g id="2002792211"><polygon points="1434,1532 1738,1532 1738,1628 1434,1628 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1526" y="1547">cdmfr:Credits (1.5e4)</tspan>
+</text>
+<line x1="1438" y1="1550" x2="1736" y2="1550"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1438" y="1562">cdmfr:ECTSCredits (1.1e4) [1] D</tspan>
+<tspan x="1438" y="1577">rdf:type (1.5e4) [*]  -&gt;  inri-a:team et al.,shacl:</tspan>
+<tspan x="1438" y="1592">NodeShape,shacl:ShapeClass</tspan>
+<tspan x="1438" y="1607">rof:globalVolume (7575) [1] D -&gt; IRI</tspan>
+<tspan x="1438" y="1622">u-pdud-rof:globalVolume (7575) [1] D -&gt; IRI</tspan>
+</text>
+</g>
+<g id="2002792068"><polygon points="2276,1699 2769,1699 2769,2129 2276,2129 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="2470" y="1714">wd:Q1622062 (40)</tspan>
+</text>
+<line x1="2280" y1="1717" x2="2767" y2="1717"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2280" y="1729">biblio-ont:academicDiscipline (2) [*] D -&gt; IRI</tspan>
+<tspan x="2280" y="1744">biblio-ont:access (30) [1] D</tspan>
+<tspan x="2280" y="1759">biblio-ont:accessPlan (13) [1] D -&gt; IRI</tspan>
+<tspan x="2280" y="1774">biblio-ont:accessRules (37) [1] D</tspan>
+<tspan x="2280" y="1789">biblio-ont:equipments (33) [1] D</tspan>
+<tspan x="2280" y="1804">biblio-ont:learningRoomDescription (8) [1] D</tspan>
+<tspan x="2280" y="1819">biblio-ont:localProduction (23) [1] D -&gt; IRI</tspan>
+<tspan x="2280" y="1834">biblio-ont:openingHoursDescription (38) [1] D</tspan>
+<tspan x="2280" y="1849">biblio-ont:workspace (38) [1] D</tspan>
+<tspan x="2280" y="1864">direct:P131 (39) [1] D -&gt; IRI</tspan>
+<tspan x="2280" y="1879">direct:P1329 (37) [*] D</tspan>
+<tspan x="2280" y="1894">direct:P17 (35) [1] D -&gt; IRI</tspan>
+<tspan x="2280" y="1909">direct:P281 (39) [1] D</tspan>
+<tspan x="2280" y="1924">direct:P968 (36) [*] D -&gt; IRI</tspan>
+<tspan x="2280" y="1939">direct:P969 (39) [1] D</tspan>
+<tspan x="2280" y="1954">rdf:type (40) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,shacl:ShapeClass</tspan>
+<tspan x="2280" y="1969">rdfs:label (40) [*] </tspan>
+<tspan x="2280" y="1984">rdfs:seeAlso (28) [*]  -&gt;  daap-device:Device,inri-a:team et al.,wd:Q1622062</tspan>
+<tspan x="2280" y="1999">schema:description (39) [1] D</tspan>
+<tspan x="2280" y="2014">wgs84_pos:lat (39) [1] </tspan>
+<tspan x="2280" y="2029">wgs84_pos:long (39) [1] </tspan>
+<tspan x="2280" y="2044">&lt;- rdfs:seeAlso (1)  &lt;-  shacl:NodeShape,daap-device:Device..(7)</tspan>
+<tspan x="2280" y="2059">&lt;&gt; biblio-ont:catalog  D</tspan>
+<tspan x="2280" y="2074">&lt;&gt; biblio-ont:webPortal  D</tspan>
+</text>
+</g>
+<g id="2002792222"><polygon points="1791,1713 2222,1713 2222,1794 1791,1794 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1921" y="1728">daap-analyse:Background (3)</tspan>
+</text>
+<line x1="1795" y1="1732" x2="2220" y2="1732"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1795" y="1744">daap-analyse:hasPicture (3) [1]  -&gt; IRI</tspan>
+<tspan x="1795" y="1759">rdf:type (3) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,shacl:ShapeClass</tspan>
+<tspan x="1795" y="1774">rdfs:label (3) [*] </tspan>
+</text>
+</g>
+<g id="2002792156"><polygon points="1793,1842 2222,1842 2222,1938 1793,1938 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1962" y="1857">shacl:Shape (5)</tspan>
+</text>
+<line x1="1797" y1="1860" x2="2220" y2="1860"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1797" y="1872">rdf:type (5) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,shacl:ShapeClass</tspan>
+<tspan x="1797" y="1887">rdfs:label (5) [*] </tspan>
+<tspan x="1797" y="1902">rdfs:subClassOf (4) [*]  -&gt;  owl:Class,owl:Restriction,shacl:NodeShape</tspan>
+</text>
+</g>
+<g id="2002791925"><polygon points="1426,1712 1730,1712 1730,1793 1426,1793 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1522" y="1727">dl-acm:code (1049)</tspan>
+</text>
+<line x1="1430" y1="1731" x2="1727" y2="1731"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1430" y="1743">direct:P2179 (1049) [*] </tspan>
+<tspan x="1430" y="1758">rdf:type (1049) [*]  -&gt;  inri-a:team et al.,shacl:</tspan>
+<tspan x="1430" y="1773">NodeShape,shacl:ShapeClass</tspan>
+<tspan x="1430" y="1788">rdfs:label (1049) [*] </tspan>
+</text>
+</g>
+<g id="2002791991"><polygon points="1265,1844 1742,1844 1742,1911 1265,1911 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="1262,1847 1739,1847 1739,1914 1262,1914 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1270" y="1862">daap-wiki:Time_Of_Flight or daap-wiki:Detector_Mass_Spectrometry G106 (~3)</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1266" y="1877">daap-wiki:Detector_Mass_Spectrometry (1)</tspan>
+<tspan x="1266" y="1892">daap-wiki:Time_Of_Flight (2)</tspan>
+</text>
+</g>
+<g id="2002792442"><polygon points="423,623 727,623 727,750 423,750 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="522" y="638">cdmfr:OrgUnit (24)</tspan>
+</text>
+<line x1="427" y1="642" x2="725" y2="642"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="427" y="654">aiiso:code (36) [*] </tspan>
+<tspan x="427" y="669">cdmfr:orgUnitKind (6) [1] D</tspan>
+<tspan x="427" y="684">rdf:type (36) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="427" y="699">shacl:ShapeClass</tspan>
+<tspan x="427" y="714">rdf:value (1) [1] D</tspan>
+<tspan x="427" y="729">u-pdud-rof:UAICode (13 92%d) [*] D -&gt; IRI</tspan>
+<tspan x="427" y="744">xmlns:name (24) [1] D</tspan>
+</text>
+</g>
+<g id="2002791870"><polygon points="255,877 559,877 559,1096 255,1096 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="252,880 556,880 556,1099 252,1099 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="264" y="895">daap-wiki:Liquid_Chromatography et al. G105 (~</tspan>
+<tspan x="396" y="911">39)</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="256" y="927">daap-wiki:Console_Nmr (1)</tspan>
+<tspan x="256" y="942">daap-wiki:Cryo_Probe_Nmr (1)</tspan>
+<tspan x="256" y="957">daap-wiki:FaradayCup (3)</tspan>
+<tspan x="256" y="972">daap-wiki:Flame_Ionization_Detector (1)</tspan>
+<tspan x="256" y="987">daap-wiki:Gas_Analyser (3)</tspan>
+<tspan x="256" y="1002">daap-wiki:Liquid_Chromatography (18)</tspan>
+<tspan x="256" y="1017">daap-wiki:Magnet_Nmr (1)</tspan>
+<tspan x="256" y="1032">daap-wiki:Mass_Spectrometry (3)</tspan>
+<tspan x="256" y="1047">daap-wiki:Nuclear_Magnetic_Resonance (2)</tspan>
+<tspan x="256" y="1062">daap-wiki:Optical_Spectrometry (4)</tspan>
+<tspan x="256" y="1077">daap-wiki:Probe_Nmr (1)</tspan>
+<tspan x="256" y="1092">daap-wiki:Sample_Case_Nmr (1)</tspan>
+</text>
+</g>
+<g id="2002792453"><polygon points="892,1500 1195,1500 1195,1550 892,1550 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="889,1503 1192,1503 1192,1553 889,1553 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="903" y="1518">daap-wiki:HPLC or daap-wiki:UPLC G107 (~18)</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="893" y="1533">daap-wiki:HPLC (11)</tspan>
+<tspan x="893" y="1548">daap-wiki:UPLC (7)</tspan>
+</text>
+</g>
+<g id="2002792112"><polygon points="889,1589 1192,1589 1192,1634 889,1634 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="925" y="1604">daap-wiki:Fluorimetry_Spectroscopy (1)</tspan>
+</text>
+</g>
+<g id="2002791892"><polygon points="889,1670 1192,1670 1192,1720 889,1720 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="987" y="1685">foaf:givenName (1)</tspan>
+</text>
+<line x1="893" y1="1688" x2="1190" y2="1688"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="893" y="1700">rdf:type (1) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="893" y="1715">shacl:ShapeClass</tspan>
+</text>
+</g>
+<g id="2002791958"><polygon points="889,1756 1192,1756 1192,1801 889,1801 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="974" y="1771">daap-wiki:Bcu_Nmr (1)</tspan>
+</text>
+</g>
+<g id="2002792101"><polygon points="889,1837 1192,1837 1192,1903 889,1903 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="969" y="1852">owl:NamedIndividual (15)</tspan>
+</text>
+<line x1="893" y1="1855" x2="1190" y2="1855"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="893" y="1867">rdf:type (15) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="893" y="1882">shacl:ShapeClass</tspan>
+<tspan x="893" y="1897">rdfs:label (3) [*] </tspan>
+</text>
+</g>
+<g id="2002792013"><polygon points="824,1935 1263,1935 1263,2002 824,2002 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<polygon points="821,1938 1260,1938 1260,2005 821,2005 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="840" y="1953">daap-wiki:MagneticSector or daap-wiki:Electron_Ionisation G102 (21)</tspan>
+</text>
+<text style="font-family:Arial;font-size:11px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="825" y="1968">daap-wiki:Electron_Ionisation (2)</tspan>
+<tspan x="825" y="1983">daap-wiki:MagneticSector (2)</tspan>
+</text>
+</g>
+<g id="2002792288"><polygon points="1409,1967 1712,1967 1712,2109 1409,2109 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1498" y="1982">shacl:ShapeClass (1)</tspan>
+</text>
+<line x1="1413" y1="1986" x2="1710" y2="1986"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1413" y="1998">rdf:type (1) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,</tspan>
+<tspan x="1413" y="2013">shacl:ShapeClass</tspan>
+<tspan x="1413" y="2028">rdfs:label (1) [*] </tspan>
+<tspan x="1413" y="2043">rdfs:subClassOf (1) [*]  -&gt;  owl:Class,owl:Restriction,</tspan>
+<tspan x="1413" y="2058">shacl:NodeShape</tspan>
+<tspan x="1413" y="2073">shacl:property (39) [*]  -&gt; IRI</tspan>
+<tspan x="1413" y="2088">&lt;- rdf:type (40)  &lt;-  owl:Restriction,daap-project:</tspan>
+<tspan x="1413" y="2103">Project..(40)</tspan>
+</text>
+</g>
+<g id="2002792057"><polygon points="1771,1989 2226,1989 2226,2108 1771,2108 "
+style="fill:#F4D03F; stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;font-weight:bold;">
+<tspan x="1928" y="2004">efsup:Interaction (1.6e5)</tspan>
+</text>
+<line x1="1775" y1="2007" x2="2224" y2="2007"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1775" y="2019">efsup:contextPath (1.6e5) [1] D -&gt; IRI</tspan>
+<tspan x="1775" y="2034">efsup:date (1.6e5) [*] D</tspan>
+<tspan x="1775" y="2049">efsup:eventType (1.6e5) [1] D -&gt; IRI</tspan>
+<tspan x="1775" y="2064">efsup:eventVideoId (4.0e4) [1] D -&gt; IRI</tspan>
+<tspan x="1775" y="2079">efsup:userid (1.3e5) [1] D -&gt; IRI</tspan>
+<tspan x="1775" y="2094">rdf:type (1.6e5) [*]  -&gt;  inri-a:team et al.,shacl:NodeShape,shacl:ShapeClass</tspan>
+</text>
+</g>
+<g id="2002792464"><path d="M1940,898 L1940,810 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1937" y1="816" x2="1940" y2="810"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1943" y1="816" x2="1940" y2="810"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1820" y="893">daap-project:contact  </tspan>
+</text>
+</g>
+<g id="2002792469"><path d="M472,492 L472,433 474,429 478,427 644,427 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="638" y1="424" x2="644" y2="427"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="638" y1="430" x2="644" y2="427"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="326" y="488">daap-analyse:hasSlide  D</tspan>
+</text>
+</g>
+<g id="2002792474"><path d="M1044,965 L1210,965 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1204" y1="962" x2="1210" y2="965"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1204" y1="968" x2="1210" y2="965"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1048" y="963">vcard:organization-unit  </tspan>
+</text>
+</g>
+<g id="2002792489"><path d="M1874,520 L1572,520 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1578" y1="517" x2="1572" y2="520"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1578" y1="523" x2="1572" y2="520"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1685" y="533">daap-project:hasGeneralMethod  </tspan>
+<tspan x="1685" y="548">DR</tspan>
+</text>
+</g>
+<g id="2002792494"><path d="M2629,1202 L2629,1158 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2626" y1="1164" x2="2629" y2="1158"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2632" y1="1164" x2="2629" y2="1158"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2471" y="1198">schemadesc:campaign  DR</tspan>
+</text>
+</g>
+<g id="2002792499"><path d="M318,492 L318,349 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="315" y1="355" x2="318" y2="349"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="321" y1="355" x2="318" y2="349"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="172" y="488">daap-analyse:hasSlide  D</tspan>
+</text>
+</g>
+<g id="2002792509"><path d="M2073,802 L2242,802 2246,804 2248,808 2248,1176 2246,1180 2242,1182 1446,1182 1442,1180 1440,1176 1440,1048 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1437" y1="1055" x2="1440" y2="1048"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1443" y1="1055" x2="1440" y2="1048"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2077" y="799">vcard:hasOrganizationUnit  D</tspan>
+</text>
+</g>
+<g id="2002792519"><path d="M920,1303 L920,1259 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="917" y1="1265" x2="920" y2="1259"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="923" y1="1265" x2="920" y2="1259"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="780" y="1284">owl:someValuesFrom  D</tspan>
+<tspan x="780" y="1299">owl:onClass  D</tspan>
+</text>
+</g>
+<g id="2002792524"><path d="M1880,596 L1880,613 1878,617 1874,619 1602,619 1598,621 1596,625 1596,898 1598,902 1602,904 1778,904 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1772" y1="901" x2="1778" y2="904"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1772" y1="907" x2="1778" y2="904"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1882" y="611">daap-project:item  R</tspan>
+</text>
+</g>
+<g id="2002792534"><path d="M964,1383 L1228,1383 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1221" y1="1380" x2="1228" y2="1383"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1221" y1="1386" x2="1228" y2="1383"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="968" y="1381">owl:onProperty  D</tspan>
+</text>
+</g>
+<g id="2002792549"><path d="M1228,1246 L1104,1246 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1110" y1="1243" x2="1104" y2="1246"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1110" y1="1249" x2="1104" y2="1246"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1151" y="1259">rdfs:range  </tspan>
+<tspan x="1151" y="1274">rdfs:domain  </tspan>
+</text>
+</g>
+<g id="2002792554"><path d="M1044,1073 L1778,1073 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1772" y1="1070" x2="1778" y2="1073"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1772" y1="1076" x2="1778" y2="1073"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1048" y="1071">daap-device:item  DR</tspan>
+</text>
+</g>
+<g id="2002792564"><path d="M1874,558 L1303,558 1299,560 1297,564 1297,766 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1294" y1="760" x2="1297" y2="766"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1300" y1="760" x2="1297" y2="766"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1740" y="571">vcard:organization-unit  </tspan>
+</text>
+</g>
+<g id="2002792569"><path d="M1516,975 L1778,975 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1772" y1="972" x2="1778" y2="975"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1772" y1="978" x2="1778" y2="975"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1520" y="972">daap-org:item  D</tspan>
+</text>
+</g>
+<g id="2002792579"><path d="M540,1192 L764,1192 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="758" y1="1189" x2="764" y2="1192"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="758" y1="1195" x2="764" y2="1192"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="544" y="1175">rdfs:range  </tspan>
+<tspan x="544" y="1190">rdfs:domain  </tspan>
+</text>
+</g>
+<g id="2002792584"><path d="M842,363 L842,312 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="839" y1="318" x2="842" y2="312"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="845" y1="318" x2="842" y2="312"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="693" y="359">daap-analyse:hasCell  DR</tspan>
+</text>
+</g>
+<g id="2002792589"><path d="M2725,921 L2725,821 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2722" y1="827" x2="2725" y2="821"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2728" y1="827" x2="2725" y2="821"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2569" y="917">schemadesc:timeSerie  DR</tspan>
+</text>
+</g>
+<g id="2002792599"><path d="M1378,797 L1769,797 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1763" y1="794" x2="1769" y2="797"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1763" y1="800" x2="1769" y2="797"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1382" y="795">daap-org:contact  R</tspan>
+</text>
+</g>
+<g id="2002792604"><path d="M1268,534 L526,534 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="532" y1="531" x2="526" y2="534"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="532" y1="537" x2="526" y2="534"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1087" y="547">daap-project:hasCampaign  DR</tspan>
+</text>
+</g>
+<g id="2002792609"><path d="M2003,596 L2003,683 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2000" y1="677" x2="2003" y2="683"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2006" y1="677" x2="2003" y2="683"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2005" y="611">daap-project:contact  </tspan>
+</text>
+</g>
+<g id="2002792614"><path d="M540,1213 L662,1213 666,1215 668,1219 668,1303 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="665" y1="1297" x2="668" y2="1303"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="671" y1="1297" x2="668" y2="1303"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="544" y="1211">rdfs:range  </tspan>
+</text>
+</g>
+<g id="2002792619"><path d="M708,294 L539,294 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="545" y1="291" x2="539" y2="294"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="545" y1="298" x2="539" y2="294"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="543" y="308">daap-analyse:hasPosition  D</tspan>
+</text>
+</g>
+<g id="2002792624"><path d="M1874,579 L1505,579 1501,581 1499,585 1499,848 1497,852 1493,854 1324,854 1320,856 1318,860 1318,937 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1315" y1="931" x2="1318" y2="937"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1321" y1="931" x2="1318" y2="937"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1740" y="592">vcard:organization-unit  </tspan>
+</text>
+</g>
+<g id="2002792629"><path d="M1663,299 L1663,256 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1660" y1="262" x2="1663" y2="256"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1666" y1="262" x2="1663" y2="256"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1533" y="294">modalmi:locatedIn  DR</tspan>
+</text>
+</g>
+<g id="2002792634"><path d="M1510,937 L1510,872 1512,868 1516,866 1816,866 1820,864 1822,860 1822,810 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1819" y1="816" x2="1822" y2="810"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1825" y1="816" x2="1822" y2="810"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1400" y="933">daap-org:contact  R</tspan>
+</text>
+</g>
+<g id="2002792639"><path d="M1769,751 L1333,751 1329,753 1327,757 1327,766 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1324" y1="760" x2="1327" y2="766"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1330" y1="760" x2="1327" y2="766"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1604" y="764">vcard:hasOrganizationUnit  D</tspan>
+</text>
+</g>
+<g id="2002792644"><path d="M2460,921 L2460,807 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2457" y1="813" x2="2460" y2="807"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2463" y1="813" x2="2460" y2="807"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2318" y="917">schemadesc:sensor  DR</tspan>
+</text>
+</g>
+<g id="2002792649"><path d="M1228,1344 L964,1344 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="971" y1="1341" x2="964" y2="1344"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="971" y1="1347" x2="964" y2="1344"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1161" y="1357">rdfs:range  </tspan>
+</text>
+</g>
+<g id="2002792654"><path d="M2461,458 L2461,486 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="2466,469 2461,458 2456,469 "
+style="fill:Silver;stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2463" y="473"> </tspan>
+</text>
+</g>
+<g id="2002792656"><path d="M1203,702 L1203,766 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1208,712 1203,702 1198,712 "
+style="fill:Silver;stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1205" y="717"> </tspan>
+</text>
+</g>
+<g id="2002792664"><path d="M601,1603 L601,1622 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="606,1613 601,1603 596,1613 "
+style="fill:Silver;stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="603" y="1618"> </tspan>
+</text>
+</g>
+<g id="2002792559"><path d="M859,216 L859,171 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="856" y1="177" x2="859" y2="171"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="862" y1="177" x2="859" y2="171"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="696" y="211">daap-analyse:hasPosition  D</tspan>
+</text>
+</g>
+<g id="2002792544"><path d="M2028,500 L2028,468 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2025" y1="474" x2="2028" y2="468"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2031" y1="474" x2="2028" y2="468"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1870" y="496">daap-project:useDevice  DR</tspan>
+</text>
+</g>
+<g id="2002792529"><path d="M1811,377 L2264,377 2268,380 2270,384 2270,961 2268,965 2264,967 2084,967 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2090" y1="964" x2="2084" y2="967"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2090" y1="971" x2="2084" y2="967"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1816" y="375">modalmi:analyseType  D</tspan>
+</text>
+</g>
+<g id="2002792658"><path d="M1508,408 L1435,408 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1498,413 1508,408 1498,403 "
+style="fill:Silver;stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1494" y="421"> </tspan>
+</text>
+</g>
+<g id="2002792660"><path d="M1508,335 L1434,335 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="1498,340 1508,335 1498,330 "
+style="fill:Silver;stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1494" y="348"> </tspan>
+</text>
+</g>
+<g id="2002792594"><path d="M2608,1077 L2608,1032 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2605" y1="1038" x2="2608" y2="1032"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2611" y1="1038" x2="2608" y2="1032"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2444" y="1073">schemadesc:experiment  DR</tspan>
+</text>
+</g>
+<g id="2002792574"><path d="M2372,1576 L2211,1576 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="2217" y1="1573" x2="2211" y2="1576"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="2217" y1="1579" x2="2211" y2="1576"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="2224" y="1589">cdmfr:isComposedOf  DR</tspan>
+</text>
+</g>
+<g id="2002792514"><path d="M1908,1576 L1738,1576 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1744" y1="1573" x2="1738" y2="1576"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1744" y1="1579" x2="1738" y2="1576"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="1783" y="1589">cdmfr:hasCredits  DR</tspan>
+</text>
+</g>
+<g id="2002792504"><path d="M727,676 L933,676 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="927" y1="673" x2="933" y2="676"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="927" y1="679" x2="933" y2="676"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="731" y="674">cdmfr:hasVcard  D</tspan>
+</text>
+</g>
+<g id="2002792539"><path d="M962,886 L962,832 964,828 968,826 1073,826 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1067" y1="823" x2="1073" y2="826"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1067" y1="829" x2="1073" y2="826"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="830" y="881">vcard:organization-unit  </tspan>
+</text>
+</g>
+<g id="2002792484"><path d="M792,886 L792,737 794,733 798,731 1769,731 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="1763" y1="728" x2="1769" y2="731"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="1763" y1="734" x2="1769" y2="731"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="635" y="881">daap-device:pilotProcess  D</tspan>
+</text>
+</g>
+<g id="2002792662"><path d="M741,981 L556,981 "
+style="fill:none;stroke-width:2;stroke:Fuchsia;"/>
+<polygon points="731,986 741,981 731,976 "
+style="fill:Silver;stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="727" y="994"> </tspan>
+</text>
+</g>
+<g id="2002792479"><path d="M661,1330 L397,1330 393,1328 391,1324 391,1241 "
+style="fill:none;stroke-width:1;stroke:Black;"/>
+<line x1="388" y1="1247" x2="391" y2="1241"
+ style="stroke-width:1;stroke:Black;"/>
+<line x1="394" y1="1247" x2="391" y2="1241"
+ style="stroke-width:1;stroke:Black;"/>
+<text style="font-family:Arial;font-size:12px;kerning:0;word-spacing:-1px;fill:Black;">
+<tspan x="560" y="1343">owl:onProperty  D</tspan>
+</text>
+</g>
+</svg>
